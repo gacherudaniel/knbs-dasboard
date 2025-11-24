@@ -1,18 +1,27 @@
 export function Footer() {
   return (
-    <div className="bg-knbs-700 border-t border-knbs-800 text-white mt-12">
-      <div className="max-w-7xl mx-auto px-4 py-6 text-sm">
+    <div className="bg-knbs-600 text-white mt-12">
+      <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="grid grid-cols-3 gap-8 mb-6">
           <div>
-            <h4 className="font-medium mb-2">About KNBS</h4>
-            <p className="text-knbs-200">Kenya National Bureau of Statistics</p>
+            <h4 className="font-medium mb-3">About KNBS</h4>
+            <p className="text-sm text-knbs-100">
+              Kenya National Bureau of Statistics is the principal Government
+              agency responsible for collecting, analyzing and disseminating
+              statistical data in Kenya.
+            </p>
           </div>
           <div>
-            <h4 className="font-medium mb-2">Resources</h4>
-            <ul className="space-y-1 text-knbs  -200">
+            <h4 className="font-medium mb-3">Quick Links</h4>
+            <ul className="space-y-2 text-sm text-knbs-100">
               <li>
                 <a href="#" className="hover:text-white">
-                  Documentation
+                  Publications
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white">
+                  Data Portal
                 </a>
               </li>
               <li>
@@ -23,8 +32,8 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className="font-medium mb-2">Legal</h4>
-            <ul className="space-y-1 text-teal-200">
+            <h4 className="font-medium mb-3">Legal</h4>
+            <ul className="space-y-2 text-sm text-knbs-100">
               <li>
                 <a href="#" className="hover:text-white">
                   Privacy Policy
@@ -35,10 +44,15 @@ export function Footer() {
                   Terms of Use
                 </a>
               </li>
+              <li>
+                <a href="#" className="hover:text-white">
+                  Data Protection
+                </a>
+              </li>
             </ul>
           </div>
         </div>
-        <div className="border-t border-knbs-700 pt-4 text-center text-knbs-200">
+        <div className="border-t border-knbs-500 pt-4 text-center text-sm text-knbs-100">
           <p>
             &copy; 2025 Kenya National Bureau of Statistics. All rights
             reserved.

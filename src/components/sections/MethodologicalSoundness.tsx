@@ -9,7 +9,10 @@ interface SectionProps {
 
 export function MethodologicalSoundness({ isOpen, onToggle }: SectionProps) {
   return (
-    <div className="bg-white rounded-lg shadow-sm border mb-4 overflow-hidden">
+    <div
+      id="section-methodology"
+      className="bg-white rounded-lg shadow-sm border mb-4 overflow-hidden scroll-mt-6"
+    >
       <SectionHeader
         id="methodology"
         number="B.2"

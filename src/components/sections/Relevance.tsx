@@ -1,4 +1,3 @@
-import type { ReactNode } from "react";
 import { SubSection } from "./SubSection";
 import { TableRow } from "./TableRow";
 import { SectionHeader } from "./SectionHeader";
@@ -11,7 +10,10 @@ interface RelevanceProps {
 
 export function Relevance({ isOpen, onToggle }: RelevanceProps) {
   return (
-    <div className="bg-white rounded-lg shadow-sm border mb-4 overflow-hidden">
+    <div
+      id="section-relevance"
+      className="bg-white rounded-lg shadow-sm border mb-4 overflow-hidden scroll-mt-6"
+    >
       <SectionHeader
         id="relevance"
         number="B.1"

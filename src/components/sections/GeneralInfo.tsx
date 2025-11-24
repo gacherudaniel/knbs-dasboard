@@ -1,4 +1,3 @@
-import type { ReactNode } from "react";
 import { SubSection } from "./SubSection";
 import { TableRow } from "./TableRow";
 import { SectionHeader } from "./SectionHeader";
@@ -11,7 +10,10 @@ interface GeneralInfoProps {
 
 export function GeneralInfo({ isOpen, onToggle }: GeneralInfoProps) {
   return (
-    <div className="bg-white rounded-lg shadow-sm border mb-4 overflow-hidden">
+    <div
+      id="section-general"
+      className="bg-white rounded-lg shadow-sm border mb-4 overflow-hidden scroll-mt-6"
+    >
       <SectionHeader
         id="general"
         number="A"

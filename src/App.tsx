@@ -1,7 +1,7 @@
-import QualityReport from "./components/QualityReport";
+import Dashboard from "./components/Dashboard";
 
 function App() {
-  return <QualityReport />;
+  return <Dashboard />;
 }
 
 export default App;

@@ -9,7 +9,10 @@ interface AccuracyProps {
 
 export function Accuracy({ isOpen, onToggle }: AccuracyProps) {
   return (
-    <div className="bg-white rounded-lg shadow-sm border mb-4 overflow-hidden">
+    <div
+      id="section-accuracy"
+      className="bg-white rounded-lg shadow-sm border mb-4 overflow-hidden scroll-mt-6"
+    >
       <SectionHeader
         id="accuracy"
         number="B.3"
