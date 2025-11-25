@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Breadcrumb } from "./layout/Breadcrumb";
 import { TopHeader } from "./layout/TopHeader";
 import { MainHeader } from "./layout/MainHeader";
 import { Footer } from "./layout/Footer";
@@ -14,6 +15,12 @@ import { Dictionary } from "../pages/metadata/Dictionary";
 
 export default function Dashboard() {
   const [currentPath, setCurrentPath] = useState("/metadata/quality-reports");
+
+  // Shrink navigation for quality reports AND dictionary
+  const isCompactView =
+    currentPath === "/metadata/quality-reports" ||
+    currentPath === "/metadata/dictionary" ||
+    currentPath === "/quality/Kesqaf";
 
   const renderContent = () => {
     switch (currentPath) {
@@ -41,18 +48,23 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-gray-100">
       <TopHeader />
+
       <MainHeader />
+      <Breadcrumb />
 
       <div className="max-w-7xl mx-auto px-4 py-6">
         <div className="grid grid-cols-12 gap-6">
-          <div className="col-span-3">
+          <div className={isCompactView ? "col-span-2" : "col-span-3"}>
             <MainNavigation
               onNavigate={setCurrentPath}
               currentPath={currentPath}
+              isCompact={isCompactView}
             />
           </div>
 
-          <div className="col-span-9">{renderContent()}</div>
+          <div className={isCompactView ? "col-span-10" : "col-span-9"}>
+            {renderContent()}
+          </div>
         </div>
       </div>
 

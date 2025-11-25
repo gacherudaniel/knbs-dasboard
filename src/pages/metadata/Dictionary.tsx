@@ -1,18 +1,29 @@
+import { ExternalLink } from "lucide-react";
+
 export function Dictionary() {
+  const quartoBookUrl = "http://localhost:3634/";
+
   return (
-    <div className="bg-white rounded-lg shadow-sm border p-6">
-      <h1 className="text-2xl font-bold text-knbs-600 mb-4">
-        Statistical Data Dictionary
-      </h1>
-      <p className="text-gray-700 mb-4">
-        Comprehensive dictionary of statistical terms, definitions, and metadata
-        standards.
-      </p>
-      <div className="bg-knbs-50 border border-knbs-200 rounded p-4">
-        <p className="text-sm text-gray-700">
-          Content for Data Dictionary will be developed here.
-        </p>
+    <div className="bg-white rounded-lg shadow-sm border overflow-hidden">
+      <div className="bg-knbs-500 text-white px-4 py-2 flex items-center justify-between text-sm">
+        <span className="font-medium">Statistical Dictionary</span>
+        <a
+          href={quartoBookUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-1 hover:underline"
+        >
+          <ExternalLink size={14} />
+          Open in new tab
+        </a>
       </div>
+      <iframe
+        src={quartoBookUrl}
+        className="w-full border-0"
+        style={{ height: "calc(100vh - 200px)" }}
+        title="Statistical Dictionary"
+        sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+      />
     </div>
   );
 }
