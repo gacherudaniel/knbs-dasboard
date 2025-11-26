@@ -40,7 +40,7 @@ export const NAVIGATION_STRUCTURE: NavigationItem[] = [
         ],
       },
       { id: 'codelists', label: 'Codelists', path: '/metadata/codelists' },
-      { id: 'dictionary', label: 'Dictionary', path: '/metadata/dictionary' },
+      { id: 'compendium', label: 'Compendium', path: '/metadata/compendium' },
     ],
   },
 ];

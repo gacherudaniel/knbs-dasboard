@@ -11,7 +11,7 @@ import { QualityReports } from "../pages/metadata/QualityReports";
 import { ClassificationNational } from "../pages/metadata/ClassificationNational";
 import { ClassificationInternational } from "../pages/metadata/ClassificationInternational";
 import { Codelists } from "../pages/metadata/Codelists";
-import { Dictionary } from "../pages/metadata/Dictionary";
+import { Compendium } from "../pages/metadata/Compendium";
 
 export default function Dashboard() {
   const [currentPath, setCurrentPath] = useState("/metadata/quality-reports");
@@ -39,8 +39,8 @@ export default function Dashboard() {
         return <ClassificationInternational />;
       case "/metadata/codelists":
         return <Codelists />;
-      case "/metadata/dictionary":
-        return <Dictionary />;
+      case "/metadata/compendium":
+        return <Compendium />;
       default:
         return <QualityReports />;
     }

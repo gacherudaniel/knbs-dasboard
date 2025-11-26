@@ -1,12 +1,15 @@
 import { ExternalLink } from "lucide-react";
 
-export function Dictionary() {
+export function Compendium() {
   const quartoBookUrl = "http://localhost:6316/";
 
   return (
     <div className="bg-white rounded-lg shadow-sm border overflow-hidden">
       <div className="bg-knbs-500 text-white px-4 py-2 flex items-center justify-between text-sm">
-        <span className="font-medium">Statistical Dictionary</span>
+        <span className="font-medium">
+          Kenya Compendium of Concepts and Definitions for the National
+          Statistical System
+        </span>
         <a
           href={quartoBookUrl}
           target="_blank"
