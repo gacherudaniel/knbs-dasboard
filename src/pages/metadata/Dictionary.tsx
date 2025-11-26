@@ -1,7 +1,7 @@
 import { ExternalLink } from "lucide-react";
 
 export function Dictionary() {
-  const quartoBookUrl = "http://localhost:3634/";
+  const quartoBookUrl = "http://localhost:5833/";
 
   return (
     <div className="bg-white rounded-lg shadow-sm border overflow-hidden">

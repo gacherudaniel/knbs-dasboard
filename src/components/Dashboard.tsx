@@ -20,7 +20,8 @@ export default function Dashboard() {
   const isCompactView =
     currentPath === "/metadata/quality-reports" ||
     currentPath === "/metadata/dictionary" ||
-    currentPath === "/quality/Kesqaf";
+    currentPath === "/quality/kesqaf" ||
+    currentPath === "/quality/code-of-practice";
 
   const renderContent = () => {
     switch (currentPath) {
@@ -62,7 +63,7 @@ export default function Dashboard() {
             />
           </div>
 
-          <div className={isCompactView ? "col-span-10" : "col-span-9"}>
+          <div className={isCompactView ? "col-span-9" : "col-span-9"}>
             {renderContent()}
           </div>
         </div>
