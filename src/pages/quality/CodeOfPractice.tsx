@@ -50,15 +50,15 @@ export function CodeOfPractice() {
   };
 
   return (
-    <div className="grid grid-cols-12 gap-6">
+    <div className="grid grid-cols-12 gap-4">
       {/* Sidebar Navigation */}
-      <div className="col-span-3">
-        <div className="bg-white rounded-lg shadow-sm border p-4 sticky top-4">
-          <div className="flex items-center gap-2 mb-4 pb-4 border-b">
-            <BookOpen className="text-knbs-600" size={24} />
+      <div className="col-span-2">
+        <div className="bg-white rounded-lg shadow-sm border p-3 sticky top-4">
+          <div className="flex items-center gap-2 mb-3 pb-3 border-b">
+            <BookOpen className="text-knbs-600" size={20} />
             <div>
-              <h3 className="font-bold text-knbs-600 text-sm">KeSCoP</h3>
-              <p className="text-xs text-gray-600">Code of Practice</p>
+              <h3 className="font-bold text-knbs-600 text-xs">KeSCoP</h3>
+              <p className="text-[10px] text-gray-600">Code of Practice</p>
             </div>
           </div>
 
@@ -69,17 +69,15 @@ export function CodeOfPractice() {
                 <button
                   key={section.id}
                   onClick={() => setActiveSection(section.id)}
-                  className={`w-full text-left px-3 py-2 rounded-lg transition-colors flex items-center gap-2 text-sm ${
+                  className={`w-full text-left px-2 py-1.5 rounded transition-colors flex items-center gap-2 text-[11px] ${
                     activeSection === section.id
                       ? "bg-knbs-500 text-white"
                       : "hover:bg-gray-100 text-gray-700"
                   }`}
                 >
-                  <Icon size={16} className="flex-shrink-0" />
-                  <span className="flex-1 text-xs leading-tight">
-                    {section.title}
-                  </span>
-                  <ChevronRight size={14} className="flex-shrink-0" />
+                  <Icon size={12} className="flex-shrink-0" />
+                  <span className="flex-1 leading-tight">{section.title}</span>
+                  <ChevronRight size={10} className="flex-shrink-0" />
                 </button>
               );
             })}
@@ -88,7 +86,7 @@ export function CodeOfPractice() {
       </div>
 
       {/* Content Area */}
-      <div className="col-span-9">
+      <div className="col-span-10">
         <div className="bg-white rounded-lg shadow-sm border">
           {renderContent()}
         </div>

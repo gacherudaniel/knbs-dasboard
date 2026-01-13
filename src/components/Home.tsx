@@ -1,269 +1,103 @@
-"use client"
-
-import { useNavigate } from "react-router-dom"
-import { TopHeader } from "./layout/TopHeader"
-import { Button } from "./ui/button"
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "./ui/card"
-import {
-  Layers,
-  ArrowRight,
-  BarChart3,
-  Users,
-  Search,
-  FileText,
-  BookOpen,
-  Shield,
-  ListTree,
-  Settings,
-  Target,
-  CheckCircle,
-  Zap,
-} from "lucide-react"
-import { Footer } from "./layout/Footer"
+"use client";
 
 export function Homepage() {
-  const navigate = useNavigate()
-
-  const modules = [
-    {
-      title: "Quality Reports",
-      description: "View quality evaluation reports for statistical products",
-      icon: Shield,
-      path: "/dashboard/metadata/quality-reports",
-      bgColor: "bg-knbs-600",
-      lightBg: "bg-knbs-50",
-      accentColor: "text-knbs-600",
-    },
-    {
-      title: "Statistical Dictionary",
-      description: "Access definitions of key statistical terms and concepts",
-      icon: FileText,
-      path: "/dashboard/metadata/dictionary",
-      bgColor: "bg-knbs-500",
-      lightBg: "bg-knbs-100",
-      accentColor: "text-knbs-700",
-    },
-    {
-      title: "KeSQAF",
-      description: "Kenya Statistical Quality Assurance Framework guidelines",
-      icon: BookOpen,
-      path: "/dashboard/quality/kesqaf",
-      bgColor: "bg-knbs-700",
-      lightBg: "bg-knbs-50",
-      accentColor: "text-knbs-700",
-    },
-    {
-      title: "KSPM",
-      description: "Kenya Statistics Production Manual and standards",
-      icon: Settings,
-      path: "/dashboard/quality/kspm",
-      bgColor: "bg-knbs-600",
-      lightBg: "bg-knbs-100",
-      accentColor: "text-knbs-600",
-    },
-    {
-      title: "Codelists",
-      description: "Standardized classifications and reference codes",
-      icon: ListTree,
-      path: "/dashboard/metadata/codelists",
-      bgColor: "bg-knbs-500",
-      lightBg: "bg-knbs-50",
-      accentColor: "text-knbs-700",
-    },
-    {
-      title: "Classifications",
-      description: "National and international statistical classifications",
-      icon: Layers,
-      path: "/dashboard/metadata/classification/national",
-      bgColor: "bg-knbs-700",
-      lightBg: "bg-knbs-100",
-      accentColor: "text-knbs-600",
-    },
-  ]
-
   return (
-    <div className="min-h-screen flex flex-col bg-white">
-      <TopHeader />
-
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-knbs-700 via-knbs-600 to-knbs-800 text-white py-20 lg:py-32 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage: `radial-gradient(circle at 25px 25px, rgba(255,255,255,0.3) 2%, transparent 40%)`,
-              backgroundSize: "50px 50px",
-            }}
-          ></div>
+    <div className="bg-gradient-to-b from-knbs-50 to-white min-h-[70vh]">
+      <div className="max-w-5xl mx-auto px-8 py-12">
+        {/* Header Section */}
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold text-knbs-800 mb-6">
+            Statistical Quality & Metadata
+          </h1>
+          <p className="text-xl text-knbs-700 leading-relaxed max-w-3xl mx-auto">
+            Welcome to the Kenya National Bureau of Statistics comprehensive
+            platform for statistical quality assurance and metadata management.
+          </p>
         </div>
 
-        <div className="container mx-auto px-4 sm:px-6 text-center relative z-10 max-w-5xl">
-          <div className="space-y-6">
-            {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm rounded-full px-4 py-2">
-              <Zap className="size-4" />
-              <span className="text-sm font-medium">Official KNBS Platform</span>
+        {/* Content Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+          {/* Left Column */}
+          <div className="space-y-8">
+            <div className="bg-white rounded-lg shadow-sm border border-knbs-200 p-6">
+              <h2 className="text-2xl font-semibold text-knbs-800 mb-4">
+                Platform Overview
+              </h2>
+              <p className="text-knbs-700 leading-relaxed">
+                This unified digital ecosystem serves Kenya's National
+                Statistical System by providing centralized access to quality
+                frameworks, statistical standards, classifications, and metadata
+                documentation. The platform is designed for data producers,
+                researchers, and policymakers who require reliable, structured,
+                and standardized statistical information.
+              </p>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-balance">
-              Statistical Quality & Metadata
-            </h1>
-
-            <p className="text-lg sm:text-xl lg:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-              Making statistical information structured, searchable, and transparent for evidence-based decision making.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center pt-4">
-              <Button
-                size="lg"
-                className="w-full sm:w-auto bg-white text-knbs-700 hover:bg-knbs-50 transition-all duration-300 px-6 sm:px-8 py-5 sm:py-6 shadow-lg font-semibold text-base"
-                onClick={() => navigate("/dashboard/metadata/quality-reports")}
-              >
-                Explore Quality & Metadata
-                <ArrowRight className="ml-2 size-5" />
-              </Button>
+            <div className="bg-white rounded-lg shadow-sm border border-knbs-200 p-6">
+              <h2 className="text-2xl font-semibold text-knbs-800 mb-4">
+                Metadata & Documentation
+              </h2>
+              <p className="text-knbs-700 leading-relaxed">
+                The platform provides comprehensive metadata systems ensuring
+                data discoverability and understanding. This includes detailed
+                quality assessments for major products like Poverty & Inequality
+                Reports and Consumer Price Index, an integrated Statistical
+                Dictionary for terms and concepts, and both national and
+                international statistical classifications with standardized
+                reference codes and codelists.
+              </p>
             </div>
           </div>
-        </div>
-      </section>
 
-      {/* Stats Bar */}
-      <section className="bg-gradient-to-r from-knbs-600 to-knbs-700 text-white py-12 sm:py-16 border-b border-knbs-500">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-12">
-            {/* Stat Item */}
-            <div className="flex flex-col items-center space-y-3 group">
-              <div className="p-3 bg-white/10 rounded-lg group-hover:bg-white/20 transition-colors">
-                <Target className="size-8 text-white" aria-hidden="true" />
-              </div>
-              <h3 className="text-lg font-semibold text-center">Quality Assurance</h3>
-              <p className="text-knbs-100 text-sm leading-relaxed text-center">
-                Rigorous statistical standards ensure data integrity and reliability.
+          {/* Right Column */}
+          <div className="space-y-8">
+            <div className="bg-white rounded-lg shadow-sm border border-knbs-200 p-6">
+              <h2 className="text-2xl font-semibold text-knbs-800 mb-4">
+                Quality Frameworks
+              </h2>
+              <p className="text-knbs-700 leading-relaxed">
+                Access comprehensive quality assurance frameworks that ensure
+                statistical integrity and reliability. This includes the Kenya
+                Statistical Quality Assurance Framework (KeSQAF) with 19
+                principles across 4 levels (A, B, C, D), the Kenya Statistical
+                Code of Practice (KeSCoP) with 3 pillars and 12 principles for
+                best practices, and the Kenya Statistical Production Manual
+                (KSPM) providing planning guidelines, methodologies, and
+                production standards.
               </p>
             </div>
 
-            {/* Stat Item */}
-            <div className="flex flex-col items-center space-y-3 group">
-              <div className="p-3 bg-white/10 rounded-lg group-hover:bg-white/20 transition-colors">
-                <Search className="size-8 text-white" aria-hidden="true" />
-              </div>
-              <h3 className="text-lg font-semibold text-center">Easy Discovery</h3>
-              <p className="text-knbs-100 text-sm leading-relaxed text-center">
-                Seamless access to data through a searchable metadata system.
-              </p>
-            </div>
-
-            {/* Stat Item */}
-            <div className="flex flex-col items-center space-y-3 group">
-              <div className="p-3 bg-white/10 rounded-lg group-hover:bg-white/20 transition-colors">
-                <CheckCircle className="size-8 text-white" aria-hidden="true" />
-              </div>
-              <h3 className="text-lg font-semibold text-center">Trusted Data</h3>
-              <p className="text-knbs-100 text-sm leading-relaxed text-center">
-                All information is verified, validated, and officially endorsed.
+            <div className="bg-white rounded-lg shadow-sm border border-knbs-200 p-6">
+              <h2 className="text-2xl font-semibold text-knbs-800 mb-4">
+                Key Features
+              </h2>
+              <p className="text-knbs-700 leading-relaxed">
+                The platform offers intelligent search and discovery
+                capabilities, seamless navigation between statistical reports,
+                intuitive user interface design, and comprehensive
+                documentation. Features include dynamic product switching,
+                advanced filtering options, and responsive design that works
+                across all devices and screen sizes.
               </p>
             </div>
           </div>
         </div>
-      </section>
 
-      {/* Main Modules Section */}
-      <section className="py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-knbs-50 to-white">
-        <div className="container mx-auto px-4 sm:px-6 max-w-7xl">
-          <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-knbs-800 mb-4">Explore Resources</h2>
-            <p className="text-base sm:text-lg text-knbs-700 max-w-2xl mx-auto leading-relaxed">
-              Access comprehensive statistical resources, quality frameworks, and metadata documentation
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
-            {modules.map((module, index) => (
-              <Card
-                key={index}
-                className={`group cursor-pointer transition-all duration-300 border border-knbs-200 hover:border-knbs-400 bg-white hover:shadow-xl overflow-hidden ${module.lightBg}`}
-                onClick={() => navigate(module.path)}
-              >
-                <CardHeader className="pb-4">
-                  <div
-                    className={`w-14 h-14 rounded-xl ${module.bgColor} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300 shadow-md`}
-                  >
-                    <module.icon className="size-6 text-white" />
-                  </div>
-                  <CardTitle
-                    className={`text-lg sm:text-xl font-semibold ${module.accentColor} group-hover:text-knbs-800 transition-colors`}
-                  >
-                    {module.title}
-                  </CardTitle>
-                  <CardDescription className="text-knbs-600 mt-2 leading-relaxed text-sm">
-                    {module.description}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div
-                    className={`flex items-center ${module.accentColor} group-hover:text-knbs-800 transition-colors text-sm font-medium`}
-                  >
-                    <span>Access Module</span>
-                    <ArrowRight className="ml-2 size-4 group-hover:translate-x-1 transition-transform" />
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+        {/* Bottom Section */}
+        <div className="bg-gradient-to-r from-knbs-700 to-knbs-800 rounded-lg p-8 text-white text-center">
+          <h2 className="text-2xl font-semibold mb-4">Trust & Standards</h2>
+          <p className="text-knbs-100 leading-relaxed max-w-4xl mx-auto">
+            All statistical information on this platform undergoes rigorous
+            quality checks following international standards and best practices.
+            Data is officially verified and validated by KNBS experts, ensuring
+            reliability for policy and research decisions. Information is
+            organized with clear metadata and documentation, making it easy to
+            discover, understand, and analyze.
+          </p>
         </div>
-      </section>
-
-      {/* Features Section */}
-      <section className="py-16 sm:py-20 lg:py-24 bg-white">
-        <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
-          <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-knbs-800 mb-4">Why Trust Our Platform?</h2>
-            <p className="text-base sm:text-lg text-knbs-700 max-w-2xl mx-auto leading-relaxed">
-              Built for researchers, policymakers, and data professionals
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
-            {/* Feature 1 */}
-            <div className="group p-6 sm:p-8 bg-gradient-to-br from-knbs-50 to-white rounded-2xl border border-knbs-200 hover:border-knbs-400 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-              <div className="w-16 h-16 bg-gradient-to-br from-knbs-200 to-knbs-300 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <BarChart3 className="size-8 text-knbs-700" />
-              </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-knbs-800 mb-3">Structured Data</h3>
-              <p className="text-knbs-700 leading-relaxed text-sm sm:text-base">
-                Organized statistical information with clear metadata and documentation for easy analysis.
-              </p>
-            </div>
-
-            {/* Feature 2 */}
-            <div className="group p-6 sm:p-8 bg-gradient-to-br from-knbs-50 to-white rounded-2xl border border-knbs-200 hover:border-knbs-400 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-              <div className="w-16 h-16 bg-gradient-to-br from-knbs-300 to-knbs-400 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Users className="size-8 text-white" />
-              </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-knbs-800 mb-3">User Focused</h3>
-              <p className="text-knbs-700 leading-relaxed text-sm sm:text-base">
-                Intuitive interface designed for both technical and non-technical users.
-              </p>
-            </div>
-
-            {/* Feature 3 */}
-            <div className="group p-6 sm:p-8 bg-gradient-to-br from-knbs-50 to-white rounded-2xl border border-knbs-200 hover:border-knbs-400 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-              <div className="w-16 h-16 bg-gradient-to-br from-knbs-700 to-knbs-800 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Shield className="size-8 text-white" />
-              </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-knbs-800 mb-3">Quality Assured</h3>
-              <p className="text-knbs-700 leading-relaxed text-sm sm:text-base">
-                All data undergoes rigorous quality checks and follows international standards.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <Footer />
+      </div>
     </div>
-  )
+  );
 }
 
 // Also export as Home for compatibility

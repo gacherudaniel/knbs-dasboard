@@ -1,0 +1,381 @@
+# Governance statistics
+
+Governance statistics provide essential data for assessing institutional performance, enhancing public safety, and ensuring accountability in society
+
+## Non-discrimination and equality
+
+This area addresses any distinction, exclusion, restriction or preference or other differential treatment based on grounds such as color, sex, language, religion, national or social origin, disability or other status that has the intention or effect of nullifying or impairing human rights and fundamental freedoms.
+
+### Persons with Disability
+
+ are those who have 'long-term physical, mental, intellectual or sensory impairments which in interaction with various barriers may hinder their full and effective participation in society on an equal basis with others.
+
+###  Foreign nationals
+
+A foreign national is a person who is not a citizen of the host country in which he or she is residing or temporarily sojourning.
+
+### Stateless Person
+
+A person who is not considered as a national by any State under the operation of its law. A stateless person does not have a nationality of any country.
+
+## Participation
+
+Participation in political and public affairs is a universal human right and a key component of good governance grounded in various internationally agreed normative frameworks, which provide for the right of every citizen – "without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status" – to participate in public affairs, including the right to take part in the conduct of public affairs, directly or through freely chosen representatives; the right to vote and to be elected; and the right to have access on general terms of equality to public service positions.
+
+### National Identity Card
+
+It is an identity card with a photo, usable as an identity card at least inside the country, and which is issued by an official national authority.
+
+### Registered voters
+
+It's a person who has recorded his name in the voting register and is entitled legally to cast a vote.
+
+### Work permit
+
+It's an official document that authorizes its holder to seek and take employment in a foreign country legally.
+
+### Passport
+
+It is a formal travel document issued by a government that certifies a person's identity and nationality for international travel. It allows its bearer to enter and temporarily reside in a foreign country, access local aid and protection, and obtain consular assistance from their government.
+
+### Community Service Order
+
+A sentence that requires an offender to perform a certain number of hours of unpaid work for the community, as a way to repay the society for their crime.
+
+### Aftercare Services
+
+Support services provided to individuals who have completed a period of probation or other correctional programs, aimed at helping them reintegrate into society and reduce the likelihood of reoffending. These services may include counseling, job training, and other forms of assistance.
+
+## Openness
+
+### Open Government
+
+A culture of governance that promotes the principles of transparency, integrity, accountability and stakeholder participation in support of democracy and inclusive growth.
+
+### Transparency
+
+The disclosure and subsequent accessibility of relevant government data and information.
+
+### Accountability
+
+Government's responsibility and duty to inform its citizens about the decisions it takes as well as to provide an account of the activities and performance of the entire government and its public officials to avoid overlap with other dimensions.
+
+### Access to information
+
+Refers to the right of citizens to request access to official records held by the government on a topic defined by the information user, subject to narrowly defined exceptions.
+
+### Open data
+
+In governance context open data refers to the proactive disclosure of large datasets of information by the government that have been defined by law or policy.
+
+### Freedom of expression for the media
+
+Refers to the ability of media outlets to access and disseminate factual and objective information to the public, express an opinion on public policy- and decision-making, advocate for the public interest, as well as scrutinize and hold accountable public and private bodies, including their leaders and officials.
+
+### Media plurality
+
+Refers to the media ecosystem more broadly, including diversity of media ownership, financing models, relationship between governments and the media, and the media outlets' relationship with civil society.
+
+### Judicial Independence
+
+The extent to which the Judiciary is independent from influences of the Legislature, Executive, citizens or firms (business).
+
+## Access to and quality of justice
+
+### Prosecution
+
+Prosecution is the act of officially accusing someone of committing a crime, or the lawyers who does so in a court of law.
+
+### Court
+
+Government entity authorized to resolve legal disputes
+
+### Filed cases
+
+Refers to all cases brought before a court during the year in reference
+
+### Disposed of cases
+
+Refers to all cases that were resolved/determined by 30th June during the year in reference**.**
+
+### Pending cases
+
+Refers to the cases which had not been determined/resolved by 30th June during the year in 
+
+### Verdicts
+
+The formal decision or finding made by a jury concerning the questions submitted to it during a trial. The jury reports the verdict to the court, which generally accepts it.
+
+### Brought forward
+
+A case pending from the previous period, not yet completed
+
+### Carried forward
+
+A case pending at the end of current period, not yet completed
+
+### Case under investigation
+
+The state of a reported crime incident when investigations into the matter have not yet been completed.
+
+### Case registered
+
+The state of reported crime incident, when the matter has been taken before courts for investigation.
+
+### Civil Case
+
+Deals with the disputes between individuals, organizations, or between the two, in which compensation is awarded to the victim. A private party files a case against a defendant. The judge decides on whether the defendant can be found liable or not and if liable will be instructed to compensate (usually financial) for injuries or damages.
+
+### Civil Cases Turn Around Time-High Courts Level
+
+Time taken to dispose civil cases through the judicial process 24 months (21 months being hearing of cases and 3 months for delivery of Judgment)
+
+### Civil Cases Turn Around Time-Magistrate Level
+
+Time taken to dispose civil cases through the judicial process 14 months (11 months being hearing of cases and 3 months for delivery of Judgment)
+
+### Claim
+
+A creditor's assertion of a right to payment from a debtor or the debtor's property.
+
+### Conviction Rate
+
+Percentage of completed cases at courts resulting in conviction
+
+### Crime
+
+Crime is an act committed or omitted, in violation of a public law, either forbidding or commanding it; a breach or violation of some public right or duty due to a whole community, considered as a community.
+
+### Crime investigation turnaround time
+
+The length of time taken to gather sufficient evidence to exonerate or link the suspect back to the crime scene or the victim.
+
+### Conviction Rate
+
+The percentage of suspects who are found guilty in the courts of law to the total cases taken to court.
+
+### Crime Distribution
+
+The occurrence of crime by geographical location.
+
+### Detective Workload
+
+The number of cases handled by a given detective at given time.
+
+### Damages
+
+Money that a defendant pays a plaintiff in a civil case if the plaintiff has won. Damages may be compensatory (for loss or injury) or punitive (to punish and deter future misconduct).
+
+### Decided Cases
+
+Cases that have been completed and judgement passed.
+
+### Defendant
+
+In a civil case, the person or organization against whom the plaintiff brings suit; in a criminal case, the person accused of the crime.
+
+### Detected
+
+The state of a reported crime incident where an offender(s) is known and has been arrested for the incident in question.
+
+### Detection rate
+
+Percentage of reported crime incidents where an offender(s) is known and has been arrested for the incident in question to the total number of reported crime incidents.
+
+### Loss averted
+
+Total value of public assets where an attempted illegal acquisition was detected and foiled through pre-emptive investigations.
+
+### Principal Offense Rule
+
+If a person commits more than one offense simultaneously, he is recorded only for the most serious offense, and in that case, the number of accused will always be equal to the number of offenses committed.
+
+### Verdicts
+
+The formal decision or finding made by a jury concerning the questions submitted to it during a trial. The jury reports the verdict to the court, which generally accepts it.\[RB1\]
+
+## Responsiveness
+
+Responsiveness: refers to how quickly and well a person or organization reacts to something. It implies a challenge or stimuli that triggers some type of reaction.
+
+### System responsiveness or external political efficacy
+
+Refers to people's feeling of having a say in what the government does.
+
+### Alternative Family Care
+
+Formal or informal arrangement whereby a child is cared for at least overnight away from the parental home.
+
+##  Absence of corruption
+
+The absence of corruption is the result of a combination of the level of intolerance; the levels and patterns of corrupt practices; and the State response to corruption.
+
+## Trust
+
+### Trust
+
+Is conceptualized as "a person's belief that another person or institution will act consistently with her/his expectations of positive behavior.
+
+### Trust in institutions
+
+Refers to people's trust in different types of public and private institutions. Trust in other people: Refers both to people who are not known to the respondent (generalized trust) and to persons known to the respondent, such as family members, friends and neighbors (limited trust).
+
+### Functional Democracy
+
+Upholding civil liberties (Freedom from arbitrary government interference - as with the right freedom of expression and belief, associational and organization rights, rule of law, personal autonomy and individual rights) specifically by the denial of governmental power as guaranteed by the bill of rights.
+
+## Safety and security
+
+#### Global Peace Index
+
+Measures the relative position of a nation's peacefulness by using three broad themes being; the level of safety and security in society, the extent of domestic and international conflict and the degree of militarization.
+
+#### Right to life
+
+It is the supreme right from which no derogation is permitted, even in situations of armed conflict and other public emergencies that threaten the life of the nation. It concerns the entitlement of individuals to be free from acts and omissions that are intended or may be expected to cause their unnatural or premature death, as well as to enjoy a life with dignity.
+
+#### Liberty of person
+
+Concerns freedom from confinement of the body, not a general freedom of action. Deprivation of liberty involves more severe restriction of motion within a narrower space than mere interference with liberty of movement.
+
+#### Security of person
+
+Concerns freedom from injury to the body and the mind, or bodily and mental integrity. The right to security of a person protects individuals against intentional infliction of bodily or mental injury, regardless of whether the victim is detained or non-detained.
+
+#### Child Trafficking
+
+Recruitment, transportation, transfer, harboring and /or kidnapping of a child for the purpose of slavery, forced labour and exploitation.
+
+#### Child Custody
+
+Refers to parental responsibilities, rights and duties regarding the possession of a child.
+
+#### Child right to Registration
+
+Refers to cases of continuous, permanent and universal recording, of births in accordance with the legal requirements of a country and the Constitutional right of a child to a name and nationality.
+
+#### Children in conflict with the law
+
+Refers to anyone under 18 who comes into contact with the justice system as a result of being suspected or accused of committing an offence.
+
+#### Displaced Children
+
+Refers to children removed or separated from their parents and immediate family or settings in which they have initially been tended.
+
+#### Violence against Children (VAC)
+
+Refers to all forms of physical or mental violence, injury, abuse, neglect, negligent treatment, maltreatment, or exploitation, including sexual abuse, and physical, sexual, or emotional violence or abuse of children.
+
+#### Vulnerable Children
+
+Children whose right to be protected and receive support within the family, community and the broader social environment is compromised or at risk due to factors such as poverty, abuse, neglect, exploitation, disability, or exposure to conflict and violence.
+
+### Crime and criminal justice
+
+#### Probation
+
+A court-ordered period during which an offender is allowed to remain in the community under supervision, instead of serving time in prison. It typically includes specific conditions that the offender must follow.
+
+#### Juvenile
+
+Persons under the age of 18, that is in line with the Children's Act 2004 and International convention.
+
+#### Accused
+
+A person to whom formal information containing an allegation of a criminal offence has been delivered, or a person arrested for a criminal offense.
+
+#### Offender
+
+Refers to a person convicted of committing a crime or offense. The term is used in the context of criminal law.
+
+#### Victimization
+
+Defined as the act or process of someone being injured or damaged by another person. The resulting damage may be physical (e.g., bruises, broken bones) or psychological (e.g., posttraumatic stress disorder \[PTSD\], depression).
+
+#### Victims
+
+Persons who, individually or collectively, have suffered harm, including physical or mental injury, emotional suffering, economic loss or substantial impairment of their fundamental rights, through acts or omissions that are in violation of criminal laws operative within Member States, including those laws proscribing criminal abuse of power.
+
+#### Aggravated Assault
+
+An assault that involves any harm which amounts to maim or dangerous harm, or seriously or permanently injures the health or which is likely to injure health, or which extends to permanent disfigurement.
+
+#### Aggravated Robbery
+
+Robbery is where deadly weapons are used. Deadly weapons include any instrument made or adapted for shooting, stabbing or cutting or any other instrument which, when used for offensive purposes is likely to cause death.
+
+#### Arrest
+
+The act of depriving a person's liberty of movement on reasonable grounds or suspicion that they committed an offence.
+
+#### Assault
+
+The intentional application of force to the person of another without consent, or the threat of using force by some act of gesture if the person threatening has, or causes the person threatened to believe that he has the present ability to carry out his purpose.
+
+#### Burglary
+
+The act of breaking into or entering at night in any building, tent or any vessel used as a human dwelling, with intent to commit any offense.
+
+#### Defilement
+
+Defilement is any sexual intercourse with a child under the age of 18 years old, whether or not the child consents.
+
+#### Forgery
+
+The making of false document with intent to defraud or deceive
+
+#### Fraud
+
+Include cases of forgery, uttering a false document, issuing false cheques, counterfeiting, abuse of office and causing financial loss
+
+#### Gender Based Violence (GBV) prevalence
+
+Rate of occurrence of GBV cases/record of reported cases of GBV incidence
+
+#### House Break-in
+
+The act of breaking into or entering at daytime, in any building, tent or vessel used as a human dwelling, with intent to commit any offence. Similar to burglary except that the incident is done during the day.
+
+#### Indecent Assault/Conduct
+
+Any person who, intending to insult the modesty of any woman or girl, utters any word, makes any sound or gesture or exhibits any object, intending that such word or sound shall be heard, or that gesture or object shall be seen, by such woman or girl, or intrudes upon the privacy of such woman or girl.
+
+#### Prisoner
+
+Persons held in Prisons, Penal Institutions or Correctional Institutions on a specified day and should exclude non-criminal prisoners held for administrative purposes, for example, persons held pending investigation into their immigration status or foreign citizens without a legal right to stay.
+
+#### Sentenced Prisoners
+
+Persons held in prisons, penal institutions or correctional institutions after a first instance decision or a final decision on their case has been made by a competent authority. This includes persons held who are awaiting the outcome of an appeal in respect of verdict or sentence or who are within the statutory limits for appealing and persons held who have been convicted but who have not received a sentence yet. Persons held who have received a custodial sentence for one crime but are still under trial and unsentenced for another crime should be counted as sentenced persons held.
+
+####  Unsentenced Prisoners
+
+Persons held in prisons, penal institutions or correctional institutions who are untried, pre-trial or awaiting a first instance decision on their case from a competent authority regarding their conviction or acquittal. Persons held before and during the trial should be included. Sentenced persons held awaiting the outcome of an appeal in respect of verdict or sentence or who are within the statutory limits for appealing their sentence should be excluded
+
+#### Homicide
+
+Is defined as the intentional killing of a person, including murder, manslaughter, euthanasia and infanticide. It excludes death by dangerous driving, abortion and assisted suicide.
+
+#### Femicide
+
+Refers to intentional killing of a woman and girl with gender-related motivation
+
+#### Robbery
+
+The act of stealing property by intentionally using violence or threats of violence to induce submission to the taking of something from someone.
+
+#### Rape
+
+The act of having sexual intercourse with any person without the consent of such other person, or with consent if the consent is obtained by force or by means of threats or intimidation of any kin
+
+#### Threat to kill
+
+The act of uttering or causing any person to receive a threat of being killed.
+
+#### Uttering A False Document
+
+The act of knowingly presenting a false document.
+
+### Safety and security statistics, n.e.c.
+
+## Governance statistics, n.e.c.

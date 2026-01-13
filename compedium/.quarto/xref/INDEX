@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "64e38809"
+  },
+  "demographic-social-statistics.qmd": {
+    "demographic-social-statistics.html": "d4e9a251"
+  },
+  "economic-statistics.qmd": {
+    "economic-statistics.html": "3067bb88"
+  },
+  "environment-statistics.qmd": {
+    "environment-statistics.html": "74159210"
+  },
+  "governance-statistics.qmd": {
+    "governance-statistics.html": "bee7dcc1"
+  },
+  "cross-cutting-statistics.qmd": {
+    "cross-cutting-statistics.html": "3df24cba"
+  },
+  "statistical-infrastructure.qmd": {
+    "statistical-infrastructure.html": "7539675c"
+  },
+  "strategic-activities-references.qmd": {
+    "strategic-activities-references.html": "87b57828"
+  },
+  "index-new.qmd": {
+    "index-new.html": "f010432f"
+  },
+  "index-original-backup.qmd": {
+    "index-original-backup.html": "fe19e952"
+  }
+}

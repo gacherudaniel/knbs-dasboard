@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>environment-statistics – Kenya Statistical Compendium</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-985aa47af68dae11cd4d235c71fb941e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-76b52947b7bb62f5db10c3ee6d496df5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Kenya Statistical Compendium</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-house" role="img">
+</i> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-statistics" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-bar-chart" role="img">
+</i> 
+ <span class="menu-text">Statistics</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-statistics">    
+        <li>
+    <a class="dropdown-item" href="./demographic-social-statistics.html"><i class="bi bi-people" role="img">
+</i> 
+ <span class="dropdown-text">Demographic &amp; Social</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./economic-statistics.html"><i class="bi bi-currency-exchange" role="img">
+</i> 
+ <span class="dropdown-text">Economic</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./environment-statistics.html"><i class="bi bi-globe" role="img">
+</i> 
+ <span class="dropdown-text">Environment</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./governance-statistics.html"><i class="bi bi-shield-check" role="img">
+</i> 
+ <span class="dropdown-text">Governance</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./cross-cutting-statistics.html"><i class="bi bi-arrow-repeat" role="img">
+</i> 
+ <span class="dropdown-text">Cross-cutting</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./statistical-infrastructure.html"> <i class="bi bi-tools" role="img">
+</i> 
+<span class="menu-text">Infrastructure</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./strategic-activities-references.html"> <i class="bi bi-clipboard-data" role="img">
+</i> 
+<span class="menu-text">Strategic Activities</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./environment-statistics.html">Environment Statistics</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./demographic-social-statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Demographic and social statistics</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./economic-statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Economic Statistics</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./environment-statistics.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Environment Statistics</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./governance-statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Governance statistics</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cross-cutting-statistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cross-Cutting Statistics</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./statistical-infrastructure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Statistical Infrastructure and Methodology</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./strategic-activities-references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Strategic and Managerial Activities &amp; References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#environment-statistics" id="toc-environment-statistics" class="nav-link active" data-scroll-target="#environment-statistics"><span class="header-section-number">1</span> Environment Statistics</a>
+  <ul class="collapse">
+  <li><a href="#environmental-conditions-and-quality" id="toc-environmental-conditions-and-quality" class="nav-link" data-scroll-target="#environmental-conditions-and-quality"><span class="header-section-number">1.1</span> Environmental Conditions and Quality</a>
+  <ul class="collapse">
+  <li><a href="#weather" id="toc-weather" class="nav-link" data-scroll-target="#weather"><span class="header-section-number">1.1.1</span> Weather</a></li>
+  <li><a href="#climate" id="toc-climate" class="nav-link" data-scroll-target="#climate"><span class="header-section-number">1.1.2</span> Climate</a></li>
+  <li><a href="#climate-change" id="toc-climate-change" class="nav-link" data-scroll-target="#climate-change"><span class="header-section-number">1.1.3</span> Climate change</a></li>
+  <li><a href="#climate-variability" id="toc-climate-variability" class="nav-link" data-scroll-target="#climate-variability"><span class="header-section-number">1.1.4</span> Climate variability</a></li>
+  <li><a href="#environment" id="toc-environment" class="nav-link" data-scroll-target="#environment"><span class="header-section-number">1.1.5</span> Environment</a></li>
+  <li><a href="#meteorological" id="toc-meteorological" class="nav-link" data-scroll-target="#meteorological"><span class="header-section-number">1.1.6</span> Meteorological</a></li>
+  <li><a href="#hydrographical" id="toc-hydrographical" class="nav-link" data-scroll-target="#hydrographical"><span class="header-section-number">1.1.7</span> Hydrographical</a></li>
+  <li><a href="#geological" id="toc-geological" class="nav-link" data-scroll-target="#geological"><span class="header-section-number">1.1.8</span> Geological</a></li>
+  <li><a href="#geographical" id="toc-geographical" class="nav-link" data-scroll-target="#geographical"><span class="header-section-number">1.1.9</span> Geographical</a></li>
+  <li><a href="#biological" id="toc-biological" class="nav-link" data-scroll-target="#biological"><span class="header-section-number">1.1.10</span> Biological</a></li>
+  </ul></li>
+  <li><a href="#environmental-resources-and-their-use" id="toc-environmental-resources-and-their-use" class="nav-link" data-scroll-target="#environmental-resources-and-their-use"><span class="header-section-number">1.2</span> Environmental Resources and their use</a>
+  <ul class="collapse">
+  <li><a href="#natural-resource-accounting" id="toc-natural-resource-accounting" class="nav-link" data-scroll-target="#natural-resource-accounting"><span class="header-section-number">1.2.1</span> Natural resource accounting</a></li>
+  <li><a href="#natural-resources" id="toc-natural-resources" class="nav-link" data-scroll-target="#natural-resources"><span class="header-section-number">1.2.2</span> Natural resources</a></li>
+  <li><a href="#sustainable-use" id="toc-sustainable-use" class="nav-link" data-scroll-target="#sustainable-use"><span class="header-section-number">1.2.3</span> Sustainable Use</a></li>
+  <li><a href="#eco-system" id="toc-eco-system" class="nav-link" data-scroll-target="#eco-system"><span class="header-section-number">1.2.4</span> Eco-system</a></li>
+  <li><a href="#biodiversity" id="toc-biodiversity" class="nav-link" data-scroll-target="#biodiversity"><span class="header-section-number">1.2.5</span> Biodiversity</a></li>
+  <li><a href="#biomass" id="toc-biomass" class="nav-link" data-scroll-target="#biomass"><span class="header-section-number">1.2.6</span> Biomass</a></li>
+  <li><a href="#wetland" id="toc-wetland" class="nav-link" data-scroll-target="#wetland"><span class="header-section-number">1.2.7</span> Wetland</a></li>
+  <li><a href="#water-catchment-area" id="toc-water-catchment-area" class="nav-link" data-scroll-target="#water-catchment-area"><span class="header-section-number">1.2.8</span> Water Catchment Area</a></li>
+  <li><a href="#watershed" id="toc-watershed" class="nav-link" data-scroll-target="#watershed"><span class="header-section-number">1.2.9</span> Watershed</a></li>
+  <li><a href="#water-conservation" id="toc-water-conservation" class="nav-link" data-scroll-target="#water-conservation"><span class="header-section-number">1.2.10</span> Water Conservation</a></li>
+  </ul></li>
+  <li><a href="#residuals" id="toc-residuals" class="nav-link" data-scroll-target="#residuals"><span class="header-section-number">1.3</span> Residuals</a>
+  <ul class="collapse">
+  <li><a href="#air-pollution" id="toc-air-pollution" class="nav-link" data-scroll-target="#air-pollution"><span class="header-section-number">1.3.1</span> Air Pollution</a></li>
+  <li><a href="#land-degradation" id="toc-land-degradation" class="nav-link" data-scroll-target="#land-degradation"><span class="header-section-number">1.3.2</span> Land Degradation</a></li>
+  <li><a href="#biological-sludge" id="toc-biological-sludge" class="nav-link" data-scroll-target="#biological-sludge"><span class="header-section-number">1.3.3</span> Biological Sludge</a></li>
+  <li><a href="#greenhouse-gas-emission" id="toc-greenhouse-gas-emission" class="nav-link" data-scroll-target="#greenhouse-gas-emission"><span class="header-section-number">1.3.4</span> Greenhouse Gas Emission</a></li>
+  <li><a href="#emission" id="toc-emission" class="nav-link" data-scroll-target="#emission"><span class="header-section-number">1.3.5</span> Emission</a></li>
+  <li><a href="#waste" id="toc-waste" class="nav-link" data-scroll-target="#waste"><span class="header-section-number">1.3.6</span> Waste</a></li>
+  <li><a href="#solid-waste" id="toc-solid-waste" class="nav-link" data-scroll-target="#solid-waste"><span class="header-section-number">1.3.7</span> Solid Waste</a></li>
+  <li><a href="#biological-waste" id="toc-biological-waste" class="nav-link" data-scroll-target="#biological-waste"><span class="header-section-number">1.3.8</span> Biological Waste</a></li>
+  <li><a href="#agricultural-waste" id="toc-agricultural-waste" class="nav-link" data-scroll-target="#agricultural-waste"><span class="header-section-number">1.3.9</span> Agricultural Waste</a></li>
+  <li><a href="#industrial-waste" id="toc-industrial-waste" class="nav-link" data-scroll-target="#industrial-waste"><span class="header-section-number">1.3.10</span> Industrial Waste</a></li>
+  <li><a href="#water-pollution" id="toc-water-pollution" class="nav-link" data-scroll-target="#water-pollution"><span class="header-section-number">1.3.11</span> Water Pollution</a></li>
+  </ul></li>
+  <li><a href="#hazardous-events-and-disasters" id="toc-hazardous-events-and-disasters" class="nav-link" data-scroll-target="#hazardous-events-and-disasters"><span class="header-section-number">1.4</span> Hazardous events and disasters</a>
+  <ul class="collapse">
+  <li><a href="#inter-tropical-convergence-zone-itcz" id="toc-inter-tropical-convergence-zone-itcz" class="nav-link" data-scroll-target="#inter-tropical-convergence-zone-itcz"><span class="header-section-number">1.4.1</span> Inter Tropical Convergence Zone (ITCZ)</a></li>
+  </ul></li>
+  <li><a href="#human-settlements-and-environmental-health" id="toc-human-settlements-and-environmental-health" class="nav-link" data-scroll-target="#human-settlements-and-environmental-health"><span class="header-section-number">1.5</span> Human Settlements and Environmental Health</a>
+  <ul class="collapse">
+  <li><a href="#environmental-sanitation" id="toc-environmental-sanitation" class="nav-link" data-scroll-target="#environmental-sanitation"><span class="header-section-number">1.5.1</span> Environmental Sanitation</a></li>
+  <li><a href="#safe-drinking-water" id="toc-safe-drinking-water" class="nav-link" data-scroll-target="#safe-drinking-water"><span class="header-section-number">1.5.2</span> Safe Drinking Water</a></li>
+  <li><a href="#sanitation" id="toc-sanitation" class="nav-link" data-scroll-target="#sanitation"><span class="header-section-number">1.5.3</span> Sanitation</a></li>
+  <li><a href="#population-using-basic-drinking-water-service" id="toc-population-using-basic-drinking-water-service" class="nav-link" data-scroll-target="#population-using-basic-drinking-water-service"><span class="header-section-number">1.5.4</span> Population using basic drinking water service</a></li>
+  <li><a href="#population-using-safely-managed-drinking-water-services" id="toc-population-using-safely-managed-drinking-water-services" class="nav-link" data-scroll-target="#population-using-safely-managed-drinking-water-services"><span class="header-section-number">1.5.5</span> Population using safely managed drinking water services</a></li>
+  <li><a href="#population-using-basic-sanitation-services" id="toc-population-using-basic-sanitation-services" class="nav-link" data-scroll-target="#population-using-basic-sanitation-services"><span class="header-section-number">1.5.6</span> Population using basic sanitation services</a></li>
+  <li><a href="#population-using-safely-managed-sanitation-services" id="toc-population-using-safely-managed-sanitation-services" class="nav-link" data-scroll-target="#population-using-safely-managed-sanitation-services"><span class="header-section-number">1.5.7</span> Population using safely managed sanitation services</a></li>
+  </ul></li>
+  <li><a href="#environmental-protection-management-and-engagement" id="toc-environmental-protection-management-and-engagement" class="nav-link" data-scroll-target="#environmental-protection-management-and-engagement"><span class="header-section-number">1.6</span> Environmental protection, Management and Engagement</a>
+  <ul class="collapse">
+  <li><a href="#conservation" id="toc-conservation" class="nav-link" data-scroll-target="#conservation"><span class="header-section-number">1.6.1</span> Conservation</a></li>
+  <li><a href="#environmental-impact-assessment-eia" id="toc-environmental-impact-assessment-eia" class="nav-link" data-scroll-target="#environmental-impact-assessment-eia"><span class="header-section-number">1.6.2</span> Environmental Impact Assessment (EIA)</a></li>
+  <li><a href="#environmental-audit-ea" id="toc-environmental-audit-ea" class="nav-link" data-scroll-target="#environmental-audit-ea"><span class="header-section-number">1.6.3</span> Environmental Audit (EA)</a></li>
+  <li><a href="#environmental-protection" id="toc-environmental-protection" class="nav-link" data-scroll-target="#environmental-protection"><span class="header-section-number">1.6.4</span> Environmental Protection</a></li>
+  <li><a href="#afforestation" id="toc-afforestation" class="nav-link" data-scroll-target="#afforestation"><span class="header-section-number">1.6.5</span> Afforestation</a></li>
+  <li><a href="#reforestation" id="toc-reforestation" class="nav-link" data-scroll-target="#reforestation"><span class="header-section-number">1.6.6</span> Reforestation</a></li>
+  <li><a href="#deforestation" id="toc-deforestation" class="nav-link" data-scroll-target="#deforestation"><span class="header-section-number">1.6.7</span> Deforestation</a></li>
+  </ul></li>
+  <li><a href="#environment-statistics-n.e.c." id="toc-environment-statistics-n.e.c." class="nav-link" data-scroll-target="#environment-statistics-n.e.c."><span class="header-section-number">1.7</span> Environment statistics, n.e.c.</a>
+  <ul class="collapse">
+  <li><a href="#species" id="toc-species" class="nav-link" data-scroll-target="#species"><span class="header-section-number">1.7.1</span> Species</a></li>
+  <li><a href="#fauna" id="toc-fauna" class="nav-link" data-scroll-target="#fauna"><span class="header-section-number">1.7.2</span> Fauna</a></li>
+  <li><a href="#flora" id="toc-flora" class="nav-link" data-scroll-target="#flora"><span class="header-section-number">1.7.3</span> Flora</a></li>
+  <li><a href="#greenhouse-gases" id="toc-greenhouse-gases" class="nav-link" data-scroll-target="#greenhouse-gases"><span class="header-section-number">1.7.4</span> Greenhouse Gases</a></li>
+  <li><a href="#greenhouse-effect" id="toc-greenhouse-effect" class="nav-link" data-scroll-target="#greenhouse-effect"><span class="header-section-number">1.7.5</span> Greenhouse Effect</a></li>
+  <li><a href="#global-warming" id="toc-global-warming" class="nav-link" data-scroll-target="#global-warming"><span class="header-section-number">1.7.6</span> Global Warming</a></li>
+  <li><a href="#synoptic-weather-stations" id="toc-synoptic-weather-stations" class="nav-link" data-scroll-target="#synoptic-weather-stations"><span class="header-section-number">1.7.7</span> Synoptic Weather Stations</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="environment-statistics" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Environment Statistics</h1>
+<section id="environmental-conditions-and-quality" class="level2" data-number="1.1">
+<h2 data-number="1.1" data-anchor-id="environmental-conditions-and-quality"><span class="header-section-number">1.1</span> Environmental Conditions and Quality</h2>
+<p>Environmental conditions and quality refer to the physical, chemical, biological, and socio-economic factors that characterize the environment and determine its ability to sustain life. It includes aspects such as air, water, soil quality, and the natural habitats that support ecosystems and human activities.</p>
+<section id="weather" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" data-anchor-id="weather"><span class="header-section-number">1.1.1</span> Weather</h3>
+<p>Weather is the state of the atmosphere of a given place at a given time. The elements of weather include, but are not limited to, rainfall, temperature, pressure, wind, cloud cover and humidity.</p>
+</section>
+<section id="climate" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" data-anchor-id="climate"><span class="header-section-number">1.1.2</span> Climate</h3>
+<p>Climate is the average weather pattern in a place over a period of at least thirty years as defined by the World Meteorological Organization</p>
+</section>
+<section id="climate-change" class="level3" data-number="1.1.3">
+<h3 data-number="1.1.3" data-anchor-id="climate-change"><span class="header-section-number">1.1.3</span> Climate change</h3>
+<p>Climate change is a permanent shift in the state of climate that persists for an extended period (decades or longer). It is attributed directly or indirectly to human (anthropogenic) activity that alters the composition of the global atmosphere</p>
+</section>
+<section id="climate-variability" class="level3" data-number="1.1.4">
+<h3 data-number="1.1.4" data-anchor-id="climate-variability"><span class="header-section-number">1.1.4</span> Climate variability</h3>
+<p>Climate variability refers to fluctuations or deviations in the mean state of climate over a given period ranging from months, season or years and space when compared to long-term statistics for the same calendar period</p>
+</section>
+<section id="environment" class="level3" data-number="1.1.5">
+<h3 data-number="1.1.5" data-anchor-id="environment"><span class="header-section-number">1.1.5</span> Environment</h3>
+<p>The totality of all the external conditions (physical, biological, and socio-economic) affecting the life, development, and survival of an organism.</p>
+</section>
+<section id="meteorological" class="level3" data-number="1.1.6">
+<h3 data-number="1.1.6" data-anchor-id="meteorological"><span class="header-section-number">1.1.6</span> Meteorological</h3>
+<p>Related to the science of the earth’s atmosphere, especially as it relates to weather and climate.</p>
+</section>
+<section id="hydrographical" class="level3" data-number="1.1.7">
+<h3 data-number="1.1.7" data-anchor-id="hydrographical"><span class="header-section-number">1.1.7</span> Hydrographical</h3>
+<p>The branch of applied sciences which deals with the measurement and description of the physical features of oceans, seas, coastal areas, lakes and rivers, as well as with the prediction of their change over time, for the primary purpose of safety of navigation and in support of all other marine activities.</p>
+</section>
+<section id="geological" class="level3" data-number="1.1.8">
+<h3 data-number="1.1.8" data-anchor-id="geological"><span class="header-section-number">1.1.8</span> Geological</h3>
+<p>Relating to the study of the earth’s physical structure and substance.</p>
+</section>
+<section id="geographical" class="level3" data-number="1.1.9">
+<h3 data-number="1.1.9" data-anchor-id="geographical"><span class="header-section-number">1.1.9</span> Geographical</h3>
+<p>Anything related to the Earth’s physical features, locations, places, or the spatial relationships between them.</p>
+</section>
+<section id="biological" class="level3" data-number="1.1.10">
+<h3 data-number="1.1.10" data-anchor-id="biological"><span class="header-section-number">1.1.10</span> Biological</h3>
+<p>Anything related to living organisms, life processes, or the science of life (biology).</p>
+</section>
+</section>
+<section id="environmental-resources-and-their-use" class="level2" data-number="1.2">
+<h2 data-number="1.2" data-anchor-id="environmental-resources-and-their-use"><span class="header-section-number">1.2</span> Environmental Resources and their use</h2>
+<p>This sub-domain focuses on the natural resources available in the environment, their extraction, utilization, and management. It encompasses renewable and non-renewable resources, as well as the sustainable and unsustainable practices that affect their availability and quality.</p>
+<section id="natural-resource-accounting" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" data-anchor-id="natural-resource-accounting"><span class="header-section-number">1.2.1</span> Natural resource accounting</h3>
+<p>Natural resource accounting is an accounting system that deals with stocks and stock changes of natural assets, comprising biota (produced or wild), subsoil assets (proved reserves), water and land with their aquatic and terrestrial ecosystems.</p>
+</section>
+<section id="natural-resources" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" data-anchor-id="natural-resources"><span class="header-section-number">1.2.2</span> Natural resources</h3>
+<p>Natural resources are natural assets (raw materials) occurring in nature that can be used for economic production or consumption.</p>
+</section>
+<section id="sustainable-use" class="level3" data-number="1.2.3">
+<h3 data-number="1.2.3" data-anchor-id="sustainable-use"><span class="header-section-number">1.2.3</span> Sustainable Use</h3>
+<p>A use of resources which does not compromise the right to use the same resource (e.g., land, forest, water etc) by future generations.</p>
+</section>
+<section id="eco-system" class="level3" data-number="1.2.4">
+<h3 data-number="1.2.4" data-anchor-id="eco-system"><span class="header-section-number">1.2.4</span> Eco-system</h3>
+<p>The complex of plant and animal communities and their inter-relations with each other and with non-living environment.</p>
+</section>
+<section id="biodiversity" class="level3" data-number="1.2.5">
+<h3 data-number="1.2.5" data-anchor-id="biodiversity"><span class="header-section-number">1.2.5</span> Biodiversity</h3>
+<p>The total variety of life on earth in all its forms, levels, and combinations. It includes diversity within genetic differences, species differences and eco-system differences in each area.</p>
+</section>
+<section id="biomass" class="level3" data-number="1.2.6">
+<h3 data-number="1.2.6" data-anchor-id="biomass"><span class="header-section-number">1.2.6</span> Biomass</h3>
+<p>Total living weight (generally dry weight) of all organisms in a particular area or habitat. It is sometimes expressed as weight per unit area of land or per unit volume of water.</p>
+</section>
+<section id="wetland" class="level3" data-number="1.2.7">
+<h3 data-number="1.2.7" data-anchor-id="wetland"><span class="header-section-number">1.2.7</span> Wetland</h3>
+<p>A topographically delineated area of land where all precipitation collects and drains off into a common outlet, such as a river, lake, reservoir, or ocean.</p>
+</section>
+<section id="water-catchment-area" class="level3" data-number="1.2.8">
+<h3 data-number="1.2.8" data-anchor-id="water-catchment-area"><span class="header-section-number">1.2.8</span> Water Catchment Area</h3>
+<p>A geographic area where all rainfall and surface runoff drains into a common water body, such as a river, lake, or reservoir.</p>
+</section>
+<section id="watershed" class="level3" data-number="1.2.9">
+<h3 data-number="1.2.9" data-anchor-id="watershed"><span class="header-section-number">1.2.9</span> Watershed</h3>
+<p>An area separating one or more water catchments.</p>
+</section>
+<section id="water-conservation" class="level3" data-number="1.2.10">
+<h3 data-number="1.2.10" data-anchor-id="water-conservation"><span class="header-section-number">1.2.10</span> Water Conservation</h3>
+<p>The control and development of water resources, both surface and underground water, in a manner that promotes sustainable use.</p>
+</section>
+</section>
+<section id="residuals" class="level2" data-number="1.3">
+<h2 data-number="1.3" data-anchor-id="residuals"><span class="header-section-number">1.3</span> Residuals</h2>
+<p>Residuals refer to materials, substances, or energy flows that are released back into the environment as a result of human activities, industrial processes, or natural systems. These residuals often have potential impacts on environmental quality and can lead to pollution or degradation of natural resources.</p>
+<section id="air-pollution" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" data-anchor-id="air-pollution"><span class="header-section-number">1.3.1</span> Air Pollution</h3>
+<p>The presence of contaminants or pollutant substances in the air at levels that interfere with the health or welfare of human and other organisms or can produce other harmful environmental effects.</p>
+</section>
+<section id="land-degradation" class="level3" data-number="1.3.2">
+<h3 data-number="1.3.2" data-anchor-id="land-degradation"><span class="header-section-number">1.3.2</span> Land Degradation</h3>
+<p>The physical, chemical, or biological impairment of the attributes of land.</p>
+</section>
+<section id="biological-sludge" class="level3" data-number="1.3.3">
+<h3 data-number="1.3.3" data-anchor-id="biological-sludge"><span class="header-section-number">1.3.3</span> Biological Sludge</h3>
+<p>The byproduct of a biological treatment of effluents (waste products from industries). The biological sludge can then be used for soil improvement. The amount of waste that can be treated with biological means for other useful purposes</p>
+</section>
+<section id="greenhouse-gas-emission" class="level3" data-number="1.3.4">
+<h3 data-number="1.3.4" data-anchor-id="greenhouse-gas-emission"><span class="header-section-number">1.3.4</span> Greenhouse Gas Emission</h3>
+<p>It is the emission of those gases that, by affecting the radiation transfer through the atmosphere, contribute to the greenhouse effect.</p>
+</section>
+<section id="emission" class="level3" data-number="1.3.5">
+<h3 data-number="1.3.5" data-anchor-id="emission"><span class="header-section-number">1.3.5</span> Emission</h3>
+<p>Discharge of substances, heat, and sound into the atmosphere, water and soil from sources such as smokestacks, vents, surface areas of commercial or industrial facilities etc.</p>
+</section>
+<section id="waste" class="level3" data-number="1.3.6">
+<h3 data-number="1.3.6" data-anchor-id="waste"><span class="header-section-number">1.3.6</span> Waste</h3>
+<p>Any material (solid, liquid, or gaseous) discharged into the environment without immediate use.</p>
+</section>
+<section id="solid-waste" class="level3" data-number="1.3.7">
+<h3 data-number="1.3.7" data-anchor-id="solid-waste"><span class="header-section-number">1.3.7</span> Solid Waste</h3>
+<p>Any useless and sometimes hazardous material with low liquid content. Solid wastes include municipal garbage, industrial and commercial waste, sewage sludge, wastes resulting from agricultural and animal husbandry operations and other connected activities, demolition wastes and mining residues.</p>
+</section>
+<section id="biological-waste" class="level3" data-number="1.3.8">
+<h3 data-number="1.3.8" data-anchor-id="biological-waste"><span class="header-section-number">1.3.8</span> Biological Waste</h3>
+<p>Waste containing natural organic materials (remains of plants, animal excreta, biological sludge from waste-water treatment, plants, etc) and capable of undergoing biological degradation.</p>
+</section>
+<section id="agricultural-waste" class="level3" data-number="1.3.9">
+<h3 data-number="1.3.9" data-anchor-id="agricultural-waste"><span class="header-section-number">1.3.9</span> Agricultural Waste</h3>
+<p>Any waste produced as a result of various agricultural operations. It includes manure and other wastes from farms, poultry houses and slaughter-house, harvest waste, fertilizer run-offs from fields, pesticides that enter into water, air or soils, etc.</p>
+</section>
+<section id="industrial-waste" class="level3" data-number="1.3.10">
+<h3 data-number="1.3.10" data-anchor-id="industrial-waste"><span class="header-section-number">1.3.10</span> Industrial Waste</h3>
+<p>Liquid, solid and gaseous wastes originating from the manufacture of specific products.</p>
+</section>
+<section id="water-pollution" class="level3" data-number="1.3.11">
+<h3 data-number="1.3.11" data-anchor-id="water-pollution"><span class="header-section-number">1.3.11</span> Water Pollution</h3>
+<p>The presence in water of harmful and objectionable materials (obtained mainly from sewers, industrial wastes, and rainwater run-offs) and in sufficient concentrations to make the water unfit for use.</p>
+</section>
+</section>
+<section id="hazardous-events-and-disasters" class="level2" data-number="1.4">
+<h2 data-number="1.4" data-anchor-id="hazardous-events-and-disasters"><span class="header-section-number">1.4</span> Hazardous events and disasters</h2>
+<p>Hazardous events and disasters refer to natural or human-induced occurrences that significantly disrupt the environment, cause loss of life or property, and negatively impact ecosystems, communities, and economies. These events are often classified based on their origin (natural or anthropogenic) and can vary in scale, frequency, and severity.</p>
+<section id="inter-tropical-convergence-zone-itcz" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" data-anchor-id="inter-tropical-convergence-zone-itcz"><span class="header-section-number">1.4.1</span> Inter Tropical Convergence Zone (ITCZ)</h3>
+<p>This is a belt of low pressure which circles the Earth generally near the equator where the trade winds of the Northern and Southern Hemispheres come together. It is characterized by convective activity which generates often vigorous thunderstorms over large areas</p>
+</section>
+</section>
+<section id="human-settlements-and-environmental-health" class="level2" data-number="1.5">
+<h2 data-number="1.5" data-anchor-id="human-settlements-and-environmental-health"><span class="header-section-number">1.5</span> Human Settlements and Environmental Health</h2>
+<p>This sub-domain focuses on the interaction between human settlements (such as urban, suburban, and rural areas) and environmental factors that influence public health. It includes aspects like housing, sanitation, water supply, waste management, and the overall livability of human environments, as well as the environmental determinants of health.</p>
+<section id="environmental-sanitation" class="level3" data-number="1.5.1">
+<h3 data-number="1.5.1" data-anchor-id="environmental-sanitation"><span class="header-section-number">1.5.1</span> Environmental Sanitation</h3>
+<p>Improvement of conditions in households that affect human health by means of drainage and disposal of sewage, human excreta, and refuse.</p>
+</section>
+<section id="safe-drinking-water" class="level3" data-number="1.5.2">
+<h3 data-number="1.5.2" data-anchor-id="safe-drinking-water"><span class="header-section-number">1.5.2</span> Safe Drinking Water</h3>
+<p>Clean water supplied from an improved water source, such as a borehole/shallow well fitted with a hand pump, or a protected spring or gravity flow scheme, or treated piped water, subject to maintenance of a safe drinking-water chain.</p>
+</section>
+<section id="sanitation" class="level3" data-number="1.5.3">
+<h3 data-number="1.5.3" data-anchor-id="sanitation"><span class="header-section-number">1.5.3</span> Sanitation</h3>
+<p>Encompasses the isolation/management of excreta from the environment, maintenance of personal, domestic and food hygiene, safe disposal of solid and liquid wastes, maintaining a safe drinking-water chain and vector control.</p>
+</section>
+<section id="population-using-basic-drinking-water-service" class="level3" data-number="1.5.4">
+<h3 data-number="1.5.4" data-anchor-id="population-using-basic-drinking-water-service"><span class="header-section-number">1.5.4</span> Population using basic drinking water service</h3>
+<p>Population using an improved drinking water source/facility with a total collection time of 30 minutes or less for a round-trip, including queuing</p>
+</section>
+<section id="population-using-safely-managed-drinking-water-services" class="level3" data-number="1.5.5">
+<h3 data-number="1.5.5" data-anchor-id="population-using-safely-managed-drinking-water-services"><span class="header-section-number">1.5.5</span> Population using safely managed drinking water services</h3>
+<p>Population using an improved source of drinking water (improved source of drinking water include: Piped water into dwelling yard or plot, borehole or tube wells, protected dug wells, protected spring, rainwater and packaged or delivered water) which is located on premises, available when needed and free of (faecal and priority chemical) contamination.</p>
+</section>
+<section id="population-using-basic-sanitation-services" class="level3" data-number="1.5.6">
+<h3 data-number="1.5.6" data-anchor-id="population-using-basic-sanitation-services"><span class="header-section-number">1.5.6</span> Population using basic sanitation services</h3>
+<p>Population using an improved sanitation facility (improved Sanitation facilities include: flush/pour flush to piped sewer system, septic tank or latrine; ventilated improved pit latrine, composting toilet or pit latrine with slab) which is not shared with households</p>
+</section>
+<section id="population-using-safely-managed-sanitation-services" class="level3" data-number="1.5.7">
+<h3 data-number="1.5.7" data-anchor-id="population-using-safely-managed-sanitation-services"><span class="header-section-number">1.5.7</span> Population using safely managed sanitation services</h3>
+<p>Population using improved sanitation facilities (improved sanitation facilities include: flush or pour flush to piped sewer systems; septic tanks or pit latrine; ventilated improved pit latrine; composting toilet or pit latrine with slab) which is not shared with other households and where excreta are treated and disposed in situ or transported and treated offsite</p>
+</section>
+</section>
+<section id="environmental-protection-management-and-engagement" class="level2" data-number="1.6">
+<h2 data-number="1.6" data-anchor-id="environmental-protection-management-and-engagement"><span class="header-section-number">1.6</span> Environmental protection, Management and Engagement</h2>
+<p>This sub-domain focuses on activities, policies, and measures designed to preserve, manage, and improve the quality of the environment. It includes actions aimed at mitigating environmental degradation, promoting sustainable resource use, and fostering public and institutional engagement in environmental conservation.</p>
+<section id="conservation" class="level3" data-number="1.6.1">
+<h3 data-number="1.6.1" data-anchor-id="conservation"><span class="header-section-number">1.6.1</span> Conservation</h3>
+<p>Management of human use of organisms or ecosystems so that it may yield the greatest sustainable benefit to present generations while maintaining its potential to meet the needs and aspirations of future generations.</p>
+</section>
+<section id="environmental-impact-assessment-eia" class="level3" data-number="1.6.2">
+<h3 data-number="1.6.2" data-anchor-id="environmental-impact-assessment-eia"><span class="header-section-number">1.6.2</span> Environmental Impact Assessment (EIA)</h3>
+<p>A systematic examination conducted to determine whether a project, policy, program, etc, will have any adverse impacts on the environment. The EIA also provides plans for mitigation of the adverse effects.</p>
+</section>
+<section id="environmental-audit-ea" class="level3" data-number="1.6.3">
+<h3 data-number="1.6.3" data-anchor-id="environmental-audit-ea"><span class="header-section-number">1.6.3</span> Environmental Audit (EA)</h3>
+<p>The systematic documented, periodic and objective evaluation of how activities and processes of an ongoing project to determine how far these activities and programs conform with the approved environmental management plan of that specific project and sound environmental management practices</p>
+</section>
+<section id="environmental-protection" class="level3" data-number="1.6.4">
+<h3 data-number="1.6.4" data-anchor-id="environmental-protection"><span class="header-section-number">1.6.4</span> Environmental Protection</h3>
+<p>Any activity to maintain or restore the quality of the environment, through preventing the degradation of air, land, and water resources.</p>
+</section>
+<section id="afforestation" class="level3" data-number="1.6.5">
+<h3 data-number="1.6.5" data-anchor-id="afforestation"><span class="header-section-number">1.6.5</span> Afforestation</h3>
+<p>An artificial establishment of a forest by planting or seeding in an area of non-forest land.</p>
+</section>
+<section id="reforestation" class="level3" data-number="1.6.6">
+<h3 data-number="1.6.6" data-anchor-id="reforestation"><span class="header-section-number">1.6.6</span> Reforestation</h3>
+<p>An artificial establishment of a forest by planting or seeding in an area which was originally a forest.</p>
+</section>
+<section id="deforestation" class="level3" data-number="1.6.7">
+<h3 data-number="1.6.7" data-anchor-id="deforestation"><span class="header-section-number">1.6.7</span> Deforestation</h3>
+<p>The process of replacement of forests by other land use or vegetation types.</p>
+</section>
+</section>
+<section id="environment-statistics-n.e.c." class="level2" data-number="1.7">
+<h2 data-number="1.7" data-anchor-id="environment-statistics-n.e.c."><span class="header-section-number">1.7</span> Environment statistics, n.e.c.</h2>
+<p>This category includes aspects of environmental statistics that do not fit into the above predefined sub-domains such as environmental conditions, resources, residuals, hazardous events, or human settlements. It serves as a broad and flexible classification for emerging, interdisciplinary, or complex environmental topics and statistical frameworks.</p>
+<section id="species" class="level3" data-number="1.7.1">
+<h3 data-number="1.7.1" data-anchor-id="species"><span class="header-section-number">1.7.1</span> Species</h3>
+<p>All the individuals and populations of a particular kind of organism maintained by biological mechanisms that result in their breeding only with their own kind.</p>
+</section>
+<section id="fauna" class="level3" data-number="1.7.2">
+<h3 data-number="1.7.2" data-anchor-id="fauna"><span class="header-section-number">1.7.2</span> Fauna</h3>
+<p>All animal life.</p>
+</section>
+<section id="flora" class="level3" data-number="1.7.3">
+<h3 data-number="1.7.3" data-anchor-id="flora"><span class="header-section-number">1.7.3</span> Flora</h3>
+<p>All plant life.</p>
+</section>
+<section id="greenhouse-gases" class="level3" data-number="1.7.4">
+<h3 data-number="1.7.4" data-anchor-id="greenhouse-gases"><span class="header-section-number">1.7.4</span> Greenhouse Gases</h3>
+<p>These are Gases that trap the infra-red (heat) radiation in the Earth’s atmosphere, producing the greenhouse effect. The two major greenhouse gases are water vapor and carbon dioxide.</p>
+</section>
+<section id="greenhouse-effect" class="level3" data-number="1.7.5">
+<h3 data-number="1.7.5" data-anchor-id="greenhouse-effect"><span class="header-section-number">1.7.5</span> Greenhouse Effect</h3>
+<p>The trapping of infra-red (heat) radiation from the Earth’s surface in the atmosphere by the greenhouse gases.</p>
+</section>
+<section id="global-warming" class="level3" data-number="1.7.6">
+<h3 data-number="1.7.6" data-anchor-id="global-warming"><span class="header-section-number">1.7.6</span> Global Warming</h3>
+<p>The increase in the average temperature of the earth’s atmosphere and oceans that has been observed in the recent decades. Carbon dioxide is responsible for most of global warming, although methane and other greenhouse gases also warm the climate.</p>
+</section>
+<section id="synoptic-weather-stations" class="level3" data-number="1.7.7">
+<h3 data-number="1.7.7" data-anchor-id="synoptic-weather-stations"><span class="header-section-number">1.7.7</span> Synoptic Weather Stations</h3>
+<p>Meteorological observation stations that collect and report weather data at regular, standardized times (usually every 6 hours), contributing to regional and global weather monitoring and forecasting systems. The meteorological information is collected at synoptic time 00h00, 06h00, 12h00, 18h00 (UTC) and at intermediate synoptic hours 03h00, 09h00, 15h00, 21h00 (UTC).</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

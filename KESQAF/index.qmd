@@ -1,0 +1,28 @@
+# Preface {.unnumbered}
+
+This document presents the Kenya Statistical Quality Assurance Framework (KeSQAF), which provides a comprehensive system for ensuring the quality of official statistics produced in Kenya. 
+
+The framework is based on the United Nations National Quality Assurance Framework (UN-NQAF) and is designed to guide the Kenya National Bureau of Statistics (KNBS) and other members of the National Statistical System in producing high-quality, credible, and reliable statistics.
+
+## About This Framework
+
+The KeSQAF consists of 19 quality principles organized into four levels:
+
+- **Level A**: Managing the Statistical System
+- **Level B**: Managing the Institutional Environment  
+- **Level C**: Managing Statistical Processes
+- **Level D**: Managing Statistical Outputs
+
+Each principle includes specific requirements and elements to be assured, providing a comprehensive guide for statistical quality management in Kenya.
+
+## Structure of This Document
+
+This document is organized to provide both comprehensive coverage and easy navigation:
+
+- **Chapter 1** covers the quality context and fundamental concepts
+- **Chapter 2** describes Kenya's statistical system and its coordination
+- **Chapter 3** presents the detailed quality assurance principles and requirements
+- **Chapter 4** outlines the implementation framework and assessment procedures
+- **Annexes** provide additional reference materials and detailed criteria
+
+The framework serves as both a reference document for statistical practitioners and a guide for implementing quality assurance across Kenya's National Statistical System.

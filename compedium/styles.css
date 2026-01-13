@@ -1,0 +1,222 @@
+/* KNBS Branded Styles */
+
+/* Global font and colours */
+body {
+  font-family: "Calibri", "Arial", sans-serif;
+  color: #333333;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: "Cambria", "Georgia", serif;
+  color: #B06443; /* KNBS deep blue */
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #f2f6fa;
+  padding: 1em;
+}
+.sidebar h2 {
+  color: #003366;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+/* Search box styling */
+.sidebar input[type="search"] {
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Links */
+a {
+  color: #006699;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #cc0000; /* Vision 2030 red accent */
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+table th {
+  background-color: #ffffff;
+  color: #B06443;
+  padding: 8px;
+}
+table td {
+  border: none;
+  padding: 8px;
+}
+
+/* Footer */
+footer {
+  padding-top: 1em;
+  font-size: 0.9em;
+  color: #666666;
+}
+
+/* Hide ALL render popups and notifications */
+.toast,
+.toast-container,
+.quarto-toast,
+.alert-info,
+.status-message,
+.render-status,
+.quarto-render-progress,
+.progress,
+.progress-bar,
+.spinner,
+.loading,
+.quarto-loading,
+.quarto-progress,
+.render-notification,
+.notification,
+.alert,
+.alert-primary,
+.alert-secondary,
+.modal,
+.modal-dialog,
+.overlay,
+.popup,
+div[id*="toast"],
+div[class*="toast"],
+div[class*="progress"],
+div[class*="loading"],
+div[class*="render"],
+div[class*="notification"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Performance optimizations for search navigation - reduced scope */
+.search-results {
+  animation-duration: 0.1s !important;
+  transition-duration: 0.1s !important;
+}
+
+/* Navbar styling with KNBS colors */
+.navbar {
+  padding: 0.3rem 0 !important; /* Reduce navbar height */
+}
+
+.navbar .container-fluid {
+  max-width: 1600px; /* Match updated content width */
+  margin: 0 auto; /* Center the navbar content */
+  padding: 0 40px; /* Match updated content padding */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.1em; /* Slightly smaller */
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  font-size: 0.9em; /* Make links smaller */
+  transition: all 0.3s ease;
+  padding: 0.4rem 0.75rem; /* Reduce padding */
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #8b4d34;
+  border-radius: 4px;
+  transform: translateY(-1px);
+}
+
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fdf3ef;
+}
+
+.dropdown-item {
+  padding: 8px 16px;
+  transition: background-color 0.2s ease;
+  color: #4a271c;
+}
+
+.dropdown-item:hover {
+  background-color: #fbe7dd;
+  color: #2a1510;
+}
+
+/* Center the main content with more space */
+.quarto-container {
+  max-width: 1500px; /* Increased from 1400px */
+  margin: 0 auto;
+  padding: 0 40px; /* Increased padding */
+}
+
+.content {
+  margin: 0 auto;
+  text-align: left;
+  max-width: none;
+  padding: 0 10px; /* Add some internal padding */
+}
+
+.quarto-title-banner {
+  text-align: center;
+}
+
+/* Ensure proper spacing with right sidebar - more content space */
+body.nav-sidebar .content {
+  margin-right: 340px; /* Increased to add more right space */
+  margin-left: 20px; /* Increased from 20px */
+  max-width: calc(100vw - 340px); /* Adjusted calculation for balanced margins */
+}
+
+/* Make sidebar more compact */
+.sidebar {
+  width: 240px !important;
+}
+
+/* Increase content area width */
+.quarto-layout-panel {
+  max-width: 100%;
+}
+
+.page-columns .page-full {
+  max-width: 100%;
+}
+
+/* Ensure text content uses full available width */
+.page-columns .content,
+.page-columns .page-columns-content,
+main.content,
+.quarto-layout-row {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Remove any default text width constraints */
+.column-page,
+.column-page-inset,
+.column-page-inset-left,
+.column-page-inset-right,
+.column-body,
+.column-body-outset,
+.column-body-outset-left,
+.column-body-outset-right {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Ensure paragraphs and text elements use full width */
+p, div, section, article {
+  max-width: 100%;
+}

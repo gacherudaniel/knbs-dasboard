@@ -1,0 +1,637 @@
+# Demographic and social statistics
+
+This chapter covers statistical concepts and definitions related to population, vital events, health, education, labor, and social conditions. These statistics are fundamental for understanding demographic trends, social development, and human welfare indicators.
+
+## Population and migration
+
+### Population
+
+A collection of people or entities that share at least one characteristic (for example living in the same country at a particular time). Often however, multiple different 'populations' will be recorded in a census or survey, for instance the people living in households enumerated in the census, the students in schools surveyed or the patients at hospitals surveyed.
+
+### Population Census
+
+It is a total process of planning, collecting, compiling, evaluating, analysing, publishing or otherwise disseminating demographic, social and economic data to all persons in a country or well-defined territory at a particular time.
+
+### Usual Resident
+
+Any person who has lived in his/her place of enumeration for six months or more or intends to live in that place for six months or more.
+
+### Present population
+
+Persons present and enumerated in the area.
+
+### De facto population
+
+It comprises all persons physically present in the country, territory or geographic area to which the statistics refer at a specified time, regardless of legal residence status. This includes visitors from abroad, but excludes residents who are temporarily abroad.
+
+### De jure population
+
+Comprises all persons for whom the geographic area in question is a place of usual residence at a specified time, regardless of whether they are present or absent from that area at the enumeration time. This includes residents who are temporarily abroad.
+
+### Population density
+
+Number of people per unit area (square kilometres).
+
+### Population projection
+
+An extrapolation of past demographic trends to predict some possible (or likely) future course of population.
+
+### Population growth rate
+
+The percentage rate at which a population is increasing (or decreasing) in a given year owing to natural increase and net migration, expressed as a percentage of the base population.
+
+### Natural population increase
+
+The difference between the number of live births and the number of deaths during the year. The natural increase rate is the natural increase divided by the average total population of the given area during a specified period. It is expressed as a percentage.
+
+### Population Pyramid
+
+A bar chart, arranged vertically, that shows the distribution of a population by age and sex. It is called a "pyramid" because typically each age group contains more people than the one above it, but other shapes are possible.
+
+### Migration
+
+Migration is defined as the movement of persons away from their place of usual residence, either across an international border (international migration) or within a State (internal migration).
+
+### International Migration
+
+The movement of people from one country to another for the purpose of settlement.
+
+### Internal Migration
+
+The movement of people from one area of a country to another area of the same country for the purpose of establishing a new residence.
+
+### In-migration
+
+The process of people moving into a new area in their country to take up permanent or semi-permanent residence.
+
+### Out-migration
+
+The process of people moving out of an area in their country to take up permanent or semi-permanent residence in another area of the same country.
+
+### Net migration
+
+The difference between in-migration and out-migration for a particular area during a specific period. Net migration is positive when more people move into an area than move out, and negative when more people move out than move in.
+
+### Migrant
+
+A person who moves to a country other than that of his or her nationality or usual residence, so that the country of destination becomes his or her new country of usual residence.
+
+### Internal migrant
+
+Any person who changes his or her place of usual residence from one geographic unit to another within the borders of his/her country.
+
+### Immigrant
+
+A person who moves into a country from another country. The terms "foreign-born" and "immigrant" are used interchangeably and refer to people who were born outside of their country of residence, regardless of their current citizenship status.
+
+### Emigrant
+
+A person departing or moving out from a country to take up residence elsewhere.
+
+### Return migration
+
+The movement of emigrants back to their countries of origin or usual residence.
+
+### Transit migration
+
+Movement of migrants through one or more countries to a country of destination.
+
+### Irregular migration
+
+Irregular migration involves the movement of persons outside the regulatory norms of sending, transit, and receiving countries. Migration is defined as irregular when migrants move without the necessary documentation or authorization to enter or reside in a country.
+
+### Place of birth
+
+The geographic location where a person was born, usually expressed as a specific locality such as city or town, state, or country.
+
+### Country of birth
+
+Country in which a person was born. If a person was born in a country that has subsequently changed its form of government or has changed its boundaries, the current name of the country (or countries) is used.
+
+### Citizenship
+
+The particular legal bond between an individual and his or her State, acquired by birth or naturalization, whether by declaration, choice, marriage or other means according to national legislation.
+
+### Country of Citizenship
+
+The country of which a person is a citizen. A person can have the citizenship of more than one country.
+
+### Naturalization
+
+The legal act or process by which a non-citizen voluntarily becomes a citizen of a country
+
+### Age
+
+Age is the interval of time between the date of birth and the date of the census, expressed in completed solar years.
+
+### Age group
+
+A grouping of ages, usually in 5-year intervals for adults, such as 20-24, 25-29 year-olds. Age groups for young children are sometimes given in months, for instance 0-11 months, 12-23 months, etc., or smaller age ranges, such as 1 year, 2 years, 3-4 years, etc.
+
+### Child
+
+According to the UN Convention on the Rights of the Child, a child means every human being below the age of 18 years unless, under the law applicable to the child, majority is attained earlier.
+
+### Adolescent
+
+WHO defines adolescents as people in the 10-19 years age group.
+
+### Youth
+
+Youth is the phase of life between childhood and adulthood, from ages 15 to 24.
+
+### Working-age Population
+
+The population aged 15 years and older.
+
+### Economically active population
+
+All persons of either sex who furnish the supply of labour for the production of goods and services during a specified time-reference period (labour force).
+
+### Elderly
+
+Persons aged 60 years and over according to the United Nations. There is variation at country-level with many developed nations using 65 years or older.
+
+### Sex
+
+Sex refers to the biological and physiological characteristics that define men and women.
+
+### Sex ratio
+
+The number of males per 100 females in a population.
+
+### Dependency ratio
+
+The ratio of the economically dependent population (children 0-14 years and elderly persons 65+ years) to the economically productive population (persons 15-64 years), usually expressed as a percentage. It can also be expressed separately as the child dependency ratio and old-age dependency ratio.
+
+### Household
+
+A household consists of a person or group of persons who live together in the same dwelling unit(s), who acknowledge one adult male or female as the head of household, who share the same housekeeping arrangements and are catered for as one unit.
+
+### Head of household
+
+The person who has primary responsibility for the economic and social affairs of the household, and is acknowledged as such by other members of the household.
+
+### Household size
+
+The number of members of a household.
+
+### Family
+
+Usually used to describe a group of two or more persons related by birth, marriage or adoption who reside together; all such persons are considered as members of one family.
+
+### Nuclear family
+
+Usually includes the household head, spouse, and unmarried children.
+
+### Extended family
+
+Nuclear family plus other related individuals such as married children, in-laws, grandparents, and other relatives.
+
+### Marital status
+
+The personal status of each individual in relation to the marriage laws or customs of the country.
+
+### Single/never married
+
+A person who has never married or whose marriage has been annulled and who has not remarried.
+
+### Married
+
+A person who is legally married or living in consensual union.
+
+### Divorced
+
+A person who has obtained a legal divorce and has not remarried.
+
+### Widowed
+
+A person whose spouse has died and who has not remarried.
+
+### Separated
+
+A person who is married but living apart from their spouse.
+
+## Vital statistics
+
+### Vital Statistics
+
+The study of data on births, deaths, marriages, divorces, and migration events.
+
+### Birth
+
+The complete expulsion or extraction from its mother of a product of conception, irrespective of the duration of the pregnancy, which, after such separation, breathes or shows any other evidence of life such as beating of the heart, pulsation of the umbilical cord, or definite movement of voluntary muscles, whether or not the umbilical cord has been cut or the placenta is attached; each product of such birth is considered live-born.
+
+### Live birth
+
+The complete expulsion or extraction from its mother of a product of conception which, after such separation, breathes or shows any other evidence of life such as beating of the heart, pulsation of the umbilical cord, or definite movement of voluntary muscles, whether or not the umbilical cord has been cut or the placenta is attached.
+
+### Crude birth rate
+
+The number of births in a year per 1,000 mid-year population.
+
+### General fertility rate
+
+The number of births in a year per 1,000 women of childbearing age (conventionally ages 15-49).
+
+### Total fertility rate
+
+The average number of children a hypothetical cohort of women would have at the end of their reproductive period if they were subject during their whole lives to the fertility rates of a given period and if they were not subject to mortality. It is expressed as children per woman.
+
+### Age-specific fertility rate
+
+The number of births per 1,000 women in a specific age group during a given time period.
+
+### Death/Mortality
+
+The permanent disappearance of all evidence of life at any time after live birth has taken place (post-natal cessation of vital functions without capability of resuscitation).
+
+### Death Rate (Crude death rate)
+
+The number of deaths in a given period per 1,000 mid-year population.
+
+### Age-specific death rate
+
+The number of deaths among people in a specific age group per 1,000 population in that age group.
+
+### Infant mortality rate
+
+The number of deaths of infants under one year of age per 1,000 live births in a given year.
+
+### Under-five mortality rate (U5MR)
+
+The probability of a child born in a specific year dying before reaching the age of 5 years, expressed per 1,000 live births.
+
+### Neonatal mortality rate
+
+The number of deaths to infants under 28 days of age in a given year per 1,000 live births in that year.
+
+### Maternal mortality ratio
+
+The number of maternal deaths per 100,000 live births during a given time period.
+
+### Maternal death
+
+The death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and site of the pregnancy, from any cause related to or aggravated by the pregnancy or its management but not from accidental or incidental causes.
+
+### Life expectancy at birth
+
+The average number of years a newborn infant would live if prevailing patterns of mortality at the time of birth stay the same throughout the infant's life.
+
+### Stillbirth
+
+Death occurring prior to the complete expulsion or extraction from its mother of a product of human conception. The death is indicated by the fact that after such expulsion or extraction, the fetus does not breathe or show any other evidence of life.
+
+### Perinatal mortality rate
+
+The number of perinatal deaths per 1,000 total births. Perinatal deaths include stillbirths and deaths within the first week of life.
+
+### Cause of death
+
+The disease, abnormality, injury, or poisoning that directly led to death, based on information reported on the death certificate and using the standard procedures and coding rules of the International Classification of Diseases.
+
+## Health
+
+### Health
+
+A state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.
+
+### Morbidity
+
+Any departure from a state of physiological or psychological well-being.
+
+### Communicable diseases
+
+Illnesses caused by infectious agents (such as bacteria, viruses, parasites or fungi) that can be spread, directly or indirectly, from one person to another.
+
+### Non-communicable diseases (NCDs)
+
+Chronic diseases which are not passed from person to person. They are of long duration and generally slow progression. The four main types of non-communicable diseases are cardiovascular diseases, cancer, chronic respiratory diseases and diabetes.
+
+### Epidemic
+
+The occurrence in a community or region of cases of an illness, specific health-related behavior, or other health-related events clearly in excess of normal expectancy.
+
+### Pandemic
+
+An epidemic occurring worldwide, or over a very wide area, crossing international boundaries and usually affecting a large number of people.
+
+### Disability
+
+An umbrella term for impairments, activity limitations and participation restrictions. It denotes the negative aspects of the interaction between an individual (with a health condition) and that individual's contextual factors (environmental and personal factors).
+
+### Prevalence
+
+The number of cases of a disease or condition present in a particular population at a given time.
+
+### Incidence
+
+The number of new cases of a disease or condition that develop in a population during a specific time period.
+
+### Healthcare facility
+
+An institution, building, or structure that provides healthcare services to the public.
+
+### Primary healthcare
+
+Essential healthcare based on scientifically sound and socially acceptable methods and technology which make universal healthcare accessible to all individuals and families in a community.
+
+### Universal health coverage
+
+All people have access to the full spectrum of quality health services they need, when and where they need them, without financial hardship.
+
+### Immunization coverage
+
+The percentage of the population (typically children) who have received one or more doses of a specific vaccine.
+
+### Malnutrition
+
+Refers to deficiencies, excesses, or imbalances in a person's intake of energy and/or nutrients.
+
+### Stunting
+
+Low height for age, indicating chronic malnutrition.
+
+### Wasting
+
+Low weight for height, indicating acute malnutrition.
+
+### Underweight
+
+Low weight for age, indicating both acute and chronic malnutrition.
+
+## Education
+
+### Literacy
+
+The ability to identify, understand, interpret, create, communicate and compute, using printed and written materials associated with varying contexts.
+
+### Literacy Rate
+
+Percentage of population aged 15 years and over who can both read and write with understanding a short simple statement on his/her everyday life.
+
+### Education
+
+Organized and sustained communication designed to bring about learning.
+
+### Formal education
+
+Education that is institutionalized, intentional and planned through public organizations and recognized private bodies and, in their totality, make up the formal education system of a country.
+
+### Non-formal education
+
+Education that is institutionalized, intentional and planned by an education provider but which is considered an addition, alternative and/or complement to formal education within the lifelong learning process.
+
+### Informal learning
+
+Forms of learning that are intentional or deliberate, but not institutionalized. It involves learning activities that occur in a variety of places and through a variety of mechanisms.
+
+### Primary education
+
+Programmes typically designed to provide students with fundamental reading, writing and mathematics skills along with an elementary understanding of other subjects.
+
+### Secondary education
+
+Programmes designed typically to complete the provision of basic education that began at the primary level and aims at laying foundations for lifelong learning and human development, by offering more subject- or skill-oriented instruction using more specialized teachers.
+
+### Tertiary education
+
+Educational programmes with educational content more advanced than what is offered at the secondary education level.
+
+### Pre-primary education
+
+Educational programmes designed primarily to introduce very young children to a school-type environment and provide a bridge between the home and school-based atmosphere.
+
+### School enrollment
+
+The number of pupils or students enrolled at a given level of education, regardless of age.
+
+### Gross enrollment ratio (GER)
+
+Total enrollment in a specific level of education, regardless of age, expressed as a percentage of the eligible official school-age population corresponding to the same level of education.
+
+### Net enrollment ratio (NER)
+
+Enrollment of the official age group for a given level of education expressed as a percentage of the corresponding population.
+
+### School dropout
+
+A student who was enrolled in school at some time during the previous school year; was not enrolled at the beginning of the current school year; has not graduated from high school or completed a state- or district-approved educational programme; and does not meet any of the following exclusionary conditions: transfer to another public or private school, temporary absence due to suspension or school-approved absence, or death.
+
+### Dropout rate
+
+The percentage of enrolled students who drop out of a specific level of education in a given school year.
+
+### Completion rate
+
+The percentage of children entering the first grade of a particular level of education who successfully complete that level within the expected time frame.
+
+### Repetition rate
+
+The proportion of pupils enrolled in a given grade in a given school year who study in the same grade in the following school year.
+
+### Pupil-teacher ratio
+
+Average number of pupils per teacher at a specific level of education based on headcounts for both pupils and teachers.
+
+### Adult education
+
+Educational activities specifically designed for adults to improve their technical or professional qualifications, further develop their abilities, enrich their knowledge with the purpose to complete a level of formal education.
+
+## Labour
+
+### Labour force
+
+Also known as the economically active population, comprises all persons of working age who fulfil the requirements for inclusion among the employed or the unemployed.
+
+### Employment
+
+All persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide services for pay or profit.
+
+### Unemployment
+
+Persons without work, currently available for work and seeking work.
+
+### Unemployment rate
+
+The number of unemployed persons expressed as a percentage of the total labour force.
+
+### Employment-to-population ratio
+
+The proportion of the working-age population that is employed.
+
+### Labour force participation rate
+
+The proportion of the working-age population that is economically active.
+
+### Occupation
+
+The kind of work done by a person in his or her job, or the kind of work for which a person is qualified.
+
+### Industry
+
+The economic activity of the establishment in which a person works.
+
+### Formal sector employment
+
+Employment in enterprises that are incorporated or otherwise registered under national legislation.
+
+### Informal sector employment
+
+Employment in unincorporated small or unregistered enterprises.
+
+### Wage employment
+
+Workers in paid employment jobs are those whose basic remuneration is not directly dependent upon the revenue of the unit for which they work.
+
+### Self-employment
+
+Those workers whose remuneration is directly dependent upon the profits (or the potential for profits) derived from the goods and services produced.
+
+### Child labour
+
+Work that deprives children of their childhood, their potential and their dignity, and that is harmful to physical and mental development.
+
+### Working poverty
+
+Employed persons living below the international poverty line.
+
+### Underemployment
+
+A situation where employed persons are willing and available to work additional hours, but their working hours are insufficient in relation to their skills, capabilities and availability.
+
+## Housing and living conditions
+
+### Dwelling
+
+A place of abode or residence such as a house, flat or other shelter, together with any associated structures such as a garage, etc. which is occupied or intended for occupation by one or more persons.
+
+### Housing unit
+
+A separate and independent place of abode intended for habitation by one household, or one which is occupied as separate living quarters.
+
+### Conventional dwelling
+
+A room or a suite of rooms and its accessories in a permanent building or structurally separated part thereof designed for habitation by one household.
+
+### Non-conventional dwelling
+
+Mobile, semi-permanent or improvised housing units, or units not originally intended for human habitation but used as living quarters at the census reference time.
+
+### Overcrowding
+
+A situation in which the number of occupants exceeds the capacity of the dwelling space available, considering cultural and epidemiological criteria.
+
+### Homeownership
+
+The housing unit is owned by someone in the household.
+
+### Rental housing
+
+The housing unit is rented by someone in the household.
+
+### Access to improved water
+
+The percentage of the population using an improved drinking water source.
+
+### Access to improved sanitation
+
+The percentage of the population using improved sanitation facilities.
+
+### Energy poverty
+
+Lack of access to modern energy services, including electricity and clean cooking facilities.
+
+## Crime and justice
+
+### Crime
+
+An act committed or omitted in violation of a law forbidding or commanding it and for which punishment is imposed upon conviction.
+
+### Criminal offense
+
+Any act or omission prohibited by criminal law and punishable by the state.
+
+### Reported crime
+
+Crimes brought to the attention of the police or other law enforcement agencies.
+
+### Crime rate
+
+Number of reported crimes per 100,000 population.
+
+### Violent crime
+
+Crimes that involve force or threat of force against persons, including homicide, assault, robbery, and sexual offenses.
+
+### Property crime
+
+Crimes involving the unlawful taking or destruction of property, including burglary, theft, arson, and vandalism.
+
+### Victimization
+
+The process of being victimized or becoming a victim of crime.
+
+### Victim
+
+A person who has suffered harm, including physical or mental injury, emotional suffering, economic loss or substantial impairment of fundamental rights, through acts or omissions that violate criminal laws.
+
+## Social protection
+
+### Social protection
+
+The set of policies and programmes designed to reduce and prevent poverty and vulnerability throughout the life cycle.
+
+### Social security
+
+A system of social protection that provides cash benefits to the population to ensure income security in cases of old age, unemployment, sickness, invalidity, work injury, maternity or loss of a main income earner.
+
+### Social assistance
+
+Non-contributory transfers in cash or in-kind provided to individuals and households in poverty or deemed vulnerable to poverty and other forms of deprivation.
+
+### Social insurance
+
+A system that provides benefits in the form of cash payments or services to individuals who have been compulsorily or voluntarily covered and their dependents or survivors.
+
+### Cash transfer
+
+Direct provision of cash to individuals, households or communities.
+
+### Conditional cash transfer
+
+Cash transfers provided to beneficiaries conditional on meeting certain requirements.
+
+### Unconditional cash transfer
+
+Cash transfers provided to beneficiaries without requiring them to meet specific conditions.
+
+## Social statistics n.e.c.
+
+### Community
+
+A group of people living in the same place or having a particular characteristic in common.
+
+### Social inclusion
+
+The process of improving the terms on which individuals and groups take part in society.
+
+### Social exclusion
+
+The process through which individuals or groups are wholly or partially excluded from full participation in the society in which they live.
+
+### Social cohesion
+
+The willingness of members of a society to cooperate with each other in order to survive and prosper.
+
+### Culture
+
+The set of distinctive spiritual, material, intellectual and emotional features of society or a social group that encompasses art, literature, lifestyles, ways of living together, value systems, traditions and beliefs.
+
+### Recreation
+
+Activities done for enjoyment when one is not working.
+
+### Sport
+
+All forms of physical activity which, through casual or organized participation, aim at expressing or improving physical fitness and mental well-being, forming social relationships or obtaining results in competition at all levels.

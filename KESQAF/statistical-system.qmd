@@ -1,0 +1,69 @@
+# The Statistical System in Kenya
+
+According to the Organization for Economic Co-operation and Development (OECD), the National Statistical System (NSS) is the ensemble of statistical organizations and units within a country, that jointly collect, process and disseminate official statistics on behalf of the government. In Kenya, the NSS includes producers, suppliers and users of official statistics working under the supervision and coordination of the Kenya National Bureau of Statistics.
+
+The Constitution of Kenya, which was enacted in 2010 changed the administrative structure of the country that brought in a devolved system of governance. The country has a National Government and 47 County Governments. The constitution categorized statistics as a concurrent function between the two levels of Government. Specifically, the Fourth Schedule of the Constitution bestows the responsibility of national statistics and data on population, the economy and society generally on the National Government while County Governments are responsible for statistics for county planning and development. The National Government has the role of national economic policy and planning, capacity building and technical assistance to the counties.
+
+The statistical system in Kenya is centralized, in that, KNBS is established by the Statistics Act, 2006 as the producer of official statistics and the only institution in the country to certify statistics produced as official. The Statistics Act provides the legal basis for the NSS and establishes KNBS as the principal agency of government responsible for the collection, compilation, analysis, publication and dissemination of statistical information, and the coordination of the NSS. With respect to coordination of the NSS, the Act mandates KNBS to: collaborate with and assist the county governments or any other institutions in the production of official statistics; provide technical advice on statistics to other state entities; promote coordination among producers, users and suppliers of official statistics by forming appropriate sector committees; designating statistics produced by the NSS as official statistics on being satisfied that the necessary criteria have been followed.
+
+The Bureau achieves the NSS coordination role through several mechanisms. The planning of statistical activities and programmes in the NSS is achieved through the development and implementation of a National Strategy for Development of Statistics (NSDS). The NSDS in Kenya is referred to as the Kenya Strategy for Development of Statistics (KSDS). For the development of KSDS, a unit producing statistics is referred to as a statistical sector. These include a data production unit, user unit or both producer and user units that generate and or demand specific statistics. The Strategy is an international best practice and is developed in line with the regional Strategies for the development of statistics and the Strategy for the Harmonization of Statistics in Africa (ShASA). The strategy is developed and implemented through two committees: The Inter- Agency Statistical Committees (IaSC) and the Sector Statistics Committee (SSC). The IaSC comprises of heads of Departments where the Statistical Units are domiciled in the various MDAs. The SSC is made up of nominated staff from the units handling statistics in the statistics sectors. The two committees play a big role in the development, approval and implementation of the sector statistics plans which form the building blocks for the KSDS. The structure and reporting levels for the implementation of KSDS is shown in figure 1.0.
+
+![Figure 1: Coordination Structure of the National Statistical System](Capture.JPG)
+
+The technical capacity building and harmonization of statistics within the NSS is achieved through technical working groups and committees, on different thematic/sectoral areas. The technical committees/groups are made up of statisticians and statistics focal persons from the various MDAs and meet on a quarterly basis to interrogate and harmonize data on the respective sectors/thematic areas. The established technical working groups/committees include Agriculture, Nutrition and Environment; Trade and trade Facilitation and Balance of payment; Gender Statistics; Health Statistics; Education Statistics; Governance Statistics; Tourism Statistics; Monetary Statistics; Disability Statistics; and Energy Statistics. The coordination also extends to the representation of the country in regional, continental and global statistical committees on various thematic areas.
+
+The implementation of activities in the NSS cannot be carried out in oblivion of the evolving data ecosystems. The national data ecosystem is the entire network of data collectors, data producers, data analysts and other data users across the data value chain and the associated infrastructure and enablers in Kenya. Coordination in the ecosystem involves the linkages with activities of the non-State actors that produce statistics, the legal infrastructure to support this linkage and extension of the capacity building beyond the production of official statistics to strengthen the capacity of non-state actors to produce statistics that can be utilized for official reporting.
+
+The Bureau also organizes and participates in technical workshops that bring together stakeholders in the management of statistics, including the development partners and non- state actors. The focus of all the tools of coordination of the NSS is statistical capacity building and ensuring sustainability in the production and use of quality statistics. Training and capacity need assessments for the NSS are continually undertaken to inform the development of roadmaps for training and offering technical assistance to the NSS members to enhance the quality of statistics produced in the NSS and the wider data ecosystem.
+
+The coordination of the NSS ensures: Harmonization of concepts, definitions, classifications, sampling frames, and statistical methods and dissemination policies to make statistical outputs comparable across the NSS as well as in the wider data ecosystem; Effective data collection and proper data sharing of administrative and other data sources; Strengthening of the position of and enhancing the credibility of official statistics; representation of a country in international statistical cooperation and policies; implementation of mechanisms to allow the assessment and guarantee the quality of statistics produced by NSS members; and monitoring and reporting on progress regarding, sub-national, national, regional, continental and global development agendas. In addition, the NSS is expected to evolve to respond to user needs, technological changes as well as institutional changes.
+
+## Situational Analysis
+
+An assessment of the environment in which statistical production processes are undertaken is critical in understanding the strategic positioning to inform the determination of short and medium-term strategies concerning statistical quality. Analysis of the Strengths, Weaknesses, Opportunities and Threats (SWOT) in the NSS is critical in understanding its immediate operational environment. The analysis has been carried out by assessing the competitive advantages (Strengths), controllable internal disadvantages (Weaknesses), external possibilities for success (Opportunities) and uncontrollable external negative factors (Threats) in the statistical production processes within the NSS.
+
+### Strengths
+
+-   Relevant laws (The Constitution of Kenya 2010, and the Statistics Act, 2006) underpin the production of statistical information.
+
+-   Application of international standards and guidelines for the compilation of statistical information.
+
+-   Functional technical working groups/committees under the NSS in a number of statistical areas through which the aspirations of the framework can be actualized.
+
+-   Collaborations among members of the NSS brings about shared funding of statistics production activities and technical capacity building.
+
+-   Availability of Data Quality Assessment Frameworks (DQAF) that can be used as assessment tools.
+
+-   Implementation of the KSDS that provides a take-off platform for KeSQAF given its emphasis on mainstreaming of statistical production within the NSS.
+
+### Weaknesses
+
+-   Low staffing of Statistical Units in the Ministries, Departments and Agencies (MDAs).
+
+-   Inadequate technical capacity of staff dealing with statistics in MDAs.
+
+-   Inadequate financial resources for the requisite statistical activities.
+
+-   Low focus in addressing statistical needs in MDAs whose mandates are not essentially statistical.
+
+### Opportunities
+
+-   Availability of country-specific QAFs that Kenya can benchmark and learn from.
+
+-   Availability of generic and customizable quality assurance framework, UN-NQAF, that provides the basis for the development of the national framework. •
+
+-   Existence of avenues such as the PARIS21, Marrakech Action Plan for Statistics (MAPs) among others that place considerable emphasis on the issue of statistical coordination and observance of quality practices.
+
+-   Advancement in technology has made it possible to manage statistical information more efficiently.
+
+### Threats
+
+-   Resistance to change may delay or slow down the process of adopting KeSQAF.
+
+-   Cyber insecurity may pose serious challenges to the implementation of some of the requirements of KeSQAF. For example, accessing confidential information by unauthorized persons.
+
+-   Potential external interference
+
+-   Corona Virus Disease (COVID-19): Budget reprioritization due to the pandemic, may limit the availability of funds for the production of quality statistics.
+
+The Bureau in consultation with the other stakeholders in the national data ecosystem is expected to utilise the strengths and take advantage of the opportunities in the ecosystem to ensure there is statistical capacity-building in the production and use of statistics. The Bureau is also expected to identify the weaknesses and threats in the system and develop strategies for dealing with challenges to ensure sustainability in the production of quality statistics.

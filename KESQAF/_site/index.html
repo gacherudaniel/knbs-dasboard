@@ -1,0 +1,1865 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Kenya Statistical Quality Assurance Framework (KeSQAF)</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-985aa47af68dae11cd4d235c71fb941e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 10,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#quality-context" id="toc-quality-context" class="nav-link" data-scroll-target="#quality-context"><span class="header-section-number">2</span> Quality Context</a>
+  <ul class="collapse">
+  <li><a href="#rationale-for-a-quality-assurance-framework" id="toc-rationale-for-a-quality-assurance-framework" class="nav-link" data-scroll-target="#rationale-for-a-quality-assurance-framework"><span class="header-section-number">2.1</span> Rationale for a Quality Assurance Framework</a></li>
+  <li><a href="#benefits-of-kesqaf" id="toc-benefits-of-kesqaf" class="nav-link" data-scroll-target="#benefits-of-kesqaf"><span class="header-section-number">2.2</span> Benefits of KeSQAF</a></li>
+  <li><a href="#policies-strategies-and-frameworks-supporting-kesqaf" id="toc-policies-strategies-and-frameworks-supporting-kesqaf" class="nav-link" data-scroll-target="#policies-strategies-and-frameworks-supporting-kesqaf"><span class="header-section-number">2.3</span> Policies, Strategies and Frameworks Supporting KeSQAF</a></li>
+  </ul></li>
+  <li><a href="#quality-concepts" id="toc-quality-concepts" class="nav-link" data-scroll-target="#quality-concepts"><span class="header-section-number">3</span> Quality Concepts</a>
+  <ul class="collapse">
+  <li><a href="#relevance" id="toc-relevance" class="nav-link" data-scroll-target="#relevance"><span class="header-section-number">3.1</span> Relevance</a></li>
+  <li><a href="#accuracy" id="toc-accuracy" class="nav-link" data-scroll-target="#accuracy"><span class="header-section-number">3.2</span> Accuracy</a></li>
+  <li><a href="#reliability" id="toc-reliability" class="nav-link" data-scroll-target="#reliability"><span class="header-section-number">3.3</span> Reliability</a></li>
+  <li><a href="#timeliness" id="toc-timeliness" class="nav-link" data-scroll-target="#timeliness"><span class="header-section-number">3.4</span> Timeliness</a></li>
+  <li><a href="#punctuality" id="toc-punctuality" class="nav-link" data-scroll-target="#punctuality"><span class="header-section-number">3.5</span> Punctuality</a></li>
+  <li><a href="#accessibility" id="toc-accessibility" class="nav-link" data-scroll-target="#accessibility"><span class="header-section-number">3.6</span> Accessibility</a></li>
+  <li><a href="#clarity" id="toc-clarity" class="nav-link" data-scroll-target="#clarity"><span class="header-section-number">3.7</span> Clarity</a></li>
+  <li><a href="#coherence" id="toc-coherence" class="nav-link" data-scroll-target="#coherence"><span class="header-section-number">3.8</span> Coherence</a></li>
+  <li><a href="#consistency" id="toc-consistency" class="nav-link" data-scroll-target="#consistency"><span class="header-section-number">3.9</span> Consistency</a></li>
+  <li><a href="#methodological-soundness" id="toc-methodological-soundness" class="nav-link" data-scroll-target="#methodological-soundness"><span class="header-section-number">3.10</span> Methodological Soundness</a></li>
+  <li><a href="#integrity" id="toc-integrity" class="nav-link" data-scroll-target="#integrity"><span class="header-section-number">3.11</span> Integrity</a></li>
+  </ul></li>
+  <li><a href="#the-statistical-system-in-kenya" id="toc-the-statistical-system-in-kenya" class="nav-link" data-scroll-target="#the-statistical-system-in-kenya"><span class="header-section-number">4</span> The Statistical System in Kenya</a>
+  <ul class="collapse">
+  <li><a href="#situational-analysis" id="toc-situational-analysis" class="nav-link" data-scroll-target="#situational-analysis"><span class="header-section-number">4.1</span> Situational Analysis</a>
+  <ul class="collapse">
+  <li><a href="#strengths" id="toc-strengths" class="nav-link" data-scroll-target="#strengths"><span class="header-section-number">4.1.1</span> Strengths</a></li>
+  <li><a href="#weaknesses" id="toc-weaknesses" class="nav-link" data-scroll-target="#weaknesses"><span class="header-section-number">4.1.2</span> Weaknesses</a></li>
+  <li><a href="#opportunities" id="toc-opportunities" class="nav-link" data-scroll-target="#opportunities"><span class="header-section-number">4.1.3</span> Opportunities</a></li>
+  <li><a href="#threats" id="toc-threats" class="nav-link" data-scroll-target="#threats"><span class="header-section-number">4.1.4</span> Threats</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#quality-assurance-principles-and-requirements" id="toc-quality-assurance-principles-and-requirements" class="nav-link" data-scroll-target="#quality-assurance-principles-and-requirements"><span class="header-section-number">5</span> Quality Assurance Principles and Requirements</a>
+  <ul class="collapse">
+  <li><a href="#level-a-managing-the-statistical-system" id="toc-level-a-managing-the-statistical-system" class="nav-link" data-scroll-target="#level-a-managing-the-statistical-system"><span class="header-section-number">5.1</span> Level A: Managing the Statistical System</a>
+  <ul class="collapse">
+  <li><a href="#principle-1-coordinating-the-national-statistical-system" id="toc-principle-1-coordinating-the-national-statistical-system" class="nav-link" data-scroll-target="#principle-1-coordinating-the-national-statistical-system"><span class="header-section-number">5.1.1</span> Principle 1: Coordinating the National Statistical System</a></li>
+  <li><a href="#principle-2-managing-relationships-with-data-users-data-providers-and-other-stakeholders" id="toc-principle-2-managing-relationships-with-data-users-data-providers-and-other-stakeholders" class="nav-link" data-scroll-target="#principle-2-managing-relationships-with-data-users-data-providers-and-other-stakeholders"><span class="header-section-number">5.1.2</span> Principle 2: Managing Relationships with Data Users, Data Providers and Other Stakeholders</a></li>
+  <li><a href="#principle-3-managing-statistical-standards" id="toc-principle-3-managing-statistical-standards" class="nav-link" data-scroll-target="#principle-3-managing-statistical-standards"><span class="header-section-number">5.1.3</span> Principle 3: Managing Statistical Standards</a></li>
+  </ul></li>
+  <li><a href="#level-b-managing-the-institutional-environment" id="toc-level-b-managing-the-institutional-environment" class="nav-link" data-scroll-target="#level-b-managing-the-institutional-environment"><span class="header-section-number">5.2</span> Level B: Managing the Institutional Environment</a>
+  <ul class="collapse">
+  <li><a href="#principle-4-assuring-professional-independence" id="toc-principle-4-assuring-professional-independence" class="nav-link" data-scroll-target="#principle-4-assuring-professional-independence"><span class="header-section-number">5.2.1</span> Principle 4: Assuring Professional Independence</a></li>
+  <li><a href="#principle-5-assuring-transparency" id="toc-principle-5-assuring-transparency" class="nav-link" data-scroll-target="#principle-5-assuring-transparency"><span class="header-section-number">5.2.2</span> Principle 5: Assuring Transparency</a></li>
+  <li><a href="#principle-6-assuring-statistical-confidentiality-and-data-security" id="toc-principle-6-assuring-statistical-confidentiality-and-data-security" class="nav-link" data-scroll-target="#principle-6-assuring-statistical-confidentiality-and-data-security"><span class="header-section-number">5.2.3</span> Principle 6: Assuring Statistical Confidentiality and Data Security</a></li>
+  <li><a href="#principle-7-assuring-statistical-confidentiality-and-data-security" id="toc-principle-7-assuring-statistical-confidentiality-and-data-security" class="nav-link" data-scroll-target="#principle-7-assuring-statistical-confidentiality-and-data-security"><span class="header-section-number">5.2.4</span> Principle 7: Assuring Statistical Confidentiality and Data Security</a></li>
+  <li><a href="#principle-8-assuring-commitment-to-quality" id="toc-principle-8-assuring-commitment-to-quality" class="nav-link" data-scroll-target="#principle-8-assuring-commitment-to-quality"><span class="header-section-number">5.2.5</span> Principle 8: Assuring Commitment to Quality</a></li>
+  <li><a href="#principle-9-assuring-adequacy-of-resources" id="toc-principle-9-assuring-adequacy-of-resources" class="nav-link" data-scroll-target="#principle-9-assuring-adequacy-of-resources"><span class="header-section-number">5.2.6</span> Principle 9: Assuring Adequacy of Resources</a></li>
+  </ul></li>
+  <li><a href="#level-c-managing-statistical-processes" id="toc-level-c-managing-statistical-processes" class="nav-link" data-scroll-target="#level-c-managing-statistical-processes"><span class="header-section-number">5.3</span> Level C: Managing Statistical Processes</a>
+  <ul class="collapse">
+  <li><a href="#principle-10-assuring-methodological-soundness" id="toc-principle-10-assuring-methodological-soundness" class="nav-link" data-scroll-target="#principle-10-assuring-methodological-soundness"><span class="header-section-number">5.3.1</span> Principle 10: Assuring Methodological Soundness</a></li>
+  <li><a href="#principle-11-assuring-cost-effectiveness" id="toc-principle-11-assuring-cost-effectiveness" class="nav-link" data-scroll-target="#principle-11-assuring-cost-effectiveness"><span class="header-section-number">5.3.2</span> Principle 11: Assuring Cost-effectiveness</a></li>
+  <li><a href="#principle-12-assuring-appropriate-statistical-procedures" id="toc-principle-12-assuring-appropriate-statistical-procedures" class="nav-link" data-scroll-target="#principle-12-assuring-appropriate-statistical-procedures"><span class="header-section-number">5.3.3</span> Principle 12: Assuring Appropriate Statistical Procedures</a></li>
+  <li><a href="#principle-13-managing-the-respondent-burden" id="toc-principle-13-managing-the-respondent-burden" class="nav-link" data-scroll-target="#principle-13-managing-the-respondent-burden"><span class="header-section-number">5.3.4</span> Principle 13: Managing the Respondent Burden</a></li>
+  <li><a href="#principle-15-assuring-accuracy-and-reliability" id="toc-principle-15-assuring-accuracy-and-reliability" class="nav-link" data-scroll-target="#principle-15-assuring-accuracy-and-reliability"><span class="header-section-number">5.3.5</span> Principle 15: Assuring Accuracy and Reliability</a></li>
+  <li><a href="#principle-16-assuring-timeliness-and-punctuality" id="toc-principle-16-assuring-timeliness-and-punctuality" class="nav-link" data-scroll-target="#principle-16-assuring-timeliness-and-punctuality"><span class="header-section-number">5.3.6</span> Principle 16: Assuring Timeliness and Punctuality</a></li>
+  <li><a href="#principle-17-assuring-accessibility-and-clarity" id="toc-principle-17-assuring-accessibility-and-clarity" class="nav-link" data-scroll-target="#principle-17-assuring-accessibility-and-clarity"><span class="header-section-number">5.3.7</span> Principle 17: Assuring Accessibility and Clarity</a></li>
+  <li><a href="#principle-18-assuring-coherence-and-comparability" id="toc-principle-18-assuring-coherence-and-comparability" class="nav-link" data-scroll-target="#principle-18-assuring-coherence-and-comparability"><span class="header-section-number">5.3.8</span> Principle 18: Assuring Coherence and Comparability</a></li>
+  <li><a href="#principle-18-assuring-coherence-and-comparability-1" id="toc-principle-18-assuring-coherence-and-comparability-1" class="nav-link" data-scroll-target="#principle-18-assuring-coherence-and-comparability-1"><span class="header-section-number">5.3.9</span> Principle 18: Assuring Coherence and Comparability</a></li>
+  <li><a href="#principle-19-managing-metadata" id="toc-principle-19-managing-metadata" class="nav-link" data-scroll-target="#principle-19-managing-metadata"><span class="header-section-number">5.3.10</span> Principle 19: Managing Metadata</a></li>
+  </ul></li>
+  <li><a href="#implementation-of-the-quality-assurance-framework" id="toc-implementation-of-the-quality-assurance-framework" class="nav-link" data-scroll-target="#implementation-of-the-quality-assurance-framework"><span class="header-section-number">5.4</span> Implementation of the Quality Assurance Framework</a>
+  <ul class="collapse">
+  <li><a href="#institutional-arrangements" id="toc-institutional-arrangements" class="nav-link" data-scroll-target="#institutional-arrangements"><span class="header-section-number">5.4.1</span> Institutional Arrangements</a></li>
+  <li><a href="#training-of-staff" id="toc-training-of-staff" class="nav-link" data-scroll-target="#training-of-staff"><span class="header-section-number">5.4.2</span> Training of Staff</a></li>
+  <li><a href="#external-and-internal-communication" id="toc-external-and-internal-communication" class="nav-link" data-scroll-target="#external-and-internal-communication"><span class="header-section-number">5.4.3</span> External and Internal Communication</a></li>
+  <li><a href="#development-of-an-implementation-strategy-and-implementation" id="toc-development-of-an-implementation-strategy-and-implementation" class="nav-link" data-scroll-target="#development-of-an-implementation-strategy-and-implementation"><span class="header-section-number">5.4.4</span> Development of an Implementation Strategy and Implementation</a></li>
+  </ul></li>
+  <li><a href="#assessment-and-reporting" id="toc-assessment-and-reporting" class="nav-link" data-scroll-target="#assessment-and-reporting"><span class="header-section-number">5.5</span> Assessment and Reporting</a>
+  <ul class="collapse">
+  <li><a href="#quality-indicators" id="toc-quality-indicators" class="nav-link" data-scroll-target="#quality-indicators"><span class="header-section-number">5.5.1</span> Quality Indicators</a></li>
+  <li><a href="#quality-reports" id="toc-quality-reports" class="nav-link" data-scroll-target="#quality-reports"><span class="header-section-number">5.5.2</span> Quality Reports</a></li>
+  <li><a href="#obtaining-feedback-from-users" id="toc-obtaining-feedback-from-users" class="nav-link" data-scroll-target="#obtaining-feedback-from-users"><span class="header-section-number">5.5.3</span> Obtaining Feedback from Users</a></li>
+  <li><a href="#conducting-assessments" id="toc-conducting-assessments" class="nav-link" data-scroll-target="#conducting-assessments"><span class="header-section-number">5.5.4</span> Conducting Assessments</a></li>
+  <li><a href="#labeling" id="toc-labeling" class="nav-link" data-scroll-target="#labeling"><span class="header-section-number">5.5.5</span> Labeling</a></li>
+  <li><a href="#quality-assurance-for-statistics-compiled-from-different-data-sources" id="toc-quality-assurance-for-statistics-compiled-from-different-data-sources" class="nav-link" data-scroll-target="#quality-assurance-for-statistics-compiled-from-different-data-sources"><span class="header-section-number">5.5.6</span> Quality Assurance for Statistics Compiled from Different Data Sources</a></li>
+  </ul></li>
+  <li><a href="#continuous-improvement-of-kesqaf" id="toc-continuous-improvement-of-kesqaf" class="nav-link" data-scroll-target="#continuous-improvement-of-kesqaf"><span class="header-section-number">5.6</span> Continuous Improvement of KeSQAF</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">6</span> References</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Kenya Statistical Quality Assurance Framework (KeSQAF)</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p>In recent years, new data sources, data providers and statistics producers have emerged, fueled by technological advances and new demands for detailed and timely data for policy making to address various development agendas. This new data ecosystem poses challenges and opportunities for official statistics. For instance, in the future, national statistical offices may see their role as a producer of official statistics diminished while adopting a new role as a curator of data and statistics produced by others. There is, therefore, a need for a National Quality Assurance Framework (NQAF) that provides a coherent and holistic system for statistical quality management that guarantees trust in the quality of official statistics. Official statistics need to be produced in an objective, transparent and professionally independent manner, in order to achieve and maintain public trust (UNCTAD, 2019). In light of this, the UN-NQAF manual for Official Statistics was adopted in 2019 to guide countries in the implementation of their respective NQAF (United Nations, 2019). The 19 quality principles and their associated requirements from the United Nations National Quality Assurance Framework (UN NQAF) manual are all borrowed in the development of the Kenya Statistical Quality Assurance Framework (KeSQAF). KeSQAF aims to address quality assurance in different circumstances and situations, thereby supporting the country in safeguarding the role of official statistics as a trusted source of information in a changing environment. This section presents the rationale for developing the quality assurance framework, the benefits of KeSQAF and the policies, strategies and frameworks supporting KeSQAF. Definitions of the adopted quality dimensions are also presented in this section.</p>
+</section>
+<section id="quality-context" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Quality Context</h1>
+<section id="rationale-for-a-quality-assurance-framework" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="rationale-for-a-quality-assurance-framework"><span class="header-section-number">2.1</span> Rationale for a Quality Assurance Framework</h2>
+<p>The Kenya National Bureau of Statistics (KNBS) is the National Statistics office in Kenya and is mandated to collect, compile, analyse, publish, and disseminate statistical information for public use. It is the principal agency for official statistics produced in the country. Official statistics are not only indispensable inputs for planning, monitoring and assessing attainment of the targets of the national development agenda, strategic objectives of businesses and research objectives of academicians, but are also useful for other evidence-based decision-making.</p>
+<p>Given KNBS’s obligation to provide statistics that inform decision-making and the need to provide leadership to members of the NSS and other producers of statistics, there is a need for a framework to support the production of high-quality statistics. The UN NQAF manual recommends the use of the Generic Statistical Business Process Model (GSBPM) which provides a roadmap on the various sets of business processes required to produce official statistics. GSBPM outlines steps in the data production process that include, identification of needs, design, data collection and processing, data analysis and reporting, dissemination and documentation and lastly, evaluation. Care has to be taken to guard against errors in the statistical business process and to mitigate and/or correct deficiencies by providing supportive legal, administrative and technological infrastructure and institutional environment. This is the context in which KeSQAF has been developed to manage the quality of the organization’s services, statistical processes and related products, as well as communication with stakeholders in a systematic and formalized way.</p>
+<p>The quality assurance framework provides transparency and clarity necessary to manage and respond to data users’ expectations, queries and demands while bolstering the credibility of the organization. It is the responsibility of KNBS to clearly articulate the concepts and definitions that form the basis for the statistics produced while outlining the methodologies used. It is also KNBS’s responsibility to check on erroneous interpretation and misuse of statistics. This is especially useful for addressing instances when the reasonableness of statistics published across NSS is questioned by stakeholders whose concerns may be based on the limited understanding of the methodologies used in generating the statistics.</p>
+<p>The KNBS is part of a global statistical system characterized by increasing interconnectedness, a dynamic knowledge economy and the use of rapidly changing technology that requires openness and adherence to scientific and professional standards, including the use of a common architectural framework that allows for the sharing and exchange of information. The Bureau, therefore, does not operate in isolation but with other producers of statistics locally, regionally and internationally. Information sharing with its partners necessitates adequate provision for access to data, with due regard for confidentiality, coherence and comparability of statistics. Kenya ascribes to global, continental and regional development agendas such as Agenda 2063 on Africa Charter for Development of Statistics and the 2030 Global Development Agenda for Sustainable Development implying that statistics of high quality are necessary for tracking progress in attaining these development goals.</p>
+<p>The UN Fundamental Principles of Official Statistics (UNFPOS) and Principles Governing International Statistical Activities (PGISA) promote coordination and cooperation among national organizations for official statistics to improve systems of official statistics globally. Against this background, there is a need for modernization of the Bureau’s statistical production and services which is also being driven by the need to reduce the response burden and improve efficiencies in the production of official statistics. Additionally, data users have an increasing demand for more timely and accurate data and there is growing competition from alternative data producers and researchers moving up the statistical value chain. This, therefore, requires that KNBS steps up in the implementation of its mandate to ensure that the statistics produced across NSS are of high quality.</p>
+</section>
+<section id="benefits-of-kesqaf" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="benefits-of-kesqaf"><span class="header-section-number">2.2</span> Benefits of KeSQAF</h2>
+<p>The quality assurance framework has a well-defined and responsive structure that provides context for quality concerns, activities and initiatives and explains the relationships between the various quality procedures and tools. The framework provides a single platform to record and reference the full range of current quality concepts, dimensions and practices and is forward-looking since it is flexible to take into account future actions and activities.</p>
+<p>The quality assurance framework also serves to formalize both operational standards and criteria for evaluating the fitness of statistical data for their required purposes, as well as the methodologies used for data collection, processing, analysis and dissemination, and strategic and managerial issues of statistics.</p>
+<p>In addition, KeSQAF aims to improve consistency and efficiency in the NSS by reducing duplication of efforts; normalizing the use of international concepts, definitions, classifications, standards, sampling frames, and methodologies, where appropriate; and, creating datasets that are responsive to data sharing demands.</p>
+<p>KeSQAF aims at increasing effectiveness and efficiency in the production of statistics in the Country. The framework also forms a foundation for validating data from both primary and alternative sources.</p>
+</section>
+<section id="policies-strategies-and-frameworks-supporting-kesqaf" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="policies-strategies-and-frameworks-supporting-kesqaf"><span class="header-section-number">2.3</span> Policies, Strategies and Frameworks Supporting KeSQAF</h2>
+<p>The development and implementation of KeSQAF is supported by various legal frameworks, strategies, policies, procedures and statistical quality frameworks. These include the:</p>
+<p>a. Statistics Act, 2006;</p>
+<p>b. Kenya Strategy for Development of Statistics (KSDS);</p>
+<p>c. ISO 9001:2015 standards;</p>
+<p>d. Existing Data Quality Assessment Frameworks (DQAFs);</p>
+<p>e. United Nations National Quality Assurance Framework (UN-NQAF);</p>
+<p>f. UN Principles Governing International Statistical Activities;</p>
+<p>g. African Charter on Statistics;</p>
+<p>h. International Statistical Institute’s (ISI) Declaration on Professional Ethics;</p>
+<p>i. Statistical Data and Metadata Exchange (SDMX);</p>
+<p>j. European Statistics (Eurostat) Code of Practice (CoP).</p>
+</section>
+</section>
+<section id="quality-concepts" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Quality Concepts</h1>
+<p>Quality is a multidimensional concept, which means the degree to which a set of inherent characteristics fulfils requirements. Quality is in reference to statistical output, the statistical process that produced it, the institutional environment housing the process, or the whole statistical system. The KNBS adopts the “Fit for purpose” approach, whereby statistics produced are appropriate and are of necessary standards for their intended use. This, therefore, means that the users of statistics will be continually engaged so that data produced in the Country is of the highest standard, integrity and credibility and addresses gaps/needs of the users. Data quality is expressed in terms of dimensions. In line with international best practices and recommendations, KNBS has adopted 11 key quality dimensions for assuring statistical quality. These are relevance, accuracy, reliability, timeliness, punctuality, accessibility, clarity/interpretability, coherence, consistency, methodological soundness and integrity. It is important to note that these quality dimensions strongly focus on the quality of the statistical output and are, therefore, a subset of the 19 quality principles adopted in KeSQAF.</p>
+<section id="relevance" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="relevance"><span class="header-section-number">3.1</span> Relevance</h2>
+<p>is the “degree to which statistical information meets the real or perceived needs of clients.” This dimension of quality addresses how useful official statistics are for the issues that are important to users. Resource constraints necessitate the identification of and responsiveness to the most important needs among many user needs.</p>
+</section>
+<section id="accuracy" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="accuracy"><span class="header-section-number">3.2</span> Accuracy</h2>
+<p>refers to the “closeness of computations or estimates to the unknown exact or true values that the statistics were intended to measure.” This reflects the degree of nearness that official statistics have achieved in correctly representing the phenomena they measure. This can be expressed in terms of quantitative measures of accuracy, including possible sources of error such as coverage, sampling, non-response and response error rates; or qualitative assessment indicators.</p>
+</section>
+<section id="reliability" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="reliability"><span class="header-section-number">3.3</span> Reliability</h2>
+<p>is closely associated with accuracy and speaks of the “closeness of the initial estimated value to the subsequent estimated value.” Consistently large differences between subsequent estimates to an initial estimate suggest possible bias in the initial estimate, while random large gaps between subsequent estimates and an initial estimate may indicate a need to re-assess the timeliness of subsequent estimates.</p>
+</section>
+<section id="timeliness" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="timeliness"><span class="header-section-number">3.4</span> Timeliness</h2>
+<p>pertains to the “length of time between data availability and the event or phenomenon they describe.” This references both:</p>
+<p>a) the time lapse between the end of a reference date/period for data collection and receipt of the data for compilation and processing (timeliness of source data), and</p>
+<p>b) the time lapse between the end of a reference date/period and data dissemination (timeliness of output).</p>
+</section>
+<section id="punctuality" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="punctuality"><span class="header-section-number">3.5</span> Punctuality</h2>
+<p>is closely associated with timeliness and is the “time lag between the actual delivery of the data and the target date when it should have been delivered.” This relates to whether or not data are disseminated on scheduled release dates. Data that is punctual may still be considered untimely if the release date lags too far behind its reference period (i.e., the time of the occurrence of the event/phenomenon), rendering it less useful or useless for decision-making.</p>
+</section>
+<section id="accessibility" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="accessibility"><span class="header-section-number">3.6</span> Accessibility</h2>
+<p>refers to “the ease and conditions under which statistical information can be obtained.” This relates not only to how easily data can be accessed by users but also to the form the data are in and the means through which users have access to the data.</p>
+</section>
+<section id="clarity" class="level2" data-number="3.7">
+<h2 data-number="3.7" class="anchored" data-anchor-id="clarity"><span class="header-section-number">3.7</span> Clarity</h2>
+<p>is “the extent to which easily comprehensible metadata are available, where these metadata are necessary to give a full understanding of statistical data.” It addresses whether or not statistical data are complemented by descriptive information about the data’s quality and limitations and if additional assistance is available to users by providers to enable users to work with the data to meet their needs.</p>
+</section>
+<section id="coherence" class="level2" data-number="3.8">
+<h2 data-number="3.8" class="anchored" data-anchor-id="coherence"><span class="header-section-number">3.8</span> Coherence</h2>
+<p>is the “adequacy of statistics to be combined in different ways and for different uses. It refers to comparisons between statistics for the same or largely similar populations.” Coherence in statistics is the degree to which the data constitute a logical picture of the population they are describing. For example, in the domain of labour statistics, the employed and unemployed must account for 100 per cent of the labour force.</p>
+</section>
+<section id="consistency" class="level2" data-number="3.9">
+<h2 data-number="3.9" class="anchored" data-anchor-id="consistency"><span class="header-section-number">3.9</span> Consistency</h2>
+<p>refers to statistics having “logical and numerical coherence.”</p>
+</section>
+<section id="methodological-soundness" class="level2" data-number="3.10">
+<h2 data-number="3.10" class="anchored" data-anchor-id="methodological-soundness"><span class="header-section-number">3.10</span> Methodological Soundness</h2>
+<p>is “the extent to which the methodology used to compile statistics complies with the relevant international standards, including the professional standards enshrined in the UN Fundamental Principles for Official Statistics.”</p>
+</section>
+<section id="integrity" class="level2" data-number="3.11">
+<h2 data-number="3.11" class="anchored" data-anchor-id="integrity"><span class="header-section-number">3.11</span> Integrity</h2>
+<p>refers to “values and related practices that maintain confidence in the eyes of users in the agency producing statistics and ultimately in the statistical product.” It is adherence to ethical and professional standards to ensure that transparency, accountability, methodological soundness, and professional independence guide the policies and practices of producing and disseminating official statistics.</p>
+</section>
+</section>
+<section id="the-statistical-system-in-kenya" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> The Statistical System in Kenya</h1>
+<p>According to the Organization for Economic Co-operation and Development (OECD), the National Statistical System (NSS) is the ensemble of statistical organizations and units within a country, that jointly collect, process and disseminate official statistics on behalf of the government. In Kenya, the NSS includes producers, suppliers and users of official statistics working under the supervision and coordination of the Kenya National Bureau of Statistics.</p>
+<p>The Constitution of Kenya, which was enacted in 2010 changed the administrative structure of the country that brought in a devolved system of governance. The country has a National Government and 47 County Governments. The constitution categorized statistics as a concurrent function between the two levels of Government. Specifically, the Fourth Schedule of the Constitution bestows the responsibility of national statistics and data on population, the economy and society generally on the National Government while County Governments are responsible for statistics for county planning and development. The National Government has the role of national economic policy and planning, capacity building and technical assistance to the counties.</p>
+<p>The statistical system in Kenya is centralized, in that, KNBS is established by the Statistics Act, 2006 as the producer of official statistics and the only institution in the country to certify statistics produced as official. The Statistics Act provides the legal basis for the NSS and establishes KNBS as the principal agency of government responsible for the collection, compilation, analysis, publication and dissemination of statistical information, and the coordination of the NSS. With respect to coordination of the NSS, the Act mandates KNBS to: collaborate with and assist the county governments or any other institutions in the production of official statistics; provide technical advice on statistics to other state entities; promote coordination among producers, users and suppliers of official statistics by forming appropriate sector committees; designating statistics produced by the NSS as official statistics on being satisfied that the necessary criteria have been followed.</p>
+<p>The Bureau achieves the NSS coordination role through several mechanisms. The planning of statistical activities and programmes in the NSS is achieved through the development and implementation of a National Strategy for Development of Statistics (NSDS). The NSDS in Kenya is referred to as the Kenya Strategy for Development of Statistics (KSDS). For the development of KSDS, a unit producing statistics is referred to as a statistical sector. These include a data production unit, user unit or both producer and user units that generate and or demand specific statistics. The Strategy is an international best practice and is developed in line with the regional Strategies for the development of statistics and the Strategy for the Harmonization of Statistics in Africa (ShASA). The strategy is developed and implemented through two committees: The Inter- Agency Statistical Committees (IaSC) and the Sector Statistics Committee (SSC). The IaSC comprises of heads of Departments where the Statistical Units are domiciled in the various MDAs. The SSC is made up of nominated staff from the units handling statistics in the statistics sectors. The two committees play a big role in the development, approval and implementation of the sector statistics plans which form the building blocks for the KSDS. The structure and reporting levels for the implementation of KSDS is shown in figure 1.0.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Capture.JPG" class="img-fluid figure-img"></p>
+<figcaption>Figure 1: Coordination Structure of the National Statistical System</figcaption>
+</figure>
+</div>
+<p>The technical capacity building and harmonization of statistics within the NSS is achieved through technical working groups and committees, on different thematic/sectoral areas. The technical committees/groups are made up of statisticians and statistics focal persons from the various MDAs and meet on a quarterly basis to interrogate and harmonize data on the respective sectors/thematic areas. The established technical working groups/committees include Agriculture, Nutrition and Environment; Trade and trade Facilitation and Balance of payment; Gender Statistics; Health Statistics; Education Statistics; Governance Statistics; Tourism Statistics; Monetary Statistics; Disability Statistics; and Energy Statistics. The coordination also extends to the representation of the country in regional, continental and global statistical committees on various thematic areas.</p>
+<p>The implementation of activities in the NSS cannot be carried out in oblivion of the evolving data ecosystems. The national data ecosystem is the entire network of data collectors, data producers, data analysts and other data users across the data value chain and the associated infrastructure and enablers in Kenya. Coordination in the ecosystem involves the linkages with activities of the non-State actors that produce statistics, the legal infrastructure to support this linkage and extension of the capacity building beyond the production of official statistics to strengthen the capacity of non-state actors to produce statistics that can be utilized for official reporting.</p>
+<p>The Bureau also organizes and participates in technical workshops that bring together stakeholders in the management of statistics, including the development partners and non- state actors. The focus of all the tools of coordination of the NSS is statistical capacity building and ensuring sustainability in the production and use of quality statistics. Training and capacity need assessments for the NSS are continually undertaken to inform the development of roadmaps for training and offering technical assistance to the NSS members to enhance the quality of statistics produced in the NSS and the wider data ecosystem.</p>
+<p>The coordination of the NSS ensures: Harmonization of concepts, definitions, classifications, sampling frames, and statistical methods and dissemination policies to make statistical outputs comparable across the NSS as well as in the wider data ecosystem; Effective data collection and proper data sharing of administrative and other data sources; Strengthening of the position of and enhancing the credibility of official statistics; representation of a country in international statistical cooperation and policies; implementation of mechanisms to allow the assessment and guarantee the quality of statistics produced by NSS members; and monitoring and reporting on progress regarding, sub-national, national, regional, continental and global development agendas. In addition, the NSS is expected to evolve to respond to user needs, technological changes as well as institutional changes.</p>
+<section id="situational-analysis" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="situational-analysis"><span class="header-section-number">4.1</span> Situational Analysis</h2>
+<p>An assessment of the environment in which statistical production processes are undertaken is critical in understanding the strategic positioning to inform the determination of short and medium-term strategies concerning statistical quality. Analysis of the Strengths, Weaknesses, Opportunities and Threats (SWOT) in the NSS is critical in understanding its immediate operational environment. The analysis has been carried out by assessing the competitive advantages (Strengths), controllable internal disadvantages (Weaknesses), external possibilities for success (Opportunities) and uncontrollable external negative factors (Threats) in the statistical production processes within the NSS.</p>
+<section id="strengths" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="strengths"><span class="header-section-number">4.1.1</span> Strengths</h3>
+<ul>
+<li><p>Relevant laws (The Constitution of Kenya 2010, and the Statistics Act, 2006) underpin the production of statistical information.</p></li>
+<li><p>Application of international standards and guidelines for the compilation of statistical information.</p></li>
+<li><p>Functional technical working groups/committees under the NSS in a number of statistical areas through which the aspirations of the framework can be actualized.</p></li>
+<li><p>Collaborations among members of the NSS brings about shared funding of statistics production activities and technical capacity building.</p></li>
+<li><p>Availability of Data Quality Assessment Frameworks (DQAF) that can be used as assessment tools.</p></li>
+<li><p>Implementation of the KSDS that provides a take-off platform for KeSQAF given its emphasis on mainstreaming of statistical production within the NSS.</p></li>
+</ul>
+</section>
+<section id="weaknesses" class="level3" data-number="4.1.2">
+<h3 data-number="4.1.2" class="anchored" data-anchor-id="weaknesses"><span class="header-section-number">4.1.2</span> Weaknesses</h3>
+<ul>
+<li><p>Low staffing of Statistical Units in the Ministries, Departments and Agencies (MDAs).</p></li>
+<li><p>Inadequate technical capacity of staff dealing with statistics in MDAs.</p></li>
+<li><p>Inadequate financial resources for the requisite statistical activities.</p></li>
+<li><p>Low focus in addressing statistical needs in MDAs whose mandates are not essentially statistical.</p></li>
+</ul>
+</section>
+<section id="opportunities" class="level3" data-number="4.1.3">
+<h3 data-number="4.1.3" class="anchored" data-anchor-id="opportunities"><span class="header-section-number">4.1.3</span> Opportunities</h3>
+<ul>
+<li><p>Availability of country-specific QAFs that Kenya can benchmark and learn from.</p></li>
+<li><p>Availability of generic and customizable quality assurance framework, UN-NQAF, that provides the basis for the development of the national framework. •</p></li>
+<li><p>Existence of avenues such as the PARIS21, Marrakech Action Plan for Statistics (MAPs) among others that place considerable emphasis on the issue of statistical coordination and observance of quality practices.</p></li>
+<li><p>Advancement in technology has made it possible to manage statistical information more efficiently.</p></li>
+</ul>
+</section>
+<section id="threats" class="level3" data-number="4.1.4">
+<h3 data-number="4.1.4" class="anchored" data-anchor-id="threats"><span class="header-section-number">4.1.4</span> Threats</h3>
+<ul>
+<li><p>Resistance to change may delay or slow down the process of adopting KeSQAF.</p></li>
+<li><p>Cyber insecurity may pose serious challenges to the implementation of some of the requirements of KeSQAF. For example, accessing confidential information by unauthorized persons.</p></li>
+<li><p>Potential external interference</p></li>
+<li><p>Corona Virus Disease (COVID-19): Budget reprioritization due to the pandemic, may limit the availability of funds for the production of quality statistics.</p></li>
+</ul>
+<p>The Bureau in consultation with the other stakeholders in the national data ecosystem is expected to utilise the strengths and take advantage of the opportunities in the ecosystem to ensure there is statistical capacity-building in the production and use of statistics. The Bureau is also expected to identify the weaknesses and threats in the system and develop strategies for dealing with challenges to ensure sustainability in the production of quality statistics.</p>
+</section>
+</section>
+</section>
+<section id="quality-assurance-principles-and-requirements" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Quality Assurance Principles and Requirements</h1>
+<p>The KeSQAF quality principles and associated requirements consist of four levels, ranging from overarching institutional and cross-institutional management and statistical production processes to the outputs:</p>
+<p>Level A: Managing the statistical system;</p>
+<p>Level B: Managing the institutional environment;</p>
+<p>Level C: Managing statistical processes and</p>
+<p>Level D: Managing statistical outputs.</p>
+<p>Each level contains a concise set of principles and requirements to guarantee quality in that aspect of quality assurance. These requirements are vital indicators that, when met, will ensure that provisions have been made to assure quality.</p>
+<p>A list of elements to be assured, which supports and assists the implementation of the principles and requirements and provides more detail are stated below each requirement. The elements to be assured are good practices and should be followed or assured.</p>
+<section id="level-a-managing-the-statistical-system" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="level-a-managing-the-statistical-system"><span class="header-section-number">5.1</span> Level A: Managing the Statistical System</h2>
+<p>The National Statistical System is the ensemble of the National Statistical Office, the KNBS, and other statistical units in Kenya that produce, provide, supply, use and disseminate official statistics on behalf of the Government of Kenya under the supervision and coordination of the Bureau. Coordination of this system and managing relations with all stakeholders is a precondition for the quality and efficient production of official statistics. Ensuring the use of common statistical standards throughout the system is an important part of this management.</p>
+<section id="principle-1-coordinating-the-national-statistical-system" class="level3" data-number="5.1.1">
+<h3 data-number="5.1.1" class="anchored" data-anchor-id="principle-1-coordinating-the-national-statistical-system"><span class="header-section-number">5.1.1</span> Principle 1: Coordinating the National Statistical System</h3>
+<p>Coordination of the work of the members of the NSS is essential for improving and maintaining the quality of official statistics. This Principle is supported by principle 8 of the Fundamental Principles of Official Statistics on national coordination.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 91%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 1.1</td>
+<td><p>A statistical law establishes the responsibilities of the members of the national statistical system, including its coordination. Its members are identified in a legal or formal provision</p>
+<p>i. The coordination role of KNBS is defined in the statistics Act, 2006.</p>
+<p>ii. The Statistics Act, 2006 specifies the requirements for official statistics and the scope of the NSS.</p>
+<p>iii. Members of the NSS are identified in a formal document.</p>
+<p>iv. Responsibilities of NSS members for the development, production and dissemination of official statistics are specified in the Statistics Act, 2006 and relevant regulations.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 1.2</td>
+<td><p>There is a body and mechanisms for the coordination of the national statistical system for activities at the local, national, regional and international levels</p>
+<p>i. KNBS is tasked with the coordination of the NSS.</p>
+<p>ii. KNBS has mechanisms to ensure the coordination (including the exchange of data and statistics within the NSS) and the quality of official statistics.</p>
+<p>iii. KNBS sets, monitors and reviews guidelines for the development, production and dissemination of official statistics.</p>
+<p>iv. KNBS establishes and maintains engagement with advisory bodies, academic institutions and other regional and international bodies as appropriate.</p>
+<p>v. KNBS coordinates data collection to improve cost-effectiveness and reduce respondent burden, in particular with regard to coordinating sample surveys.</p>
+<p>vi. KNBS monitors the use of agreed standards, concepts, classifications and methods throughout the NSS.</p>
+<p>vii. KNBS promotes and enhances data sharing within the NSS and liaisons with members of the extended data ecosystem regarding the sharing of data.</p>
+<p>viii. KNBS promotes the sharing of technical knowledge and good statistical practices and ensures the provision of training, including the production of official statistics and SDG indicators.</p>
+<p>ix. Processes for the evaluation of the quality of the statistics are developed and applied within the NSS.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 1.3</td>
+<td><p>There is a mechanism for considering statistics produced outside the national statistical system and, if appropriate, for those statistics to become official</p>
+<p>i. KNBS evaluates statistics produced outside the NSS for use as official statistics or alongside official statistics. Examples of such statistics are some of the SDG indicators.</p>
+<ol start="2" type="i">
+<li>KNBS has the responsibility for the evaluation of the quality of relevant statistics outside the NSS as needed.</li>
+</ol>
+<p>iii. KNBS has established a unit that discusses and provides support for the use of new data sources within the NSS.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 1.4</td>
+<td><p>There is a national plan or programme for the development and production of official statistics</p>
+<p>i. There is a multi-year National Plan known as Kenya Strategy for the Development of Statistics (KSDS) which guides the development and production of official statistics.</p>
+<p>ii. KSDS covers the entire NSS.</p>
+<p>iii. KSDS addresses quality assurance.</p>
+<p>iv. KSDS is implemented through the Sector Statistics Plans (SSPs) for the NSS members.</p>
+<p>v. KSDS is established in close consultation with statistics producers, users and data providers.</p>
+<p>vi. KSDS is approved for implementation by Inter-Agency Statistics Committee (IaSC).</p>
+<p>vii. The programmes and activities of KSDS are monitored regularly by KNBS.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-2-managing-relationships-with-data-users-data-providers-and-other-stakeholders" class="level3" data-number="5.1.2">
+<h3 data-number="5.1.2" class="anchored" data-anchor-id="principle-2-managing-relationships-with-data-users-data-providers-and-other-stakeholders"><span class="header-section-number">5.1.2</span> Principle 2: Managing Relationships with Data Users, Data Providers and Other Stakeholders</h3>
+<p>KNBS and Statistical Units should build and sustain good relationships with all their key stakeholders, including users, data providers, funding agencies, senior government officials, relevant community organizations, academia and the media. KNBS and Statistical Units should have access to all data necessary to satisfy the information needs of society effectively and efficiently. This Principle is supported mainly by principles 1 and 5 of the Fundamental Principles of Official Statistics on Professional Standards, Scientific Principles, and Professional Ethics and Sources of Official Statistics.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 96%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 2.1</td>
+<td><p>Stakeholders are identified and consulted regarding their interests, needs and obligation</p>
+<p>i. KNBS and Statistical Units clearly identify all their stakeholders.</p>
+<p>ii. Processes are in place to consult stakeholders about their concerns, interests, needs and obligations.</p>
+<p>iii. Stakeholders are kept informed of actions taken to address their needs and concerns.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 2.2</td>
+<td><p>KNBS and Statistical Units have a strategy, and institutional arrangements are in place to engage with their users</p>
+<p>i. User needs and how to engage with users are reflected in KNBS and Statistical Units’ strategies, such as in the KSDS, Strategic Plan, among others.</p>
+<p>ii. Service agreements or similar arrangements with the main users of the statistics are in place.</p>
+<p>iii. KNBS and Statistical Units have a communication mechanism in place to respond to all user inquiries in a timely manner.</p>
+<p>iv. Users can engage and request KNBS and Statistical Units for information in their preferred means of communication.</p>
+<p>v. Processes and arrangements (such as user committees) are in place so that users can advise KNBS and the Statistical Units about their emerging needs and priorities and during the development of new or review of existing statistics.</p>
+<p>vi. There are sector-specific user committees.</p>
+<p><em>See principle 14 on assuring relevance.</em></p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 2.3</td>
+<td><p>KNBS and Statistical Units continuously maintain and develop cooperation with funding agencies, academic institutions and international statistical organizations, as appropriate</p>
+<p>i. KNBS and Statistical Units work plans and budgets are shared with development partners as appropriate to ensure mutual understanding of funding requirements and trade-offs.</p>
+<p>ii. KNBS and Statistical Units coordinate the development and maintenance of cooperation with the scientific communities to develop new statistics, improve methodology and promote the use of statistics.</p>
+<p>iii. KNBS and Statistical Units cooperate with international and regional organizations in the area of statistics and with the statistical organizations of other countries.</p>
+<p><em>See principle 1 on coordinating the National Statistical System.</em></p></td>
+</tr>
+<tr class="even">
+<td>Requirement 2.4</td>
+<td><p>KNBS and if appropriate, other Statistical Units have the legal authority or some other formal provision to collect data for the development, production and dissemination of official statistics</p>
+<p>i. The Statistics Act, 2006 provides appropriate provisions to guarantee KNBS if appropriate, other Statistical the right to collect data for statistical purposes through surveys and censuses.</p>
+<p>ii. Based on the Statistics Act, 2006, KNBS can apply appropriate sanctions, such as fines, if a response to obligatory statistical surveys or censuses is not received.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 2.5</td>
+<td><p>KNBS and if appropriate, other Statistical Units have the legal authority or some other formal provision to obtain administrative data and adequate access to those data from other government agencies for statistical purposes</p>
+<p>i. The statistical Act 2006 provides appropriate provisions to guarantee KNBS and if appropriate, other Statistical Units the right to obtain or access administrative data in a timely manner. Where KNBS or Statistical Units do not have the legal right to obtain administrative data, memoranda of understanding that provide such access are in place. Access to administrative data is free of charge for KNBS and Statistical Units.</p>
+<p>ii. Where KNBS or Statistical Units do not have the legal right to obtain administrative data, memoranda of understanding that provide such access are in place.</p>
+<p>iii. Access to administrative data is free of charge for KNBS and Statistical Units.</p>
+<p>iv. Agreements with owners of administrative data are in place to operationalize data access which describe technical conditions for access and possibilities for linking the data with data from other administrative data sources.</p>
+<p>v. KNBS and Statistical Units are involved in the design and development of administrative data sets in order to make them suitable for statistical purposes; this involvement extends to the possible discontinuation of such data sets.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 2.6</td>
+<td><p>KNBS and if appropriate, other Statistical Units have the legal authority or some other formal provision to obtain administrative data and adequate access to those data from other government agencies for statistical purposes</p>
+<p>i. The statistical Act 2006 provides appropriate provisions to guarantee KNBS and if appropriate, other Statistical Units the right to obtain or access administrative data in a timely manner. Where KNBS or Statistical Units do not have the legal right to obtain administrative data, memoranda of understanding that provide such access are in place. Access to administrative data is free of charge for KNBS and Statistical Units.</p>
+<p>ii. Where KNBS or Statistical Units do not have the legal right to obtain administrative data, memoranda of understanding that provide such access are in place.</p>
+<p>iii. Access to administrative data is free of charge for KNBS and Statistical Units.</p>
+<p>iv. Agreements with owners of administrative data are in place to operationalize data access which describe technical conditions for access and possibilities for linking the data with data from other administrative data sources.</p>
+<p>v. KNBS and Statistical Units are involved in the design and development of administrative data sets in order to make them suitable for statistical purposes; this involvement extends to the possible discontinuation of such data sets.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 2.7</td>
+<td><p>KNBS and if appropriate, other Statistical Units have the legal authority or some other formal provision to obtain administrative data and adequate access to those data from other government agencies for statistical purposes</p>
+<p>i. The statistical Act 2006 provides appropriate provisions to guarantee KNBS and if appropriate, other Statistical Units the right to obtain or access administrative data in a timely manner. Where KNBS or Statistical Units do not have the legal right to obtain administrative data, memoranda of understanding that provide such access are in place. Access to administrative data is free of charge for KNBS and Statistical Units.</p>
+<p>ii. Where KNBS or Statistical Units do not have the legal right to obtain administrative data, memoranda of understanding that provide such access are in place.</p>
+<p>iii. Access to administrative data is free of charge for KNBS and Statistical Units.</p>
+<p>iv. Agreements with owners of administrative data are in place to operationalize data access which describe technical conditions for access and possibilities for linking the data with data from other administrative data sources.</p>
+<p>v. KNBS and Statistical Units are involved in the design and development of administrative data sets in order to make them suitable for statistical purposes; this involvement extends to the possible discontinuation of such data sets.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-3-managing-statistical-standards" class="level3" data-number="5.1.3">
+<h3 data-number="5.1.3" class="anchored" data-anchor-id="principle-3-managing-statistical-standards"><span class="header-section-number">5.1.3</span> Principle 3: Managing Statistical Standards</h3>
+<p>Standards refer to a comprehensive set of statistical concepts, definitions, classifications and models, methods and procedures used to achieve the uniform treatment of statistical issues within or across processes and across time and space. The use of standards promotes the consistency and efficiency of statistical systems at all levels. This Principle is supported by principle 9 of the Fundamental Principles of Official Statistics on Use of International Standards.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 93%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 3.1</td>
+<td><p>KNBS and Statistical Units cooperate in the development and implementation of international, regional and national statistical standards</p>
+<p>i. KNBS actively works with other Statistical Units and international and regional statistical organizations in developing, reviewing, promoting and implementing statistical standards.</p>
+<p>ii. KNBS has a mechanism for facilitating and coordinating the adoption and development of international, regional and national statistical standards and for supporting statistical programmes/Sectors in their efforts to adopt and develop such standards.</p>
+<p>iii. All relevant staff in KNBS and Statistical Units are aware of statistical standards and any changes made to them.</p>
+<p>iv. There is a repository and a list of all standard classifications available and accessible to all data producers, providers and data users.</p>
+<p>v. The process for originating, developing and approving statistical standards involves statistics producers, data providers and data users.</p>
+<p>vi. The impact of the adoption of new statistical standards is assessed, docu-mented and communicated to users; where applicable, conversion tables are provided.</p>
+<p>vii. KNBS and Statistical Units use conceptual frameworks, such as the System of National Accounts, that provide a basis for integrating statistical information.</p>
+<p>viii. Statistical standards (concepts, definitions, classifications, etc.) are regularly reviewed in line with prevailing international standards.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 3.2</td>
+<td><p>KNBS provides support and guidance to all data providers and producers of official statistics in the implementation of statistical standards</p>
+<p>i. KNBS monitors the extent to which statistical standards are used by data producers of official statistics.</p>
+<p>ii. Periodic reports are prepared with regard to compliance with international, regional and national statistical standards.</p>
+<p>iii. Statistical standards are communicated and made available to all data providers and producers of official statistics.</p>
+<p>iv. Plans and schedules for the development and application of new standards are communicated in advance.</p>
+<p>v. KNBS assists other producers of statistics and data providers in the implementation of international, regional and national statistical standards as appropriate.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 3.3</td>
+<td><p>Divergences from the international, regional or national statistical standards are kept to a minimum and are documented and explained to all stakeholders</p>
+<p>i. Concordance tables for international, regional and national standard classifications are developed and made available in cases where diverging standards are used.</p>
+<p>ii. The adopted standards (concepts, definitions, classifications and guidelines.) are explained to all stakeholders.</p>
+<p>iii. Stakeholders are informed about compliance with international, regional and national statistical standards.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="level-b-managing-the-institutional-environment" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="level-b-managing-the-institutional-environment"><span class="header-section-number">5.2</span> Level B: Managing the Institutional Environment</h2>
+<p>The quality of the institutional environment is one of the prerequisites to ensuring the quality of statistics. Principles to be assured are professional independence, impartiality and objectivity, transparency, statistical confidentiality, quality commitment and the adequacy of resources.</p>
+<section id="principle-4-assuring-professional-independence" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="principle-4-assuring-professional-independence"><span class="header-section-number">5.2.1</span> Principle 4: Assuring Professional Independence</h3>
+<p>KNBS and Statistical Units in the National Statistical System (NSS), should develop, produce and disseminate statistics without any political or other interference or pressure from other government agencies or policy, regulatory or administrative departments and bodies, the private sector or any other persons or entities. Such professional independence and freedom from inappropriate influence ensure the credibility of official statistics. This principle is supported mainly by principle 2 of the Fundamental Principles of Official Statistics on professional standards and ethics.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 4.1</td>
+<td><p>A law or other formal provision explicitly declares that KNBS and if appropriate other Statistical Units are obligated to develop, produce and disseminate statistics without interference from other government agencies or policy, regulatory or administrative departments and bodies, including from within the Statistical Units, private sector or any other persons or entities</p>
+<p>i. Professional independence of KNBS and Statistical Units is guaranteed by the laws and regulations under which the ministries, departments and agencies operate.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 4.2</td>
+<td><p>The appointment of the heads of KNBS, and other Statistical Units where appropriate, is based on professional criteria and follows transparent procedures. Reasons for dismissal cannot include reasons affecting professional independence. The heads of KNBS and Statistical Units are of the highest professional calibre</p>
+<p>i. The Statistics Act, 2006 provides a clear and detailed description of the procedure for the appointment of the Director General of KNBS.</p>
+<p>ii. The rules applied for appointing, assigning positions and responsibilities and dismissing the heads of KNBS and Statistical Units are also based on professional competence and are transparent and free from political considerations.</p>
+<p>iii. Processes are in place to ensure that the heads of KNBS and Statistical Units are of the highest professional calibre.</p>
+<p>iv. The Director General of KNBS has sufficiently high hierarchical standing to ensure access to the political and administrative leadership of government bodies.</p>
+<p>v. The heads of KNBS and Statistical Units have the necessary qualifications, knowledge and capacity.</p>
+<p>vi. The basis and process for the termination or removal of the Director General of KNBS and the heads of the Statistical Units within the government that produce statistics are specified in the relevant laws and administrative regulations. These cannot include reasons related to professional</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 4.3</td>
+<td><p>The head of KNBS has responsibility for the decisions on statistical methods, standards and procedures, and on the content and timing of statistical releases</p>
+<p>i. The Director General of KNBS and the heads of the Statistical Units within the government that produce statistics decide independently on the basis of professional considerations, on the statistical methods, standards and procedures for the development, production and dissemination of official statistics.</p>
+<p>ii. The reporting of KNBS to its administratively superordinate government bodies and ministries, department and agencies does not affect its professional independence.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-5-assuring-transparency" class="level3" data-number="5.2.2">
+<h3 data-number="5.2.2" class="anchored" data-anchor-id="principle-5-assuring-transparency"><span class="header-section-number">5.2.2</span> Principle 5: Assuring Transparency</h3>
+<p>Policies and management practices, and the terms and conditions under which statistics are developed, produced and disseminated and, if applicable, subsequently revised (including the legal basis and purposes for which the data are required), are documented and available to users, respondents, owners of source data and the public. This Principle is supported mainly by principle 3 of the Fundamental Principles of Official Statistics on transparency and accountability.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 94%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 5.1</td>
+<td><p>The head of KNBS has responsibility for the decisions on statistical methods, standards and procedures, and on the content and timing of statistical releases</p>
+<p>i. The Director General of KNBS and the heads of the Statistical Units within the government that produce statistics decide independently on the basis of professional considerations, on the statistical methods, standards and procedures for the development, production and dissemination of official statistics.</p>
+<p>ii. The reporting of KNBS to its administratively superordinate government bodies and ministries, department and agencies does not affect its professional independence.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 5.2</td>
+<td><p>KNBS and Statistical Units implement a declaration or code of conduct or ethics which governs statistical practices, and compliance with it is followed up</p>
+<p>i. There are ethical guidelines or a code of conduct for assuring impartiality and objectivity.</p>
+<p>ii. The guidelines are available to the public. The implementation of the guidelines is monitored for effectiveness.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 5.3</td>
+<td><p>Data sources and methodologies are chosen on an objective basis</p>
+<p>i. Sources, concepts, methods and processes for the development, production and dissemination of data are chosen on the basis of statistical considerations, national and international principles and best practices.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 5.4</td>
+<td><p>Statistical releases are clearly distinguished from political/policy statements</p>
+<p>i. Statistical releases and statements made to the media are objective and based strictly on the available evidence and do not take any position on a political issue.</p>
+<p>ii. Appropriate internal and external communication strategies exist that include recognizable logos, designs or formats for the products of KNBS and Statistical Units, which identify them as being unaffiliated with any political or policy bodies.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 5.5</td>
+<td><p>Statistical release dates and times are announced in advance</p>
+<p>i. A publicly available and easily accessible release calendar containing information on the releases planned in the upcoming 12-month period exists.</p>
+<p>ii. Statistics are released at a fixed date.</p>
+<p>iii. Changes in the release calendar are announced in advance and their reasons are explained.</p>
+<p>iv. The sharing of statistical results ahead of the official release (a “privileged pre-release”) is kept to a minimum and is well justified and strictly controlled and documented.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 5.6</td>
+<td><p>In cases in where errors are detected, they are corrected as soon as possible, and users are informed as to how they affected the released statistics</p>
+<p>i. There is an established publicly available revision policy on how to correct published data when errors are discovered.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 5.7</td>
+<td><p>KNBS and Statistical Units comment publicly on statistical issues, mis-interpretation and misuse of official statistics, as appropriate</p>
+<p>i. There is a formal policy entitling KNBS and Statistical Units to respond publicly on statistical issues, criticisms, misinterpretations, negative media reporting and misuse of official statistics.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-6-assuring-statistical-confidentiality-and-data-security" class="level3" data-number="5.2.3">
+<h3 data-number="5.2.3" class="anchored" data-anchor-id="principle-6-assuring-statistical-confidentiality-and-data-security"><span class="header-section-number">5.2.3</span> Principle 6: Assuring Statistical Confidentiality and Data Security</h3>
+<p>KNBS and Statistical units within the NSS should guarantee that the privacy of data providers (persons, households, enterprises and other data providers) will be protected, and that the information they provide will be kept confidential, will not be accessed by unauthorized internal or external users and will be used for statistical purposes only. This principle is supported by principle 6 of the Fundamental Principles of Official Statistics on confidentiality.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 91%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 6.1</td>
+<td><p>The terms and conditions for producing and disseminating official statistics are available to the public</p>
+<p>i. A standard procedure exists for ensuring that respondents understand the legal basis for a survey and the confidentiality provisions for the data that are collected.</p>
+<p>ii. Information on data sources, statistical concepts and methods used for the development, production and dissemination of official statistics are publicly available.</p>
+<p>iii. The information on statistical standards is available to the public.</p>
+<p>iv. Advance notice of major changes in methodology, source data or statistical techniques is given.</p>
+<p>v. The data dissemination policy is shared with the public.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 6.2</td>
+<td><p>The terms and conditions for the governance and management of KNBS and Statistical Units are available to the public</p>
+<p>i. The procedures to be followed for the appointment and dismissal of heads of KNBS and Statistical Units within the NSS and the hiring and release of staff are publicly available.</p>
+<p>ii. The reporting and dialogue of KNBS and Statistical Units within the NSS with administratively superordinate government bodies is well defined, established and known to the public.</p>
+<p>iii. The work programmes of KNBS and Statistical units within the NSS and periodic reports to describe progress are made available to the public on a regular basis.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-7-assuring-statistical-confidentiality-and-data-security" class="level3" data-number="5.2.4">
+<h3 data-number="5.2.4" class="anchored" data-anchor-id="principle-7-assuring-statistical-confidentiality-and-data-security"><span class="header-section-number">5.2.4</span> Principle 7: Assuring Statistical Confidentiality and Data Security</h3>
+<p>KNBS and Statistical units within the NSS should guarantee that the privacy of data providers (persons, households, enterprises and other data providers) will be protected, and that the information they provide will be kept confidential, will not be accessed by unauthorized internal or external users and will be used for statistical purposes only. This principle is supported by principle 6 of the Fundamental Principles of Official Statistics on confidentiality.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 96%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 7.1</td>
+<td><p>Statistical confidentiality is guaranteed by law</p>
+<ol type="i">
+<li>The Statistics Act, 2006 and Data Protection Act, 2019 guarantee proper management of information received from respondents and data providers to ensure statistical confidentiality and data security.</li>
+</ol></td>
+</tr>
+<tr class="even">
+<td>Requirement 7.2</td>
+<td><p>Appropriate standards, guidelines, practices and procedures are in place to ensure statistical confidentiality</p>
+<p>i. Guidelines and instructions on the protection of statistical confidentiality throughout the statistical business process are provided to all staff of KNBS and Statistical units within the NSS.</p>
+<p>ii. There are regular and continuous sensitization programmes for all staff on the concept of statistical confidentiality and best practices to ensure the privacy of the information provided.</p>
+<p>iii. The organizational structure and arrangements for the development and implementation of practices for ensuring statistical confidentiality is adequate to cope with needs.</p>
+<p>iv. Staff sign confidentiality agreements upon their appointment, which are also valid after staff leave KNBS or Statistical Units within the NSS.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 7.3</td>
+<td><p>Strict protocols to safeguard data confidentiality apply to users with access to microdata for research or statistical purposes</p>
+<p>i. Clear conditions for granting access to confidential data for scientific purposes are set in the statistical law or other formal provision.</p>
+<p>ii. Confidentiality rules, disclosure control and microdata access procedures apply throughout the statistical business process.</p>
+<p>iii. KNBS and Statistical units within the NSS monitor the use of microdata sets to identify any circumstances in which data confidentiality may be breached (e.g., through file matching), and take immediate corrective action to address such a situation.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 7.4</td>
+<td><p>Penalties are prescribed for any willful breaches of statistical confidentiality</p>
+<p>i. Legal or other provisions are in place that allow administrative, penal, and disciplinary sanctions for the violation of statistical confidentiality.</p>
+<p>ii. Information on the provisions that allow sanctions for the violation of statistical confidentiality is shared with all staff and is available to the public.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 7.5</td>
+<td><p>The security and integrity of data and their transmission is guaranteed by appropriate policies and practices</p>
+<p>i. An IT security policy is in place and is known to the staff.</p>
+<p>ii. Following the IT policy, appropriate physical security measures and processes are in place to ensure data and database security, in accordance with best practices and international standards. iii. Regular security audits of the data security system are carried out. iv. All access to data repositories and transmission channels is monitored. v. While data are being transferred, the risk of a breach is assessed, and appropriate procedures are applied to eliminate or minimize this risk.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 7.6</td>
+<td><p>The risk that individual respondents may be identified is assessed and managed.</p>
+<p>i. There should be a balance between the acceptable level of risk of identification of individual respondents and the usability of the data.</p>
+<p>ii. Appropriate processes are in place to assess the risk of disclosure of sensitive information and the risk that individual respondents can be identified from the public release of statistics or of microdata, and procedures are applied in line with the data dissemination policy to minimize this risk.</p>
+<p>iii. All procedures taken to adequately reduce the risk of identification are properly documented and made available as part of the metadata related to the statistical data set.</p>
+<p>iv. Users are made aware that procedures to reduce the risk of identification have been implemented and that such procedures could lead to a loss of information.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-8-assuring-commitment-to-quality" class="level3" data-number="5.2.5">
+<h3 data-number="5.2.5" class="anchored" data-anchor-id="principle-8-assuring-commitment-to-quality"><span class="header-section-number">5.2.5</span> Principle 8: Assuring Commitment to Quality</h3>
+<p>Members within the NSS should be dedicated to assuring quality in their work and systematically and regularly identify strengths and weaknesses to continuously improve process and product quality. This principle is supported by principle 2 of the Fundamental Principles of Official Statistics on professional standards and ethics.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 94%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 8.1</td>
+<td><p>There is a quality policy or a statement of KNBS and Statistical Units’ commitment to quality, which is publicly available</p>
+<p>i. There is a policy, declaration, or message about commitment to the quality of statistics is made publicly available and it clearly conveys and promotes the shared concern for the quality of all of its staff and includes information about trade-offs affecting the statistical work programme.</p>
+<p>ii. KNBS and Statistical Units have quality guidelines that are made available to external users, at least in a summarized version.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 8.2</td>
+<td><p>KNBS and Statistical Units promote a culture of continuousimprovement</p>
+<p>i. Methodology and processes are regularly documented.</p>
+<p>ii. Good statistical practices are exchanged among and between KNBS and Statistical Units.</p>
+<p>iii. Procedures are in place to ensure that the required documentation on quality is regularly updated.</p>
+<p>iv. A quality assurance plan or similar mechanism is in place that describes the work standards, formal obligations (such as laws and internal rules) and quality control actions that prevent, monitor and evaluate errors and control the statistical production process.</p>
+<p>v. Workplans, schedules and standard forms or templates are used for facilitating the updating of the documentation of quality assurance procedures and actions in a consistent way.</p>
+<p>vi. KNBS and Statistical Units use KeSQAF as a basis for regular quality assessments (self-assessments and other assessments).</p>
+<p>vii. KNBS and Statistical Units use KeSQAF which is based on one of the accepted global or regional frameworks.</p>
+<p>viii.General quality systems or frameworks such as total quality management and ISO 9000 are utilized in conjunction with KeSQAF</p>
+<p>ix. Quality initiatives of international and regional statistical bodies are followed up, as appropriate.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 8.3</td>
+<td><p>There is a specific unit responsible for quality management or the coordination of quality management within KNBS, and it receives necessary support to fulfil this role</p>
+<p>i. A quality assurance manager, committee, unit or group of coaches or advisers is assigned responsibility for quality management.</p>
+<p>ii. An agency-wide data quality task force is established and meets regularly.</p>
+<p>iii. Quality issues are discussed with and by management regularly.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 8.4</td>
+<td><p>The national statistical system staff receive training on quality management</p>
+<p>i. Staff training and development programmes are in place to ensure that staff are aware of the quality policy, including the use of KeSQAF, and that staff have an understanding of how quality is assured. A staff awareness “campaign” is undertaken to emphasize KNBS’s and Statistical Units’ commitment to quality.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 8.5</td>
+<td><p>Guidelines for implementing quality management are defined and made available to the public</p>
+<p>i. Guidelines for implementing quality management are produced and issued which: - Describe the quality principles and framework followed</p>
+<ul>
+<li><p>Describe the entire statistical process and identify relevant documentation for each stage of production</p></li>
+<li><p>Describe the methods for monitoring the quality at each stage of the statistical production process</p></li>
+<li><p>Identify the indicators (quality measures) for evaluating the quality of the main stages of production, including indicators for source data</p></li>
+</ul>
+<p>ii. The guidelines, methodological manuals and handbooks on recommended practices for quality assurance are made available to the public.</p>
+<p>iii. Mechanisms are in place to assure the quality of data collection (including the use of administrative data and other sources) and data editing.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 8.6</td>
+<td><p>Indicators on statistical output quality are regularly measured, monitored, published and followed up to improve statistical products and processes</p>
+<p>i. Quality reports that serve both producer and user perspectives are prepared, published as appropriate and updated regularly.</p>
+<p>ii. Quality indicators are defined, measured and monitored for follow-up and improvements. Examples of quality indicators include:</p>
+<ul>
+<li><p>References in media, hits on websites, results from user satisfaction surveys (relevance)</p></li>
+<li><p>Standard deviations and other measures of accuracy, response rates (accuracy)</p></li>
+<li><p>Number and size of revisions (reliability) - The length of time between the end of a reference period and the dissemination of the statistics (timeliness)</p></li>
+<li><p>Rate of statistics published when announced (punctuality) - Respondent burden</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Requirement 8.7</td>
+<td><p>Statistical products and processes undergo periodic reviews</p>
+<p>i. Periodic quality reviews of key products and processes to assess adherence to internal guidelines and international standards are performed.</p>
+<p>ii. Reviewing teams are set up in which both internal and external experts can participate.</p>
+<p>iii. KNBS and Statistical Units’ internal reviewers are trained in auditing methods and tools.</p>
+<p>iv. Improvement actions arising from the result of quality reviews are defined and scheduled for implementation.</p>
+<p>v. Top management is informed of the results of reviews so they can follow up on improvement actions.</p>
+<p>vi. Benchmarking of key statistical processes with KNBS and Statistical Units is carried out to identify good practices.</p>
+<p>vii. Procedures are in place to monitor and manage the quality of different stages of the statistical production according to the GSBPM.</p>
+<p>viii.Trade-offs within quality are systematically examined (e.g., trade-offs among accuracy, timeliness and costs).</p>
+<p>ix. External experts (including from international organizations) conduct quality reviews, such as reviews of key statistical domains (e.g., the IMF Reports on the Observance of Standards and Codes) or other reviews, such as peer reviews, external audits and rolling reviews.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 8.8</td>
+<td><p><strong>Risk analyses addressing the quality of important statistical products and processes are performed</strong></p>
+<p>i.&nbsp; Risk and quality management are closely coordinated (e.g., through institutional arrangements and regular meetings if responsibilities for these activities are set out differently).</p>
+<p>ii. Risks linked to core recommendations and principles of KeSQAF (e.g., lack of independence and confidentiality breaches) are analysed and measures are taken if needed to improve compliance.</p>
+<p>iii. Risk analyses addressing the quality of different stages of the statistical production are conducted according to the GSBPM.</p>
+<p>iv. Risk analyses addressing the quality of important statistical products such as population statistics and censuses, national accounts and consumer price indices are performed (e.g., risk of poor accuracy expressed by errors, poor timeliness and lack of comparability).</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-9-assuring-adequacy-of-resources" class="level3" data-number="5.2.6">
+<h3 data-number="5.2.6" class="anchored" data-anchor-id="principle-9-assuring-adequacy-of-resources"><span class="header-section-number">5.2.6</span> Principle 9: Assuring Adequacy of Resources</h3>
+<p>The financial, human, and technological resources available to KNBS and Statistical Units should be adequate both in magnitude and quality and sufficient to meet their needs regarding the development, production and dissemination of statistics.</p>
+<p>The financial, human, and technological resources available to KNBS and Statistical Units should be adequate both in magnitude and quality and sufficient to meet their needs regarding the development, production and dissemination of statistics.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 91%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 9.1</td>
+<td><p><strong>Financial, human and technological resources are sufficient to implement statistical work and development programme</strong></p>
+<p>i. There are resource mobilization strategies such as a KSDS are in place.</p>
+<p>ii. The strategic plan and annual work plan are feasible given the available resources.</p>
+<p>iii. Costs (staff costs and other costs) of each stage of the production process are measured.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 9.2</td>
+<td><p><strong>Planning and management principles are aimed at the optimal use of available resources</strong></p>
+<p>i. Activities schedules and budgets are adhered to ensure efficiency in the utilisation of resources.</p>
+<p>ii. Information technology (IT) is employed to increase efficiency.</p>
+<p>iii. Standardization, integration and automation of statistical production and dissemination are pursued to increase the efficiency of operations and to save costs.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 9.3</td>
+<td><p><strong>KNBS and Statistical Units’ use of resources is reviewed</strong></p>
+<p>i. Indicators on the use of human and financial resources are monitored centrally and regularly reported to management.</p>
+<p>ii. The use of human resources is evaluated annually on the basis of established guidelines and procedures. The evaluation covers the allocation, performance and training needs of staff.</p>
+<p>iii. Staff opinion/satisfaction surveys are conducted regularly.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="level-c-managing-statistical-processes" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="level-c-managing-statistical-processes"><span class="header-section-number">5.3</span> Level C: Managing Statistical Processes</h2>
+<p>International standards, guidelines and good practices are fully observed in the statistical processes used by KNBS and Statistical Units to develop, produce and disseminate official statistics, while constantly striving for innovation. The credibility of the statistics is enhanced by a reputation for good management and efficiency. The relevant principles to be assured are methodological soundness, cost-effectiveness, appropriate statistical procedures and managing the respondent burden.</p>
+<section id="principle-10-assuring-methodological-soundness" class="level3" data-number="5.3.1">
+<h3 data-number="5.3.1" class="anchored" data-anchor-id="principle-10-assuring-methodological-soundness"><span class="header-section-number">5.3.1</span> Principle 10: Assuring Methodological Soundness</h3>
+<p>In developing and producing statistics, KNBS and Statistical Units should use sound statistical methodologies based on internationally agreed standards, guidelines or best practices. Principle 10 is supported mainly by principle 2 of the Fundamental Principles of Official Statistics on professional standards, scientific principles, and professional ethics.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 10.1</td>
+<td><p>The methodologies applied by KNBS, and Statistical Units are consistent with international standards, guidelines and good practices and are regularly reviewed and revised as needed</p>
+<p>i. Organizational structures/unit for the development and application of sound statistical methods are commensurate to needs.</p>
+<p>ii. Review and reporting processes are in place that allow the management of KNBS and Statistical Units to be assured that sound methodological approaches have been adopted and applied throughout the production process.</p>
+<p>iii. The surveys’ methodologies and the use of administrative data and other sources of data are evaluated periodically.</p>
+<p>iv. Sampling design is based on sound methodology.</p>
+<p>v. Proper follow-up procedures are planned and implemented in cases of non-response.</p>
+<p>vi. Statistical editing procedures and imputation methods are based on sound methodology.</p>
+<p>vii. When statistical modelling is used in the statistical production process (e.g., for seasonal adjustment), the validity of model assumptions is carefully considered and the impact on final estimates is evaluated.</p>
+<p>viii.KNBS and Statistical Units review the methods used by external partners for the compilation of data and the production of statistics.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 10.2</td>
+<td><p>KNBS and Statistical Units recruit qualified staff and conduct regular programmes to enhance their methodological skills</p>
+<p>i. Staff of KNBS and Statistical Units are recruited on the basis of their qualifications and experience.</p>
+<p>ii. Appropriate qualifications requirements are specified for all posts.</p>
+<p>iii. Training and development programmes are in place to ensure the staff acquire and continuously update their methodological knowledge.</p>
+<p>iv. Staff skills are regularly updated so that staff are able to utilize new data sources and tools.</p>
+<p>v. Attendance of staff at relevant training courses and/or at national, regional or international conferences is encouraged.</p>
+<p>vi. Exchange programmes among peers to enhance peer to peer learning.</p>
+<p>vii. Knowledge management transfer or sharing among staff. viii. Study tours.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 10.3</td>
+<td><p>KNBS and Statistical Units choose data sources taking into account accuracy and reliability, timeliness, cost, the burden on respondents and other necessary considerations.</p>
+<p>i. The use of data from surveys, censuses, administrative, and alternative sources which include big data, Citizen Generated Data or other sources of data, is constantly evaluated. The KNBS will develop and continually improve guidelines to be used to validate the data from alternative sources (see the Criteria for Validating Citizen Generated Data in Annex 4).</p>
+<p>ii. Quality has to be assessed when using administrative data or other data sources. Ideally, when using administrative data, it should be assured that:</p>
+<ul>
+<li><p>The population is consistent with the statistical output requirements</p></li>
+<li><p>The classifications are appropriate</p></li>
+<li><p>The underlying concepts are appropriate</p></li>
+<li><p>The records are complete and up to date</p></li>
+<li><p>The geographical coverage is complete and the measurement units are appropriately defined/identified</p></li>
+</ul>
+<p>iii. When using other data sources (such as big data), the specific methodological challenges such as those linked to the statistical population and the veracity, volume, value, variety and volatility of such data have to be considered.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 10.4</td>
+<td><p>The registers and the frames for surveys are frequently evaluated and adjusted</p>
+<p>i. A systematic approach is in place for regular updating of the survey frames to ensure accurate coverage of the target population.</p>
+<p>ii. For all surveys, the appropriate statistical population frames are updated regularly.</p>
+<p>iii. Information gathered during the conduct of surveys is used to assess and improve the quality of the frame, especially with regard to its coverage and the quality of the contact variables and the auxiliary information (variables used in the sampling design).</p>
+<p>iv. Frames to be sufficiently large and their usage well-coordinated to minimize respondent fatigue.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 10.5</td>
+<td><p>KNBS and Statistical Units cooperate with the scientific community to improve methods and promote innovation in the development, production and dissemination of statistics.</p>
+<p>i. Collaboration with the scientific community is in place, for example through conferences, workshops, task forces and training/courses, to discuss relevant methodological and technological developments (e.g., with regard to exploiting new data sources).</p>
+<p>ii. There are agreements in place with academic institutions on cooperation and the exchange of qualified personnel.</p>
+<p>iii. Staff collaborate on methodological issues with colleagues at the international level.</p>
+<p>iv. Regular participation and presentations at relevant national and international conferences is encouraged for the exchange of knowledge and experiences.</p>
+<p>v. National and international conferences, seminars, workshops or similar events with the participation of the scientific community are organized by KNBS and Statistical Units.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-11-assuring-cost-effectiveness" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="principle-11-assuring-cost-effectiveness"><span class="header-section-number">5.3.2</span> Principle 11: Assuring Cost-effectiveness</h3>
+<p>KNBS and Statistical Units should assure that resources are effectively and efficiently used. They should be able to explain to what extent set objectives were attained, that the results were achieved at a reasonable cost and are consistent with the principal purposes of the statistics. This principle is supported mainly by principle 5 of the Fundamental Principles of Official Statistics on sources of official statistics.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 93%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 11.1</td>
+<td><p>The cost of producing all individual statistics is measured and analysed, and mechanisms are in place to assure the cost- effectiveness of statistical activities or processes</p>
+<p>i. There is a system for registering cost and time used for all statistical products. Estimation of the time used on the main processes should be possible.</p>
+<p>ii. The cost of producing statistics is well documented at each stage of the production process and is regularly reviewed and analysed across statistical products to assess the effectiveness of their production.</p>
+<p>iii. Cost-benefit analyses are carried out to determine the appropriate trade-offs in terms of data quality.</p>
+<p>iv. The cost-effectiveness of every statistical survey is assessed.</p>
+<p>v. The need for each survey variable to be collected is justified.</p>
+<p>vi. There is an ongoing review process that considers whether a particular pro-gramme is still operating in the most cost-effective way to meet its stated requirements.</p>
+<p>vii. Data collection instruments are designed to minimize coding and editing cost and time.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 11.2</td>
+<td><p>Procedures exist to assess and justify demands for new statistics against their cost</p>
+<p>i. Demand for new statistics is regularly registered and assessed by statistical experts with regard to the proposed methodology and associated costs, and are discussed by management, based on inputs from users and in collaboration with other stakeholders.</p>
+<p>ii. Before contemplating a new data collection, there are mechanisms to review whether already available data sources can be utilized with minimal impact on their purpose and quality.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 11.3</td>
+<td><p>When introducing new statistics, a cost-benefit analysis is conducted</p>
+<p>i. Procedures exist to assess the continuing need for all statistics, to determine whether any can be discontinued to free up resources.</p>
+<p>ii. There are regular discussions by management on the usefulness of all statistics; the discussions include inputs from users, such as the results of user satisfaction surveys.</p>
+<p>iii. The usage of different statistical products, including statistical databases, is monitored and assessed to evaluate their relevance.</p>
+<p>iv. Users and stakeholders are informed and consulted about the possible discontinuation of statistical outputs.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 11.4</td>
+<td><p>Modern information and communication technologies are applied to improve the performance of statistical processes</p>
+<p>i. An appropriate IT strategy exists and is regularly reviewed and updated to improve the effectiveness and efficiency of the statistical processes.</p>
+<p>ii. The IT architecture and hardware infrastructure are regularly reviewed and updated, and possibilities for innovation and modernization are identified.</p>
+<p>iii. Routine clerical operations and statistical processes (e.g., data capture, coding, data editing, data validation, data exchange) are automated where possible and are regularly reviewed.</p>
+<p>iv. Centralized IT and methodological units exist and provide possibilities for the pooling of resources and investments.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 11.5</td>
+<td><p>Proactive efforts are made to improve the statistical potential of administrative data and other data sources</p>
+<p>i. KNBS and Statistical Units provide input to the legislative process to obtain and maintain access to administrative and other data sources for statistical purposes, if needed.</p>
+<p>ii. Appropriate arrangements (e.g., service-level agreements or national legislation) with owners or holders of administrative data and other data collections are made and updated as needed, specifying the access to and flow of data and metadata and other relevant aspects.</p>
+<p>iii. An assessment of possible administrative data sources is carried out prior to launching any new survey.</p>
+<p>iv. Data linking and integration methods are proactively pursued while ensuring data security and privacy.</p>
+<p>v. Quality reports for administrative and other data used for official statistics are established by KNBS in cooperation with the data producers, owners or holders.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 11.6</td>
+<td><p>KNBS and Statistical Units define, promote and implement integrated and standardized production systems</p>
+<p>i. KNBS and Statistical Units have developed strategies to move to a more integrated and standardized statistical production system within their organization.</p>
+<p>ii. KNBS and Statistical Units promote, share and implement standardized solutions that increase effectiveness and efficiency.</p>
+<p>iii. The statistical business architecture of KNBS and Statistical Units are based on international standards and tools such as the GSBPM, the GAMSO, the Common Statistical Production Architecture (CSPA) and SDMX.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-12-assuring-appropriate-statistical-procedures" class="level3" data-number="5.3.3">
+<h3 data-number="5.3.3" class="anchored" data-anchor-id="principle-12-assuring-appropriate-statistical-procedures"><span class="header-section-number">5.3.3</span> Principle 12: Assuring Appropriate Statistical Procedures</h3>
+<p>Effective and efficient statistical procedures underpin quality and should be implemented throughout the statistical production chain. This principle is supported mainly by principle 2 of the Fundamental Principles of Official Statistics on Professional Standards, Scientific Principles, and Professional Ethics.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 92%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 12.1</td>
+<td><p>Statistical processes are tested before implementation</p>
+<ol type="i">
+<li>The testing strategy is developed as part of the design phase of the statistical business process model.</li>
+<li>Data capture procedures and data collection tools and instruments such as electronic systems are tested to ensure simplicity and minimal intrusion on privacy and are adjusted if required before their implementation.</li>
+<li>Survey questionnaires are tested using appropriate methods (e.g., pilot survey, focus groups, etc.).</li>
+<li>Collection systems for administrative and other data are tested before use.</li>
+<li>Data treatment and data processing procedures are tested and adjusted, if required and possible, prior to their actual application. vi. Test results are taken into account in the implementation of the production process and are approved.</li>
+<li>In the case of integrating data from one or more sources, the quality of the linkage procedures is tested.</li>
+</ol></td>
+</tr>
+<tr class="even">
+<td>Requirement 12.2</td>
+<td><p>Statistical processes are well established and regularly monitored and revised as required</p>
+<p>i. KNBS and Statistical Units have documented procedures and guidelines that contain recommendations for appropriate methodologies to be used at different steps of the statistical production process.</p>
+<p>ii. Documentation of production processes should follow the GSBPM.</p>
+<p>iii. A policy for archiving data and statistics is in place and is followed.</p>
+<p>iv. Statistical procedures employ internationally recognized statistical techniques.</p>
+<p>v. Data from all data sources are reviewed and validated to identify potential problems, errors and discrepancies such as outliers, missing data and miscoding.</p>
+<p>vi. When coding is done through an automated process, a team of well-trained coders is assigned to verify the automated coding and to handle un-coded cases.</p>
+<p>vii. The effects of data editing and imputation are analyzed as part of assessing the quality of the data collection. v</p>
+<p>iii. All statistical databases are designed and arranged in a way that allows and facilitates data linkage, using unique identifiers for Statistical Units as appropriate while ensuring data security and privacy.</p>
+<p><em>See also principle 10 on assuring methodological soundness</em></p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 12.3</td>
+<td><p>Procedures are in place to effectively use administrative and other data sources for statistical purposes</p>
+<p>i. KNBS and Statistical Units use tools and guidelines to assess the quality of the data of administrative and other data sources.</p>
+<p>ii. Appropriate processes and software applications for the collection, processing and analyses of data of administrative and other data sources have been developed and implemented.</p>
+<p>iii. Owners or holders of administrative and other data sources inform KNBS and Statistical Units of any changes in the data production process.</p>
+<p>iv. Metadata related to administrative or other data sources are available to KNBS and Statistical Units, including concepts and definitions, classifications, coverage compared to target population and other quality aspects.</p>
+<p>v. Documentation exists that describes how data from administrative and other sources meet the statistical requirements in terms of definitions, concepts and coverage, among other things.</p>
+<p><em>See principle 11 on assuring cost-effectiveness.</em></p></td>
+</tr>
+<tr class="even">
+<td>Requirement 12.4</td>
+<td><p>Revisions of statistics follow standard and transparent procedures</p>
+<p>i. A revision policy that follows international standards and recommendations exists and is made public.</p>
+<p>ii. Guidelines for revisions exist and are followed.</p>
+<p>iii. Revisions of the published statistics are accompanied by metadata that provide necessary explanations.</p>
+<p>iv. Indicators expressing the amount and types of revisions are computed and evaluated for improvement.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 12.5</td>
+<td><p>Metadata and documentation of methods and different statistical processes are managed throughout the processes and shared as appropriate.</p>
+<p>i. There is a policy on metadata documentation linked to the statistical production processes.</p>
+<p>ii. The policies and standards for maintaining and updating metadata are followed.</p>
+<p>iii. Work on preparing statistics and their related metadata should be done concurrently.</p>
+<p>iv. Metadata are captured throughout the statistical business process following the GSBPM and stored in a metadata management system.</p>
+<p>v. Statistical methods and processes are documented in such a way that allows for the recreation of the entire statistical production process.</p>
+<p><em>See also principle 19 on managing metadata.</em></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-13-managing-the-respondent-burden" class="level3" data-number="5.3.4">
+<h3 data-number="5.3.4" class="anchored" data-anchor-id="principle-13-managing-the-respondent-burden"><span class="header-section-number">5.3.4</span> Principle 13: Managing the Respondent Burden</h3>
+<p>Individuals, households or businesses that provide the data upon which statistical products are based are fundamental contributors to the quality of data and information. The requirement to collect data should be balanced against production costs and the burden placed on respondents. Mechanisms to maintain good relationships with providers of data and to proactively manage the respondent burden are essential to improving quality. This Principle is supported by principle 5 of the Fundamental Principles of Official Statistics on Sources of Official Statistics on prevention of misuse.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 93%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 13.1</td>
+<td><p>The range and detail of requested information is limited to what is necessary</p>
+<p>i. The availability and suitability of existing surveys and administrative or other data sources are explicitly considered before suggesting a new survey.</p>
+<p>ii. Before establishing a new survey, a discussion should take place as to the possibility of producing the required data with less respondent burden by modifying or amending an existing survey or by linking the new survey with an existing survey (integrated survey system).</p>
+<p>iii. The collection of each data item of a survey has to be explained and justified. iv. The collection of any data items that are identical or similar to those collected in another survey is limited to what is considered necessary for verification and possible data linkage purposes.</p>
+<p>v. When possible, surveys or parts of the information to be collected in the surveys are extracted or derived from available administrative registers.</p>
+<p>vi. The burden on respondents is measured and included in a set of quality indicators and in the quality reports.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 13.2</td>
+<td><p>Mechanisms are in place to promote the value and use of statistics to respondents</p>
+<p>i. Information packages that provide respondents with important and necessary information about the survey and explain the value of official statistics are made available.</p>
+<p>ii. Dissemination of the final reports or results of the census or sample survey to all, including respondents.</p>
+<p>iii. Initiatives with community groups, schools, business advocates and others are undertaken to raise awareness of the value of official statistics.</p>
+<p>iv. Electronic products are developed that give necessary statistical information to businesses and individuals, and these products are promoted through initiatives with communities and respondents.</p>
+<p>v. Social media is used to promote participation in surveys and censuses.</p>
+<p>vi. Standard practices are in place to obtain feedback from respondents and to respond to their requests and complaints in a regular manner.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 13.3</td>
+<td><p>Sound methods, including IT solutions, are used in surveys to reduce or distribute the respondent burden</p>
+<p>i. Appropriate sampling techniques are used to minimize sample sizes to achieve the target level of accuracy.</p>
+<p>ii. Sample surveys are coordinated to distribute the burden on respondents.</p>
+<p>iii. Multiple modes of the collection are offered to respondents, including electronic surveys.</p>
+<p>iv. The collection of data is scheduled in consideration of the respondents’ appropriate timing where applicable.</p>
+<p>v. Frames are sufficient and their usage well-coordinated to minimize respondent fatigue.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 13.4</td>
+<td><p>Data sharing, data linkage and the use of administrative and other data sources are promoted to minimize respondent burden.</p>
+<p>i. Documentation of data already available within the NSS, including archived data, exists and is shared.</p>
+<p>ii. Procedures and technical tools for data sharing and data linkage within the NSS (e.g., formal agreements, web services, common databases) exist.</p>
+<p>iii. Data repositories are shared among KNBS and Statistical Units for the production of official statistics and in compliance with confidentiality policies.</p>
+<p>iv. Information on the quality of data to be linked exists (e.g., on coverage and linkage possibilities).</p>
+<p>v. Use of administrative and other data as an alternative to survey data for producing official statistics is promoted throughout the NSS</p>
+<p><em>See principle 2 on managing relationships with data users, data providers and other stakeholders, principle 11 on assuring cost- effectiveness and principle 12 on assuring appropriate statistical procedures.</em></p></td>
+</tr>
+</tbody>
+</table>
+<section id="level-d-managing-statistical-outputs" class="level4" data-number="5.3.4.1">
+<h4 data-number="5.3.4.1" class="anchored" data-anchor-id="level-d-managing-statistical-outputs"><span class="header-section-number">5.3.4.1</span> Level D: Managing Statistical Outputs</h4>
+<p>Statistics serve the needs of national governments, research institutions, businesses, the general public and the international community. The output quality is measured by the extent to which the statistics are relevant, accurate and reliable, timely and punctual, readily accessible by and clear to users, and coherent and comparable across geographical regions and over time.</p>
+</section>
+<section id="principle-14-assuring-relevance" class="level4" data-number="5.3.4.2">
+<h4 data-number="5.3.4.2" class="anchored" data-anchor-id="principle-14-assuring-relevance"><span class="header-section-number">5.3.4.2</span> Principle 14: Assuring Relevance</h4>
+<p>Statistical information should meet the current and/or emerging needs or requirements of its users. Without relevance, there is no quality. However, relevance is subjective and depends upon the varying needs of users. The challenge is to weigh and balance the conflicting needs of current and potential users to produce statistics that satisfy the most important and highest priority needs within the given resource constraints. Principle 14 is supported mainly by principle 1 of the Fundamental Principles of Official Statistics on relevance, impartiality, and equal access.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 94%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 14.1</td>
+<td><p>Procedures are in place to identify users and their needs and to consult them about the content of the statistical work programme</p>
+<p>i. There is legislation or some other formal provision that includes an obligation to consult with the main users of the statistics.</p>
+<p>ii. Structured and periodic consultation processes (e.g., advisory councils and committees or working groups) with key stakeholders and users are in place to review the content of the statistical programme and the usefulness of existing statistics, and to identify requirements for new statistics.</p>
+<p>iii. Feedback from a user support service, centre or hotline is analysed to understand and identify user needs.</p>
+<p>iv. Data on the use of statistics (e.g., web analytics, number and types of down-loads, subscribers to reports) are collected and analysed to improve statistical outputs.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 14.2</td>
+<td><p>Users’ needs and requirements are balanced, prioritized and reflected in the work programme</p>
+<p>i. Users’ priority needs are met and reflected in the work plan of KNBS and Statistical Units.</p>
+<p>ii. Procedures are in place to prioritize various user needs in the work plan programme and strategic goals.</p>
+<p>iii. Data on the use of statistics are analysed to support the setting of priorities.</p>
+<p>iv. A periodic evaluation of the work plan is carried out to identify emerging needs and lower priorities.</p>
+<p>v. Processes are in place to monitor and consult with stakeholders on the relevance and practical utility of existing statistics (with regard to scope, level of detail, cost, etc.) according to current and emerging user needs.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 14.3</td>
+<td><p>Statistics based on new and existing data sources are being developed in response to society’s emerging information needs</p>
+<p>i. A mechanism such as Memoranda of Understanding (MoUs) are established to consider and experiment with new data sources to meet emerging information needs.</p>
+<p>ii. Cooperation with the scientific community and owners or holders of new data sources is established to experiment with and pioneer the use of these data sources.</p>
+<p>iii. Possibilities of exploiting new data sources are regularly discussed by management.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 14.4</td>
+<td><p>User satisfaction is regularly measured and systematically followed up</p>
+<p>i. User satisfaction surveys and user studies are regularly carried out and analyzed.</p>
+<p>ii. Improvement actions arising from the user satisfaction surveys and user studies are identified and implemented.</p>
+<p>iii. User satisfaction surveys include questions on the opinions of users about metadata availability.</p>
+<p>iv. Measures to assess the satisfaction of main users of particular products are in place (e.g., specific user-satisfaction surveys and indicators, including timeliness, etc., at the product level).</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="principle-15-assuring-accuracy-and-reliability" class="level3" data-number="5.3.5">
+<h3 data-number="5.3.5" class="anchored" data-anchor-id="principle-15-assuring-accuracy-and-reliability"><span class="header-section-number">5.3.5</span> Principle 15: Assuring Accuracy and Reliability</h3>
+<p>KNBS and Statistical Units should develop, produce and disseminate statistics that accurately and reliably portray reality. The accuracy of statistical information reflects the degree to which the information correctly describes the phenomena it was designed to measure, namely, the degree of closeness of estimates to true values. This principle is supported mainly by principle 1 of the Fundamental Principles of Official Statistics on relevance, impartiality, and equal access.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 88%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 15.1</td>
+<td><p>Source data, integrated data, intermediate results and statistical outputs are regularly assessed and validated</p>
+<p>i. Systems for assessing and validating source data, integrated data, intermediate results and statistical outputs are developed and managed.</p>
+<p>ii. Data are systematically checked and compared with data from other sources and over time.</p>
+<p>iii. Results of statistics are compared with other existing information in order to ensure validity.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 15.2</td>
+<td><p>Sampling errors are measured, evaluated and documented. Non- sampling errors are described and, when possible, estimated</p>
+<p>i. Procedures and guidelines are available on how to measure and manage (e.g., reduce or balance) errors.</p>
+<p>ii. Sources of possible sampling errors are identified and described.</p>
+<p>iii. Sampling errors are measured and evaluated.</p>
+<ol start="4" type="i">
+<li>Non-sampling errors are identified, described and evaluated.</li>
+</ol>
+<p>v. Errors are analysed to identify improvement measures.</p>
+<p>vi. Information about the sampling and non-sampling errors is made available to users as part of the metadata.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 15.3</td>
+<td><p>Studies and analyses of revisions are carried out and used to improve data sources, statistical processes and outputs</p>
+<p>i. Preliminary and revised data and statistics are clearly identified.</p>
+<p>ii. Explanations about the timing, reasons for and the nature of revisions are made available.</p>
+<p>iii. The revision policy follows standard and transparent procedures.</p>
+<p>iv. Information on the size and direction of revisions for key indicators is used to improve the statistical processes.</p>
+<p>v. Information on the size and direction of revisions for key indicators is provided and made public.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-16-assuring-timeliness-and-punctuality" class="level3" data-number="5.3.6">
+<h3 data-number="5.3.6" class="anchored" data-anchor-id="principle-16-assuring-timeliness-and-punctuality"><span class="header-section-number">5.3.6</span> Principle 16: Assuring Timeliness and Punctuality</h3>
+<p>KNBS and Statistical Units should minimize delays in making statistics available. Timeliness refers to how quickly—after the reference date or the end of the reference period— the data and statistics are made available to users. Punctuality refers to whether data and statistics are delivered on the promised, planned or announced dates. This principle is supported mainly by principle 1 of the Fundamental Principles of Official Statistics on relevance, impartiality, and equal access.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 90%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 16.1</td>
+<td><p>The timeliness of statistics from KNBS’s and Statistical Units comply with international standards or other relevant timeliness targets</p>
+<p>i. The timeliness of statistics from KNBS and Statistical Unit complies with the dissemination standards of international organizations such as Special Data Dissemination Standard (SDDS)</p>
+<p>ii. Divergences from international timeliness targets are monitored and, if the targets are not met, actions are taken to ensure compliance.</p>
+<p>iii. The overall trade-offs between timeliness and other dimensions of quality (e.g., accuracy, cost and respondent burden) are given consideration when setting targets.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 16.2</td>
+<td><p>The relationship with data providers is managed with regard to timeliness and punctuality needs</p>
+<p>i. Agreements are in place with data providers on the planned delivery dates and delivery format.</p>
+<p>ii. Procedures are in place to ensure the effective and timely flow of data from providers to KNBS and Statistical Units.</p>
+<p>iii. Follow-up procedures are in place to ensure the timely receipt of data from providers.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 16.3</td>
+<td><p>Preliminary results can be released when their accuracy and reliability is acceptable</p>
+<p>i. The possibility and necessity of releasing preliminary data for key statistics is evaluated, while considering data accuracy and reliability.</p>
+<p>ii. When preliminary statistics are released, they are clearly identified as such.</p>
+<p>iii. Users are provided with appropriate information on the quality of the preliminary statistics.</p>
+<p>iv. Preliminary results are revised according to the established revision policy. Final results are clearly distinguished from preliminary results.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 16.4</td>
+<td><p>Punctuality is measured and monitored according to planned release dates, such as those set in a release calendar</p>
+<p>i. The release calendar should be in place at least 3 months in advance before the publication of the relevant statistics.</p>
+<p>ii. Punctuality or the rate of punctuality (i.e., rate of statistics published on time) is measured according to the release calendar.</p>
+<p>iii. Information on the punctuality of the released statistics is discussed by management and made available to users.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-17-assuring-accessibility-and-clarity" class="level3" data-number="5.3.7">
+<h3 data-number="5.3.7" class="anchored" data-anchor-id="principle-17-assuring-accessibility-and-clarity"><span class="header-section-number">5.3.7</span> Principle 17: Assuring Accessibility and Clarity</h3>
+<p>KNBS and Statistical Units should ensure that the statistics they develop, produce and disseminate can be found and obtained without difficulty, are presented clearly and in such a way that they can be understood, and are available and accessible to all users on an impartial and equal basis in various convenient formats in line with open data standards. Provision should be made for allowing access to microdata for research purposes, in accordance with an established policy that ensures statistical confidentiality. This principle is supported mainly by Principle 1 of the Fundamental Principles of Official Statistics on relevance, impartiality, and equal access.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 93%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 17.1</td>
+<td><p>Statistics are presented in a form that facilitates proper interpretation and meaningful comparisons</p>
+<p>i. Statistics are presented in a clear and understandable manner to all users.</p>
+<p>ii. Guidelines that describe the appropriate content and preferred formats and style (layout and clarity of text, tables and charts) of KNBS’s and Statistical Units’ outputs are available to authors of statistical publications and databases.</p>
+<p>iii. Published statistics are open for free use and re-dissemination, provided that reference is made to the responsible agency.</p>
+<p>iv. Staff training and development programmes are in place with regard to writing about statistics (for press releases, publication highlights or other explanatory texts).</p>
+<p>v. Up-to-date methodological documents (on concepts, scope, classifications, the basis of recording, data sources, compilation methods and statistical techniques), as well as quality reports and the work programme of KNBS’s and Statistical Units, are made available to the public.</p>
+<p>vi. Explanatory texts accompanying the statistics are reviewed for clarity and readability.</p>
+<p>vii. Meaningful comparisons are included in the publications when appropriate.</p>
+<p>viii. Preliminary and revised data are identified and explained in published statistics.</p>
+<p>ix. Metadata needed to understand and use the statistics are published together with the statistics.</p>
+<p>x. A policy for archiving published statistics is in place.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 17.2</td>
+<td><p>A data dissemination strategy and policy exists and is made public</p>
+<p>i. The public is made aware that custom-designed outputs, statistics not routinely disseminated and longer time series can be provided on request when feasible, and it is instructed on how the data can be ordered. These outputs are made public if possible.</p>
+<p>ii. Catalogues of publications and other services are made available to users.</p>
+<p>iii. While official statistics are normally free and accessible for everyone, statistics that need to be produced on request might have a cost corresponding to the extra work they require. The pricing of special requests is fully transparent.</p>
+<p>iv. A strategy has been developed and agreed upon with stakeholders for the release of anonymized data and microdata.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 17.3</td>
+<td><p>Modern information and communication technology is used for facilitating easy access to statistics i. Statistics are disseminated in various ways suitable for all users, with KNBS’s website providing a central entry point.</p>
+<p>ii. Users are able to extract data from statistical databases through public inter-faces in the most appropriate and common formats (xlsx, csv, html, etc.).</p>
+<p>iii.Statistical data can be accessed through an application programming interface.</p>
+<p>iv. Statistics are disseminated in ways that facilitate re-dissemination by the media.</p>
+<p>v. KNBS and Statistical Units consults users on a regular basis to discover the formats of dissemination they most prefer.</p>
+<ol start="6" type="i">
+<li>Agreements with key users are established for the efficient and regular trans-mission of statistics and data.</li>
+</ol>
+<p>vii. Technical solutions for access to anonymized data are available.</p>
+<p>viii. Explicit consideration has been given to trade-offs between accessibility and confidentiality (i.e., level of detail in tables).</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 17.4</td>
+<td><p>Access to microdata is allowed for research purposes, subject to specific rules and protocols on statistical confidentiality that are posted on KNBS’s and Statistical Units’ website</p>
+<p>i. KNBS and Statistical Units control or monitor the access of researchers to microdata by providing the microdata in a secure environment.</p>
+<p>ii. Researchers are regularly consulted about the effectiveness of the microdata access arrangements.</p>
+<p>iii. Remote access facilities are available for accessing microdata, with appropriate controls.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 17.5</td>
+<td><p>Mechanisms are in place to promote statistical literacy</p>
+<p>i. KNBS and Statistical Units have a strategy to manage media relationships and maintain regular contact with the media.</p>
+<p>ii. KNBS and Statistical Units arrange regular training and outreach for journalists.</p>
+<p>iii. KNBS and Statistical Units arrange training for students on how to use statistics.</p>
+<p>iv. The publication of articles on statistical issues, and how statistics should be used properly, is encouraged.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 17.6</td>
+<td><p>KNBS and Statistical Units have a dedicated focal point that provides support and responds to inquiries from users in a timely manner</p>
+<p>i. Well-known user support services are available to give prompt assistance to users to help them access and interpret the data.</p>
+<p>ii. User support services are appropriately staffed to support a wide range of users.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 17.7</td>
+<td><p>Users are kept informed about the quality of statistical outputs</p>
+<p>i. Standards for quality reports for different users’ needs, are defined.</p>
+<p>ii. Published statistics are accompanied by standard quality reports, including information on the periodicity of the statistics, data sources, production methods and quality (i.e., accuracy and reliability, timeliness and punctuality, coherence and comparability, accessibility and clarity).</p>
+<p>iii. Results from quality assessments or reviews are made public.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-18-assuring-coherence-and-comparability" class="level3" data-number="5.3.8">
+<h3 data-number="5.3.8" class="anchored" data-anchor-id="principle-18-assuring-coherence-and-comparability"><span class="header-section-number">5.3.8</span> Principle 18: Assuring Coherence and Comparability</h3>
+<p>KNBS and Statistical Units should develop, produce and disseminate statistics that are consistent, meaning it should be possible to combine and make joint use of related data, including data from different sources. Furthermore, statistics should be comparable over time and between areas. This Principle is supported mainly by Principle 1 of the Fundamental Principles of Official Statistics on relevance, impartiality, and equal access.</p>
+</section>
+<section id="principle-18-assuring-coherence-and-comparability-1" class="level3" data-number="5.3.9">
+<h3 data-number="5.3.9" class="anchored" data-anchor-id="principle-18-assuring-coherence-and-comparability-1"><span class="header-section-number">5.3.9</span> Principle 18: Assuring Coherence and Comparability</h3>
+<p>KNBS and Statistical Units should develop, produce and disseminate statistics that are consistent, meaning it should be possible to combine and make joint use of related data, including data from different sources. Furthermore, statistics should be comparable over time and between areas. This Principle is supported mainly by Principle 1 of the Fundamental Principles of Official Statistics on relevance, impartiality, and equal access.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 93%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 18.1</td>
+<td><p>International, regional and national standards are used with regard to definitions, units, variables and classifications</p>
+<p>i. KNBS and Statistical Units promote the adoption of national, regional or international statistical standards.</p>
+<p>ii. Guidelines, a common repository of statistical concepts, definitions of units and variables, and classifications and other mechanisms exist.</p>
+<p>iii. Compliance with international, regional or national standards for statistical production is periodically assessed. Any deviations from these standards are identified and included in the publicly available metadata, along with reasons for such deviations.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 18.2</td>
+<td><p>Procedures or guidelines are in place to ensure and monitor internal, intrasectoral and cross-sectoral coherence and consistency</p>
+<p>i. Statistics derived from different sources or with different periodicities (e.g., monthly, quarterly, yearly) are compared and any differences are explained and reconciled, as appropriate.</p>
+<p>ii. Cooperation and the exchange of knowledge among individual statistical programmes and domains is promoted.</p>
+<p>iii. Process-specific procedures and guidelines are available to ensure that outputs are internally coherent.</p>
+<p>iv. Before new statistics or statistical programmes are launched, the conceptual and methodological relationship with existing statistics is analysed.</p>
+<p>v. Statistical outputs are compared with results of other statistical or administrative sources that provide the same or similar information on the same subject matter, and divergences are identified and explained to users.</p>
+<p>vi. Internal procedures or guidelines are developed in order to ensure and monitor internal coherence and consistency.</p>
+<p>vii. Procedures and guidelines are developed in order to ensure that results from different sources can be combined. Compliance is periodically assessed.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 18.3</td>
+<td><p>Statistics are kept comparable over a reasonable period of time and between geographical areas</p>
+<p>i. Changes in methods of data compilation are clearly identified, described and analysed to facilitate the interpretation of the results.</p>
+<p>ii. Quality reporting includes a section on the assessment of internal consistency and comparability over time and with related statistics.</p>
+<p>iii. Breaks in a series are explained and the methods for ensuring reconciliation over a period of time are made publicly available.</p>
+<p>iv. Effects of changes in methodologies on final estimates are assessed and appropriate information is provided to users.</p>
+<p>v. Significant changes in the society and phenomena to be measured are reflected by appropriate changes to concepts, classifications, definitions and target populations.</p>
+<p>vi. Differences within geographical areas or at the country level due to different concepts or methodologies are explained.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principle-19-managing-metadata" class="level3" data-number="5.3.10">
+<h3 data-number="5.3.10" class="anchored" data-anchor-id="principle-19-managing-metadata"><span class="header-section-number">5.3.10</span> Principle 19: Managing Metadata</h3>
+<p>KNBS and Statistical Units should provide information covering the underlying concepts and definitions of the data collected and statistics produced, the variables and classifications used, the methodology of data collection and processing, and indications of the quality of the statistical information in general, sufficient information to enable the user to understand all of the attributes of the statistics, including their limitations. This Principle is supported mainly by principle 3 of the Fundamental Principles of Official Statistics on accountability and transparency.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 88%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Requirement 19.1</td>
+<td><p>The metadata management system of KNBS and other statistical units is well defined and documented.</p>
+<p>i. A strategy, guidelines and procedures are in place for metadata management and dissemination.</p>
+<p>ii. Metadata management is recognized as the responsibility of all staff.</p></td>
+</tr>
+<tr class="even">
+<td>Requirement 19.2</td>
+<td><p>Metadata are documented, archived and disseminated according to internationally accepted standards.</p>
+<p>i. International, regional, national or internal standards are used for metadata documentation, management and archiving.</p>
+<p>ii. Procedures are in place to ensure that metadata are documented according to standardized metadata systems and are regularly updated.</p>
+<p>iii. Metadata are made available at the same time as the data and statistics to which they pertain.</p>
+<p>iv. The dissemination of metadata is tailored to different needs, such as those of producers and users of statistics.</p>
+<p>v. A systematic way to archive metadata is available that also ensures that the metadata are accessible for reuse in the future.</p>
+<p>vi. A glossary of statistical concepts is publicly available.</p></td>
+</tr>
+<tr class="odd">
+<td>Requirement 19.3</td>
+<td><p>Staff training and development programmes are in place on metadata management and related information and documentation systems.</p>
+<p>i. Process managers are trained to properly document the data and describe the relevant processes.</p>
+<p>ii. KNBS’s and Statistical Units’ staff participate in international metadata forums.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="implementation-of-the-quality-assurance-framework" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="implementation-of-the-quality-assurance-framework"><span class="header-section-number">5.4</span> Implementation of the Quality Assurance Framework</h2>
+<p>The KNBS is responsible for spearheading the development of the national quality assurance framework in consultation with the stakeholders in the national data ecosystem. It will also ensure that the framework is adopted and that the national legislation and provision support its implementation across the national data ecosystem. This will guide the production of statistics as well as outline the criteria for monitoring and assessing the quality of statistics produced in the country. It will be an assurance that the players in the data ecosystem commit to continually assess and improve the statistics produced in the Country.</p>
+<section id="institutional-arrangements" class="level3" data-number="5.4.1">
+<h3 data-number="5.4.1" class="anchored" data-anchor-id="institutional-arrangements"><span class="header-section-number">5.4.1</span> Institutional Arrangements</h3>
+<p>The specific institutional arrangements and roles of the quality units, task forces, quality managers, quality champions and focal points, and quality networks, among other things, that are involved in quality assurance are expected to evolve over time. Quality management therefore must be institutionalized. The following institutional arrangements for the implementation of KeSQAF will be set up.</p>
+<ol type="i">
+<li><p>Quality Unit</p>
+<p>A quality unit will be maintained at KNBS for quality management and coordination within KNBS in order to maintain sufficient capacity to lead and support the implementation of quality management initiatives throughout KNBS, and to support other NSS members and producers of official statistics if required. Other major statistics producers within the NSS will be encouraged to establish their own internal quality units to support the work on quality within their organizations. As per the current organizational structure, the quality unit in KNBS is the Methods and Standards Section. The head of the section will be the Quality Manager for KeSQAF.</p></li>
+<li><p>Internal Quality Working Group An internal quality task force consisting of representatives of the quality unit and representatives from each of the other directorates of KNBS to serve as quality champions/focal points in their respective functional areas will be maintained. There is already an established Quality Working Group (QWG) at KNBS. The QWG will support KeSQAF implementation throughout KNBS. The QWG will serve as a forum in which quality related issues in the various aspects of KNBS operations can be addressed at both the strategic management and the operational level. The QWG will also serve as a mobilization mechanism for quality management initiatives, such as documentation workshops or specialized training workshops for improving quality, among other things. Other major producers of official statistics will be encouraged to establish their own internal task forces.</p></li>
+<li><p>Quality Assurance Managers In order to mainstream quality at functional areas, KNBS Heads of Divisions will be designated as Quality Assurance Managers and will be responsible for establishing the quality assurance plan, defining all the quality activities and quality indicators to be implemented and computed in their divisions.</p></li>
+<li><p>NSS-Wide Governance Body and NSS-Wide Advisory Body The National Quality Working Group (NQWG) will be an NSS-wide quality working group that provides overall support to the implementation and monitoring of the KeSQAF. Members of the NSS will be supported by the NQWG to establish their internal quality units to support the work of quality assurance within their organizations in the implementation of KeSQAF. The IaSC will ensure that each of the producers and suppliers in the NSS own and adhere to the standards and practices provided for in the KeSQAF. Within the NQWG will be the Technical Working Group on alternative sources of data which will ensure the criteria for ensuring quality are adhered to in the production of statistics by Non-State Actors (NSAs) and monitor the use of the Criteria for validating CGD. (Annex 4) The NQWG will be responsible for determining the structure and level of detail of the KeSQAF and its revision; sensitization of the data ecosystem players on the KeSQAF; developing tools for assessment of quality and conducting quality assessments of data produced in the country; developing capacity building programmes and implementing them in the country; Setting up focus groups regarding several key challenges that most of the data producers will face, such as quality assurance of administrative data sources, policies regarding the incorporation of new data sources and data made available by new data providers from outside the NSS and the standardization of metadata, among other things; Guiding proposals for the amendment of legal acts and administrative regulations to include quality assurance; Cooperating with the national task force on the SDG indicators in developing an action plan on quality assurance; Proposing coordinated policies on quality assurance with regard to the use of data supplied by providers; Developing guidelines on the structure of the quality reports to be prepared by data producers and agreeing on a schedule for their submission; Coordinating user outreach, including user-producer dialogues. KNBS will provide a secretariat for the working groups.</p></li>
+</ol>
+</section>
+<section id="training-of-staff" class="level3" data-number="5.4.2">
+<h3 data-number="5.4.2" class="anchored" data-anchor-id="training-of-staff"><span class="header-section-number">5.4.2</span> Training of Staff</h3>
+<p>Quality managers, focal points and managers of statistical products need to gain a thorough understanding of the basic concepts, objectives and tools of quality assurance, and the KeSQAF. Therefore, adequate training for NQWG members, KNBS heads of division and all members of KNBS will be undertaken. After the adoption of KeSQAF, a workshop with quality assurance managers and technical officers at KNBS; and other statistical units will be undertaken to conduct a first self-assessment. Such selfassessment establishes a baseline for KeSQAF implementation and ensures awareness, ownership and management support for further quality work.</p>
+</section>
+<section id="external-and-internal-communication" class="level3" data-number="5.4.3">
+<h3 data-number="5.4.3" class="anchored" data-anchor-id="external-and-internal-communication"><span class="header-section-number">5.4.3</span> External and Internal Communication</h3>
+<p>KNBS will explicitly communicate its commitment to high quality and continuous improvement to its stakeholders in the form of a declaration on quality. The declaration will state the principles that guide the approach of KNBS to managing quality, the standards it follows and the commitments to which it can be held accountable in producing official statistics. The declaration on quality will be officially launched, be visible on the KNBS website and be actively introduced and promoted internally and externally to all stakeholders through quality seminars, quality campaigns or an annual quality week etc.</p>
+</section>
+<section id="development-of-an-implementation-strategy-and-implementation" class="level3" data-number="5.4.4">
+<h3 data-number="5.4.4" class="anchored" data-anchor-id="development-of-an-implementation-strategy-and-implementation"><span class="header-section-number">5.4.4</span> Development of an Implementation Strategy and Implementation</h3>
+<p>Actions KNBS will develop a short-term action plan for quality improvements covering one financial year and a parallel mid and long-term strategy and action plan. Generally, quality assurance will be applied at the institutional level and/or at the process or product level. The action plan will detail the relevant principles to be applied either at the institutional, processes or product level. During implementation, KNBS will conduct a dialogue between data producers and users to provide information on quality and use its findings and conclusions alongside results from quality assessments and audits. It will also develop or review the existing subject matter quality assurance frameworks accordingly. As a best practice, GSBPM and GAMSO will be used for quality management across the NSS.</p>
+<p>All members of the NSS will commit to continually assess, improve and report on the quality of official statistics, as well as on the quality of data and statistics used in the production of official statistics. This framework will also be applied to all data and statistics produced outside of the NSS that are disseminated with the help and support of members of the NSS and used for government decision-making, as deemed appropriate. KNBS, therefore, will ensure the adoption and endorsement of the mandate for quality assurance at the policy level by including it in national legislation or provisions.</p>
+</section>
+</section>
+<section id="assessment-and-reporting" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="assessment-and-reporting"><span class="header-section-number">5.5</span> Assessment and Reporting</h2>
+<p>As part of quality management, statistical quality assessment is integral to the overall quality management system in statistics production. This will be conducted on the statistical products and processes but will also be extended to the statistical system and institutional environment. The methods adopted for statistical quality assessment will include quality indicators, quality reports, user surveys, external and self-assessments and auditing (internal or external quality reviews), peer reviews and labelling.</p>
+<p>In line with international best practice, the overarching relationship between KeSQAF, GSBPM and GAMSO will be used for quality assessment for Levels A, B, C and D as well as guiding the development of additional assessment tools. The use of GSBPM will allow the evaluation of the statistical production process and its sub-processes which will help in the detection of errors and taking of appropriate actions to mitigate the risk of undesirable impacts on statistical products.</p>
+<p>This will specifically assess:</p>
+<ol type="i">
+<li>product quality in terms of the five quality principles: relevance; accuracy and reliability; timeliness and punctuality; accessibility and clarity; and coherence and comparability.</li>
+<li>process quality in terms of four quality principles: methodological soundness; cost-effectiveness; appropriate statistical procedures; and managing respondent burden; and</li>
+<li>quality of the NSS and the institutional environment in terms of nine quality principles: coordination; relationships with stakeholders; statistical standards; professional independence; impartiality and objectivity; transparency; statistical confidentiality and data security; commitment to quality; and adequacy of resources.</li>
+</ol>
+<p>The KNBS through the QWG will develop quality indicators for the assessment framework guided by the international best practices. In acknowledging the collaborative approach needed to adequately define and develop quality indicators, data producers and users will be continuously engaged in the creation and revision of a quality assessment framework document.</p>
+<p>In general, the use of quality indicators, the production of quality reports and the conduct of user surveys are considered the basic level of quality assessment tools. Selfassessment and audits constitute the next level of quality assessment, while labeling can be looked upon as an advanced process.</p>
+<section id="quality-indicators" class="level3" data-number="5.5.1">
+<h3 data-number="5.5.1" class="anchored" data-anchor-id="quality-indicators"><span class="header-section-number">5.5.1</span> Quality Indicators</h3>
+<p>The KNBS through the QWG will define and develop quality indicators to measure compliance with the respective quality principles and requirements. During the development of quality indicators, those linked to GSBPM will be reviewed and used where applicable. Input from users will also be considered.</p>
+</section>
+<section id="quality-reports" class="level3" data-number="5.5.2">
+<h3 data-number="5.5.2" class="anchored" data-anchor-id="quality-reports"><span class="header-section-number">5.5.2</span> Quality Reports</h3>
+<p>Quality reports describe the outcome of quality assessments according to quality indicators. These reports will convey necessary information to enable users to assess the quality of the product. Quality reports can also be an important monitoring tool for statistics producers and managers. The quality assessment framework will outline a standard reporting structure that allows for comparability of statistical programmes based on predetermined specific quality indicators.</p>
+</section>
+<section id="obtaining-feedback-from-users" class="level3" data-number="5.5.3">
+<h3 data-number="5.5.3" class="anchored" data-anchor-id="obtaining-feedback-from-users"><span class="header-section-number">5.5.3</span> Obtaining Feedback from Users</h3>
+<p>KNBS has adopted the best practice of regularly consulting its data users about their needs and perceptions of data quality, through a user satisfaction survey. User feedback will be a distinct component of the quality assessment framework and KNBS commits to conducting follow up with data users through appropriate mediums. This will also form a basis for continuous improvement from user feedback.</p>
+</section>
+<section id="conducting-assessments" class="level3" data-number="5.5.4">
+<h3 data-number="5.5.4" class="anchored" data-anchor-id="conducting-assessments"><span class="header-section-number">5.5.4</span> Conducting Assessments</h3>
+<p>Regular predetermined self and external assessments; internal and external quality audits and peer reviews will be the main tools used to conduct assessments. The QWG will develop self-assessment checklists to be used for systematic assessment of the quality of the statistical production process. Self-assessment will be conducted by members within their functional areas at both KNBS and NSS supported by the NQWG. Regardless of the assessment context, results will be used to assess the degree of compliance for each of the requirements and describe strengths and weaknesses to enhance quality in the statistics produced within and outside NSS; by extension, it will demonstrate transparency about the extent to which data quality standards are met.</p>
+</section>
+<section id="labeling" class="level3" data-number="5.5.5">
+<h3 data-number="5.5.5" class="anchored" data-anchor-id="labeling"><span class="header-section-number">5.5.5</span> Labeling</h3>
+<p>The next level will involve comparing assessment results with defined standards and requirements. Labelling shows the extent to which a set of quality standards are met. The attachment of a label requires a procedure to guarantee that the message is appropriate and true. This is for designating statistics as official or assessing their adequacy in terms of quality reporting. Thereafter, predetermined labels will accompany the various levels of fulfilment of quality standards with corresponding explanatory notes for each label. The methods and procedures for labelling will be developed by KNBS.</p>
+</section>
+<section id="quality-assurance-for-statistics-compiled-from-different-data-sources" class="level3" data-number="5.5.6">
+<h3 data-number="5.5.6" class="anchored" data-anchor-id="quality-assurance-for-statistics-compiled-from-different-data-sources"><span class="header-section-number">5.5.6</span> Quality Assurance for Statistics Compiled from Different Data Sources</h3>
+<p>Three types of statistics producers at the national level can be distinguished: KNBS, other producers of official statistics and other statistics producers outside of the NSS. Data providers are entities that own or hold the data used in the production of statistics (source data). All types of statistics producers can use any type or combination of data sources, be they statistical, administrative, or other data sources.</p>
+<p>For the purposes of this KeSQAF, it is suggested that data sources be distinguished by their purpose and by the entity responsible for data compilation. While it is acknowledged that others may want to define and distinguish data sources differently according to their respective needs, the following definitions and classification of data sources are proposed for the purposes of this KeSQAF:</p>
+<ol type="a">
+<li>Statistical data sources are data collections created primarily for official statistical purposes by government agencies or other entities working on behalf of the government. Statistical data sources include statistical sample surveys, censuses and statistical registers. There are different types of censuses, such as population and housing censuses, business censuses and agriculture censuses, among other types. Sample surveys and statistical registers can cover different units, for example, individuals, households and businesses. Statistical registers can themselves be derived from different sources. For example, statistical business registers are often based on administrative data sources;</li>
+<li>Administrative data sources are data sets created primarily for administrative purposes by government agencies or other entities working on behalf of the government. Administrative data sources include administrative registers of persons and legal entities and the records of ministries, departments and specialized agencies, such as tax returns, social services records and customs data, or data of regional or local administrations. In contrast to statistical data sources, administrative data sources are not created in response to the need for statistical data but as a part of a government function, such as the provision of services or taxation. In some cases, statistical agencies participate in the design and/or collection of administrative data. In addition, statistical agencies may be involved at different stages of the production process of administrative data, to ensure that the data will be usable for statistical purposes;</li>
+<li>Other data sources include all data sets that are not created primarily for official statistical or administrative purposes but rather for commercial or other private purposes. Examples of other data sources include;
+<ol type="i">
+<li>Cross-country sample surveys by supranational organizations or international enterprises;</li>
+<li>Data compiled and maintained by private professional organizations or business associations, or by non-profit institutions in general;</li>
+<li>Data and records compiled and maintained and/or owned by enterprises that cover large parts of the population of statistical units, in particular e-commerce, media and telecommunications providers, but also other enterprises that provide services directly to individuals or businesses, such as insurance companies, banks and airlines;</li>
+<li>Earth observation and remote sensing;</li>
+<li>Thematic mapping and monitoring systems (e.g., field-monitoring stations for water quality, air pollution, etc.);</li>
+<li>Research/scientific and pilot studies and</li>
+<li>Citizen-generated data.</li>
+</ol></li>
+</ol>
+<p>Interest in the use of other data sources (including the data sources covered by the term “big data”) for the compilation of official statistics has been growing over the years. With the adoption of the 2030 Agenda for Sustainable Development and given the global and national data required to measure progress towards the SDGs, the use of other “new” data sources was identified as one of the top priorities for NSSs. Considering both the benefits and concerns/limitations of the use of the new data sources in official statistics, the United Nations Statistical Commission promoted their use and, at the same time, emphasized “the importance of ensuring the quality of data derived from new sources and new data providers, including those outside the official statistical system”.</p>
+<p>The Bureau will develop guidelines and criteria for assessing “other data sources” for use in reporting for national or sub-national indicators.</p>
+</section>
+</section>
+<section id="continuous-improvement-of-kesqaf" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="continuous-improvement-of-kesqaf"><span class="header-section-number">5.6</span> Continuous Improvement of KeSQAF</h2>
+<p>Since the global statistical community is progressive, there is a need to assure continuous quality improvements. Ongoing developments in quality management require responsiveness that can assure current and ongoing improvement in the quality assured. As such, monitoring of new information on quality and use of this in statistical production processes for improved outputs is an indispensable component in the implementation of KeSQAF.</p>
+</section>
+</section>
+<section id="references" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> References</h1>
+<p>Government of Kenya (GoK) (2006) Statistics Act, 2006.</p>
+<p>Kenya National Bureau of Statistics (2018). Kenya National Bureau of Statistics Strategic Plan (2018-2022).</p>
+<p>STATIN (2016). Quality Assurance Framework of Statistical Institute of Jamaica.</p>
+<p>Statistics South Africa. (2010). South African Statistical Quality Assessment Framework (SASQAF). 2 nd ed.</p>
+<p>UNDESA (2021). The Handbook on Management and Organization of National Systems Systems, 4 th Ed. of the Handbook of Statistical Organization.</p>
+<p>UNECE (2019). Generic Statistical Business Process Model Version 5.1.</p>
+<p>UNECE (2019). United Nations National Quality Assurance Frameworks Manual for Official Statistics.</p>
+<p>UNCTAD (2019). Statistics Quality Assurance Frameworks.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

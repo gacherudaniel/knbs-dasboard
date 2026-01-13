@@ -27,7 +27,7 @@ export function GeneralInfo({
   return (
     <div
       id="section-general"
-      className="bg-white rounded-xl shadow-lg border border-gray-200 mb-6 overflow-hidden scroll-mt-6 transition-all duration-200 hover:shadow-xl"
+      className="bg-white rounded-xl shadow-lg border border-gray-200 mb-8 overflow-hidden scroll-mt-6 transition-all duration-200 hover:shadow-xl"
     >
       <SectionHeader
         id="general"

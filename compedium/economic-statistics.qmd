@@ -1,0 +1,1207 @@
+# Economic Statistics
+
+This chapter covers statistical concepts and definitions related to the measurement and analysis of economic activity. These statistics are essential for understanding how economies function, tracking performance, and informing policy decisions.
+
+## Macroeconomic accounts and statistics
+
+### System of National Accounts
+
+#### System of National Accounts (SNA)
+
+The internationally agreed standard set of recommendations on how to compile measures of economic activity. It is a comprehensive, consistent and flexible set of macroeconomic accounts to meet the needs of government and private-sector analysts, policymakers, and decision-takers.
+
+#### Gross Domestic Product (GDP)
+
+The total value of goods and services produced by resident producer units of a country for a specified period of time, usually one year. It is the sum of gross value added of all resident producer units (institutional sectors or industries).
+
+#### GDP at Market Prices
+
+The sum total of the gross values added of all resident producers at producers' prices, less subsidies on imports, plus all non-deductible Value Added Taxes (VAT) (or similar taxes).
+
+#### GDP at current Prices
+
+The total value of goods and services valued at prices of the particular year of reporting. This is also referred to as nominal GDP.
+
+#### Base Year
+
+The year used as the base period for compilation of constant price estimates. The base year is reflected to be normal i.e. a year without major  shocks or structural changes. The base year of the national accounts is chosen to allow for year-to-year comparisons.
+
+#### GDP at Constant Prices
+
+The total value of goods and services for a particular period based on prices of a pre-determined base year.
+
+#### GDP per Capita
+
+The average production per person of goods and services for a specified period e.g. one year. It is used to compare the relative welfare or standard of living in different countries in a particular period.
+
+#### Gross Output
+
+Output that consists of goods or services that are produced within an establishment that become available for use outside that establishment, plus any goods and services produced for own final use.
+
+#### Intermediate Consumption
+
+Consists of the value of the goods and services consumed as inputs by a process of production, excluding fixed assets whose consumption is recorded as consumption of fixed capital; the goods or services may be either transformed or used up by the production process.
+
+#### Gross Value Added (GVA)
+
+GVA is derived as the gross output less the intermediate consumption.
+
+#### Compensation of Employees
+
+This is the total remuneration in cash or in kind paid to employees and comprises wages and salaries and the value of social contributions paid by employers.
+
+#### Operating Surplus
+
+The operating surplus measures the surplus or deficit accruing from production before taking account of any interest, rent or similar charges payable on financial or tangible non-produced assets borrowed or rented by the enterprise, or any interest, rent or similar receipts receivable on financial or tangible non-produced assets owned by the enterprise; (note: for unincorporated enterprises owned by households, this component is called "mixed income").
+
+#### Mixed Income
+
+The surplus or deficit accruing from production by unincorporated enterprises owned by households; it implicitly contains an element of remuneration for work done by the owner, or other members of the household, that cannot be separately identified from the return to the owner as entrepreneur, but it excludes the operating surplus coming from owner-occupied dwellings.
+
+#### Other Taxes on Production
+
+Taxes other than those incurred directly as a result of engaging in production; they mainly consist of current taxes on the labour or capital employed in the enterprise, such as payroll taxes or current taxes on vehicles or buildings.
+
+#### Basic Prices
+
+The amount receivable by the producer from the purchaser for a unit of a good or service produced as output minus any tax payable, and plus any subsidy receivable, on that unit as a consequence of its production or sale; it excludes any transport charges invoiced separately by the producer.
+
+#### Purchasers' Prices
+
+The amount paid by the purchaser, excluding any deductible VAT or similar deductible tax, in order to take delivery of a unit of a good or service at the time and place required by the purchaser; the purchaser's price of a good includes any transport charges paid separately by the purchaser to take delivery at the required time and place.
+
+#### Government Final Consumption Expenditure
+
+Expenditure, including imputed expenditure, incurred by the general government on both individual consumption goods and services and collective consumption services.
+
+#### General Government
+
+The sector consists of the totality of institutional units which, in addition to fulfilling their political responsibilities and their role of economic regulation, produce principally non-market services (possibly goods) for individual or collective consumption and redistribute income and wealth.
+
+#### Household/Private Final Consumption Expenditure (HFCE)
+
+Expenditure incurred by the resident households on final consumption of goods and services, whether made within or outside the economic territory.
+
+#### Final consumption expenditure by NPISH
+
+The Private final consumption expenditure (PFCE) is defined as the expenditure incurred by the resident non-profit institutions serving households (NPISH) on final consumption of goods and services, whether made within or outside the economic territory.
+
+#### Gross Fixed Capital Formation
+
+This is measured as the total value of a producer's acquisitions, less disposals, of fixed assets during the accounting period plus certain additions to the value of non-produced assets realised by the productive activity of institutional units. Expenditure on mineral exploration and military ware not used purely for war purposes are included in GFCF. However, intangible assets, such as copyrights, computer software etc, are not included due to unavailability of reliable data.
+
+#### Fixed Assets
+
+Tangible or intangible assets produced as outputs from processes of production that are themselves used repeatedly or continuously in other processes of production for more than one year.
+
+#### Consumption of Fixed Capital
+
+Constitutes the decline in the value of the fixed assets owned by an enterprise, as a result of their physical deterioration and normal rates of obsolescence and accidental damage. In other words it is the wear and tear of an asset during the accounting period.
+
+#### Changes in Inventories
+
+Changes in inventories (including work-in-progress) consist of changes in :(a) stocks of outputs that are still held by the units that produced them prior to their being further processed, sold, delivered to other units or used in other ways; and(b) stocks of products acquired from other units that are intended to be used for intermediate consumption or for resale without further processing; they are measured by the value of the entries into inventories less the value of withdrawals and the value of any recurrent losses of goods held in inventories.
+
+#### GDP by Production Approach
+
+The production approach, which is also called the output approach, measures GDP as the difference between value of output less the value of goods and services used in producing these outputs during an accounting period
+
+#### GDP by Expenditure Approach
+
+GDP by expenditure approach also known as the aggregate demand is defined as private final consumption expenditure + government final consumption expenditure + gross capital formation + exports - imports.
+
+#### GDP by Income approach
+
+The income approach estimates GDP as the sum of the incomes receivable by each institutional sector from the domestic production of goods and services.
+
+#### Gross National Income (GNI)
+
+The aggregate value of the gross balances of primary incomes for all sectors. GNI is the gross domestic product, plus net receipts from abroad of compensation of employees, property income and net taxes less subsidies on production.
+
+#### Gross National Disposable Income
+
+Gross national disposable income may be derived from gross national income by adding all current transfers in cash or in kind receivable by resident institutional units from non-resident units and subtracting all current transfers in cash or in kind payable by resident institutional units to non-resident units.
+
+#### Saving
+
+Net saving is net disposable income less final consumption expenditure.
+
+#### Net Lending/Borrowing
+
+Net amount a unit or a sector has available to finance, directly or indirectly, other units or other sectors; it is the balancing item in the capital account and is defined as: (Net saving plus capital transfers receivable minus capital transfers payable) minus (the value of acquisitions less disposals of non-financial assets, less consumption of fixed capital); negative net lending may also be described as "net borrowing".
+
+#### GDP Statistical Discrepancy
+
+This is the difference between GDP compiled by the various approaches, e.g. the difference between GDP by production approach and GDP by expenditure approach.
+
+#### Supply and use Tables
+
+The Supply Table describes how goods and services become available in an economy during a certain period of time. Products are either produced in the domestic industry or imported.  The Use Table shows how goods and services are used in the economy during a certain period of time.
+
+#### Input-Output Tables
+
+An input-output table is a means of presenting a detailed analysis of the process of production and the use of goods and services (products) and the income generated in that production.; they can be either in the form of (a) supply and use tables or (b) symmetric input-output tables.
+
+#### Social Accounting Matrices (SAM)
+
+A means of presenting the SNA accounts in a matrix which elaborates the linkages between a supply and use table and institutional sector accounts; a typical focus of a SAM on the role of people in the economy may be reflected by, among other things, extra breakdowns of the household sector and a disaggregated representation of labour markets (i.e., distinguishing various categories of employed persons).
+
+#### Satellite Accounts
+
+Satellite accounts provide a framework linked to the central accounts and which enables attention to be focussed on a certain field or aspect of economic and social life in the context of national accounts; common examples are satellite accounts for the environment, or tourism, or unpaid household work.
+
+### Balance of payments and international investment position
+
+#### Balance of Payments
+
+A systematic statistical statement that summarizes for a given period (e.g. calendar year), an economy's transactions with the rest of the world. BOP captures transactions between residents and nonresidents, irrespective of the currency in which the transaction is made. BOP comprises the Current Account (Goods and Services; Primary Income; and Secondary Income) and the Capital and Financial Accounts.
+
+#### Current Account
+
+The current account focuses on transactions related to the exchange of goods, services, income, and current transfers. It consists of Goods, Services, Primary Income and Secondary Income sub-accounts.
+
+#### Goods Account
+
+Includes the export and import of physical goods (merchandise). It also includes trade in goods by a resident and subsequent resale of these goods without them being physically present in the country. This concept is referred to as merchanting.
+
+#### Services Account
+
+It covers the export and import of services. These are categorized into twelve broad categories in the Balance of Payments and International Investment Position Manual, Sixth Edition (BPM6) as follows; Manufacturing of Physical Inputs owned by Others; Maintenance and Repair Services; Transport; Travel; Construction; Insurance and Pension Services; Financial Services; Charges for the use of  intellectual property n.i.e; Telecommunications, Computer and Information Services; Other Business Services (including Trade, Technical and related services,Research and development services, professional and management consulting services, waste treatment and depollution, agricultural and mining services, operating leasing, Trade related services ; Personal, cultural and recreation services; and Government  goods and services n.i.e
+
+#### Primary Income Account
+
+Primary income captures returns for the provision of labor and financial assets; and renting of natural resources between resident and non-resident entities. This account records compensation of employees, income from investments such as dividends, interest, reinvested earnings; investment income attributable to policyholders in insurance, standardized guarantees, and pension funds; and rent.
+
+#### Secondary Income Account
+
+This account records transfers of money or value between residents and non-residents, where no goods or services are exchanged. This includes:
+
+·       Personal transfers: All current transfers in cash or in kind made or received by resident households to or from nonresident households. They include remittances sent by workers to their families in their home countries.
+
+·       Other current transfers: These include Social contributions, social benefits,net premiums and claims on non-life insurance, Contributions from foreign governments, charitable donations, and other financial transfers, including aid and gifts.
+
+#### Current Account Balance
+
+The current account balance is the sum of the balances of the four sub-accounts:
+
+Current Account Balance (CAB) = Balance of the Goods Account + Services Account Balance + Balance in the Primary Income Account + Balance in the Secondary Income Account
+
+#### Current Account Surplus/Deficit
+
+A current account surplus occurs when a country earns more income from abroad than it spends i.e. the CAB is a positive value. On the other hand, a current account deficit results from greater expenditure on goods produced or services rendered by non-residents as well as increased payments on factors of production, including interest and labour.
+
+#### Capital Account
+
+This account shows (a) capital transfers receivable and payable between residents and nonresidents and (b) the acquisition and disposal of non-produced, nonfinancial assets between residents and nonresidents.
+
+Capital transfers are transfers in which the ownership of an asset (other than cash or inventories) changes from one party to another; or which obliges one or both parties to acquire or dispose of an asset (other than cash or inventories); or where a liability is forgiven by the creditor. This include debt forgiveness, investment grants, one-off guarantees and debt assumption, large gifts and inheritances (legacies), including those to nonprofit  institutions; cash grants from donor governments or multilateral financial institutions to the debtor economy to be used to repay debt
+
+Non-produced, non-financial assets consist of natural resources, contracts, leases and licenses; and marketing assets (including goodwill).
+
+#### Financial Account
+
+This account records transactions that involve financial assets and liabilities that take place between residents and nonresidents. It tracks cross-border investments and transactions that change the ownership of financial assets and liabilities. The financial account indicates the functional categories, sectors, instruments and maturities used for net international financing transactions. Entries in the financial account can be corresponding entries to goods, services, income, capital account, or other financial account entries. The financial account shows net acquisition of financial assets and net incurrence of liabilities. There are five functional categories in the Financial Account which include Direct Investment, Portfolio Investment, Other Investment, Financial Derivatives  and Reserve Assets.
+
+#### Direct Investment
+
+This arises when an entity, resident in one economy has equity shareholding or equivalent voting rights of 10% per cent or more in an entity resident in another economy that gives rise to a significant degree of influence or control in the management of this non-resident entity. A significant degree of influence exists when the non-resident Direct Investor has shareholding or equivalent voting rights of between 10 to 50 per cent of the value resident entity while control exists when the shareholding is more than 50 per cent.
+
+Enterprises in a direct investment relationship with each other are called affiliates or affiliated enterprises. In addition, all enterprises that are under the control or influence of the same direct investor are considered to be in a direct investment relationship with each other.
+
+#### Portfolio Investment
+
+This is defined as cross border transactions and positions involving debt or equity securities, other than those included in direct investment or reserve assets. Investments by a non-resident in an economy in form of shares/voting rights of less than 10% (equity securities) and/or investment in financial instruments which are tradable (debt/non-equity securities). The negotiability of securities is a way of facilitating trading, allowing them to be held by different parties during their lives.
+
+Portfolio investment covers, but is not limited to, securities traded on organized or other financial markets and usually involves financial infrastructure, such as a suitable legal, regulatory, and settlement framework, along with market-making dealers, and a sufficient volume of buyers and sellers. Transactions in listed equity in the Securities markets or organized exchanges constitute Portfolio Investment.
+
+#### Other Investment
+
+This captures any other investment by a non-resident in an economy that cannot be classified either as Direct Investment, Portfolio Investment, financial derivatives and employee stock options; and reserve assets. This comprises other equity (less than 10% of voting rights and non-tradable); currency and deposits; loans (including the use of IMF credit and loans from the IMF); trade credits and advances; insurance, pension and standardized guarantee schemes; accounts payable and receivable; and SDR allocations.
+
+Other investments may be split by financial asset or liability class, original or remaining maturity, or institutional sector.
+
+#### Reserve Assets
+
+Reserve assets are those external assets that are readily available to and controlled by monetary authorities for meeting balance of payments financing needs, for intervention in exchange markets to affect the currency exchange rate, and for other related purposes (such as maintaining confidence in the currency and the economy; and serving as a basis for foreign borrowing). This includes central bank holdings of foreign exchange reserves, monetary gold, Special Drawing Rights (SDRs) holdings, Reserve Position in the Fund and debt securities .
+
+#### International Investment Position
+
+International Investment Position (IIP) is a statistical statement that shows at a point in time the value and composition of financial assets of residents of an economy that are claims on nonresidents and gold bullion held as reserve assets; and liabilities of residents of an economy to non residents. The key components of IIP are similar to the components of the Financial Account of the Balance of Payments and include Direct Investment Assets/Liabilities, Portfolio Investment Assets/Liabilities, Other Investment Assets/Liabilities, Financial derivatives and Reserve Assets.
+
+The difference between an economy's external financial assets and liabilities is the economy's net IIP, which may be positive or negative.
+
+#### Financial Assets
+
+These are financial claims by residents of a country on non-residents/rest of the world. The existence of the counterpart liability distinguishes financial assets from other economic assets, such as land, dwellings, machinery, equipment, etc.
+
+#### Financial Liabilities
+
+Financial liabilities are financial claims on residents by non-residents/rest of the world.
+
+#### Rest of the world
+
+Consists of all non-resident institutional units that enter into transactions with resident units, or have other economic links with resident units.
+
+#### Residency
+
+A resident is an individual, entity or organization located in an economic territory, with which it has the centre of predominant economic interest. An enterprise incorporated in Kenya is considered a resident of Kenya irrespective of the location of the owners of the enterprise. A branch of a foreign enterprise operating (or intending to operate) in Kenya for more than a year is treated as a resident of Kenya. A household is resident in the economic territory in which household members maintain or intend to maintain a dwelling or succession of dwellings treated and used by members of the household as their principal dwelling. If an individual is present in a territory for one year or more or intending to do so is sufficient to qualify as having a principal dwelling there. If there is uncertainty about the principal dwelling, the length of time spent there should inform whether they are resident or not.
+
+A legal entity is resident in the economic territory under whose laws the entity is incorporated or registered. If there is no incorporation or registration, legal domicile is used to ascertain the residence of the entity.
+
+A Non Profit Institutions Serving Households (NPISH) has a center of economic interest in the economy in which the institution was legally created and is officially recognized and recorded as a legal or social entity. When an NPISH is engaged in charity or relief work on an international scale, it may maintain substantial operations for individual territories that may amount to branches.
+
+An exception to this rule includes the following:
+
+1.       Diplomats of Foreign Governments, Embassies, Military bases of foreign governments, cross-border workers, Patients and Students who are residents of their economies.
+
+2.     International/multilateral organizations who are not residents of any Government e.g. World Bank Group, International Monetary Fund. International organizations are resident in an economic territory of their own, and not of the economy in which they are physically located. Some international organizations cover a group of economies in a particular region, such as with economic or currency unions. If statistics are prepared for that region as a whole, these regional organizations are residents of the region as a whole, even though they are not residents of any member economy.
+
+#### Transactions
+
+A transaction is an interaction between two institutional units that occurs by mutual agreement or through the operation of the law and involves an exchange of value or a transfer. Transactions are classified according to the nature of the economic value provided—namely, goods or services, primary income, secondary income, capital transfers, nonproduced non-financial assets, financial assets, or liabilities. Transactions recorded in the BOP. are interactions between a resident and a nonresident institutional unit.
+
+#### Positions
+
+Stock of financial assets and liabilities at a specific point in time and are recorded in the IIP.
+
+#### Financial Instruments
+
+These are financial contracts made between institutional units and can be broadly divided into:
+
+·       Equity and Investment Fund shares: These include shares and other forms of ownership in an enterprise.
+
+·       Non-Equity/Debt Instruments: These include currency and deposits, debt securities, loans, trade credits and advances; other accounts receivables/payables, insurance, pension and standardized guarantee schemes, financial derivatives and employee stock options are also included in other financial instruments.
+
+#### Reinvested Earnings
+
+Income on equity not paid out to investors as dividends but retained in the enterprise (e.g., retained profits).
+
+#### Revaluations
+
+Changes in the value of assets due to price changes and reflect nominal hold- ing gains and losses on environmental assets. The nominal holding gain for environmental assets is calculated in the same way as for non-financial assets, as the increase in value accruing to the owner of the asset as a result of a change in its price over a period of time. Holding gains and losses are realized when the asset is sold or liability extinguished. Holding gains and losses on unsold assets and unpaid liabilities are unrealized but are recorded as revaluations.
+
+#### Special Drawing Rights (SDRs)
+
+SDRs are an international reserve asset created by the IMF, used to supplement its member countries' official reserves. SDR holdings represent unconditional rights to obtain foreign exchange or other reserve assets from other IMF members. SDR holdings are classified as reserve assets in while SDR allocations are captured in Other Investments liabilities.
+
+#### Valuation Principles
+
+Valuation principles for measuring cross-border transactions and positions are market prices or book values for assets and liabilities.
+
+#### Accrual Accounting
+
+Accrual accounting records flows at the time economic value is created, transformed, exchanged, transferred, or extinguished. This means that flows that imply a change of economic ownership are recorded when ownership passes and services are recorded when provided, irrespective of whether cash was received or paid or was due to be received or paid.
+
+#### Market Value
+
+Market prices for transactions are defined as amounts of money that willing buyers pay to acquire something from willing sellers; the exchanges are made between independent parties and on the basis of commercial considerations only—sometimes called "at arm's length". Transactions in loans, deposits, and other accounts receivable/ payable also should be valued at market prices. Transactions in financial assets and liabilities should be recorded exclusive of any commissions, fees, and taxes whether charged explicitly, included in the purchaser's price, or deducted from the seller's proceeds. When market prices for transactions are not observable, valuation according to market-equivalent prices provides approximation to market prices. In such cases, market prices of the same or similar items when such prices exist will provide a good basis for applying the principle of market prices.
+
+#### Book Value
+
+The value recorded in the enterprises records.
+
+#### Nominal Value
+
+The outstanding amount the debtor owes to the creditor, which is composed of the outstanding principal amount including any accrued interest. Therefore, the nominal value reflects the sum of funds originally advanced, plus any subsequent advances, plus any interest that has accrued, less any repayments (which includes any payments covering interest accrual). If a debt instrument is denominated in foreign currency, the corresponding nominal value of the instrument in domestic currency also includes holding gains or losses arising from exchange rate changes.
+
+#### Amortized value
+
+The amortized value of a loan reflects the process of gradual elimination of the liability by regular payments over a specified period of time. On the date of each scheduled payment, amortized value is the same as nominal value, but it may differ from the nominal value on other dates because nominal value includes interest that has accrued and not been paid.
+
+#### Face value
+
+The undiscounted amount to be paid to the holder at maturity. It is also known as "par value" or simply "par." Before maturity, the market value of a bond may be greater or lesser than the face value, depending on the interest rate payable and the perceived risk of default. As bonds approach maturity, market value approaches face value. For example, if interest rates are higher than the bond's coupon rate, then the bond is sold at a discount (below par). Conversely, if interest rates are lower than the bond's coupon rate, then the bond is sold at a premium (above par).
+
+#### Net Errors and Omissions
+
+In practice, data may not perfectly match due to various statistical discrepancies, either from source data or from compilation. This gives rise to net errors and omissions. While net errors and omissions is a residual item, the size and trends may help identify data problems, such as coverage or misreporting. Patterns in net errors and omissions may provide useful information on data problems. While it is not possible to have guidelines on an acceptable size for net errors and omissions, it can be assessed in relation to other items, such as GDP, current account balance, positions data, and gross flows.
+
+#### Institutional Sectors
+
+BPM6 provides guidance for compilation of BOP and IIP by attributing institutional units to the following sectors:
+
+●       Central Bank
+
+○      Deposit taking Corporations except the Central Bank
+
+○      General government
+
+●       Other Sectors
+
+■       Other financial corporations
+
+●       Moneymarketfunds(MMFs)
+
+●       Non-MMF Investment funds
+
+●       Other financial intermediaries except insurance corporations and pension funds (ICPFs)
+
+●        Financial auxiliaries
+
+●       Captive financial institutions and money lenders
+
+●        Insurance corporations
+
+●       Pension funds
+
+■       Non-financial corporations, households, and NPISHs
+
+●       Nonfinancial corporations
+
+●        Households
+
+●       NPISHs (non-profit institutions serving households; maybe combined with households)
+
+The full institutional sector detail is required for international accounts to be fully integrated with monetary, flow of funds, and other financial data.
+
+#### Exceptional Financing
+
+Brings together financial arrangements made by the authorities (or by other sectors fostered by authorities) of an economy to meet Balance of Payments needs. Arrears related to exceptional financing are recorded below the line as transactions in the analytical presentation of the Balance of Payments with the corresponding entry in the relevant instrument.
+
+#### The International Transactions Reporting System (ITRS)
+
+This is a data collection system that obtains data from banks and companies at the level of individual transactions. An ideal ITRS measures: (1) cash transactions with nonresidents that pass through domestic banks; (2) cash transactions that pass-through enterprise accounts with banks abroad; (3) transactions on intercompany accounts with nonresident companies; (4) positions; and (5) noncash transactions.
+
+Statistics are compiled from forms submitted to/by domestic banks and from forms submitted by companies.
+
+However, the efficacy of the ITRS is based on the legal framework, accounting systems, and foreign exchange regulations of various economies. In Kenya, the ITRS is a major data source on cross border transactions. However, it is not sufficient to address all the BOP requirements hence the use of complimentary data sources, including surveys to enterprises.
+
+#### Balance of Payments and International Investment Position Manual, Sixth Edition
+
+The Balance of Payments and International Investment Position Manual, Sixth Edition (BPM6) is a comprehensive set of guidelines published by the International Monetary Fund (IMF). It provides standards for compiling and presenting Balance of Payments (BOP) and International Investment Positions (IIP).
+
+### Government Finance Statistics
+
+Covers statistical activities on the general government sector and the broader public sector. It covers the compilation of data on revenues, expenditures, transactions in financial assets and liabilities, and balance sheet data.
+
+#### Classification of the Functions of Government (COFOG)
+
+Classification of the government outlays by functions, or socio-economic objectives, that general government units aim to achieve through the outlays.
+
+#### Economic classification
+
+Classification of government outlays used to identify the types of expense incurred when a government supplies goods and services to the community or redistributes income and wealth.
+
+#### Expense
+
+A transaction involving exchange and transfer that reduces the net worth of the government.
+
+#### Revenue
+
+A set of exchange and transfer transactions that increase the net worth of the government.
+
+#### Compensation of employees
+
+The expense involving total remuneration, in cash or in kind, payable to a government employee in return for work done during the accounting period, except for work connected to own-account capital formation
+
+#### Use of Goods and Service
+
+An expense that involves purchase of goods and services for production of market and nonmarket goods and services Plus goods purchased for resale Minus the change in inventories of materials, work-in- progress, finished goods, and goods held for resale. The value is recorded when goods or services are actually used rather than when they were acquired
+
+#### Interest
+
+The expense that a government unit (debtor) incurs for use of the principal outstanding, which is the economic value that has been provided by the creditor. Interest accrues continuously over period that the liability exists
+
+#### Subsidies
+
+Current transfers that government units pay to enterprises either on the basis of the levels of their production activities or on the basis of the quantities or values of the goods or services that they produce, sell, or import.
+
+#### Social Benefits
+
+Social benefits represent the government's financial contributions to support its citizens' welfare. They are typically non-market transfers (e.g., financial aid) aimed at improving economic security.
+
+#### Current Grants
+
+Current transfers are voluntary transfers from the central government to other levels of government for the purpose their current expenditure
+
+#### Capital Grants
+
+Capital transfers are voluntary transfers from the central government to other levels of government for the purpose of their capital expenditure
+
+#### Acquisition of Non-financial assets
+
+Transactions involving a monetary exchange for produced and non-produced fixed assets, inventories, valuables; most nonfinancial assets provide benefits either through their use in the production of goods and services or in the form of property income.
+
+#### Acquisition of Financial assets
+
+These are transactions that entail the government to a financial claim from a second unit; the financial assets include participation of equity, monetary gold, and Special Drawing Rights (SDRs) allocated by the IMF.
+
+#### Public debt redemption
+
+Total outlays during an accounting period towards principal repayment thus reducing the liabilities for the government
+
+#### Tax revenue
+
+Taxes are compulsory unrequited transfers to the general government sector from resident households and enterprises.
+
+#### Value Added Tax (VAT)
+
+A consumption tax levied at each stage of production of goods and services based on the value added to the product at that stage.
+
+#### Excise Duty
+
+Tax levied on specific goods and commodities produced or sold within the country. The level of duty is dependent upon the Government policy to raise revenue, protect industries or discourage consumption.
+
+#### Import Duty
+
+A levy imposed on imported goods.
+
+#### Non-Tax Revenue
+
+Certain compulsory transfers, such as fines, penalties, and most social security contributions.
+
+#### Grants
+
+Voluntary unrequited transfers received/paid by government units from/to other government units or international organizations.
+
+#### Stock of Domestic Debt
+
+The total stock of liabilities that the Government owes to residents.
+
+#### Stock of External Debt
+
+The total stock of liabilities that the Government owes to non-residents.
+
+### Monetary and Financial Statistics
+
+#### Monetary statistics
+
+Covers the stock and flow of the financial and nonfinancial assets and liabilities of an economy's financial corporations sector.
+
+#### Financial statistics
+
+Covers the stock and flow of the financial assets and liabilities of all sectors of an economy.
+
+#### Net foreign assets
+
+Gross foreign assets less gross foreign liabilities of depository corporations
+
+#### Domestic credit
+
+Credit advanced by Depository Corporations to resident institutions and individuals
+
+#### Commercial banks
+
+A commercial bank is the most common designation of a deposit-taking corporation but use of the term "bank" in the name of an entity does not imply it is actually a commercial bank. It should be classified as a bank based on the types of activities undertaken and not based on the name alone. The most common services provided by commercial banks are accepting deposits and granting loans or other forms of finance to corporations and households.
+
+#### Micro Finance Institutions
+
+Institutions providing financial services mainly credit, savings, insurance etc. to those sectors of the economy considered risky by commercial banks. Their target market is typically poor households and micro and small enterprises.
+
+They can be classified into:
+
+1)         Microfinance banks
+
+2)         Non-deposit Microfinance
+
+3)         Digital Credit Providers
+
+#### Liquidity
+
+The ability to sell assets quickly and in large volume without substantially affecting their price. A financial asset is liquid if, at short notice and minimum cost, it can be bought, sold, redeemed at, or close to, full value. This means that to be liquid, a financial asset must be exchangeable against a medium of exchange with minimum cost and time, and without unduly affecting the value of the asset.
+
+#### Deposits
+
+All funds received or held by the reporting institution on behalf of third parties that are represented by evidence of deposit. This item covers the reporting institution's deposit liabilities of all maturities with credit balances
+
+#### Loans
+
+Funds borrowed by the institutions and individuals from institutional units/sectors which are evidenced by on-negotiable documents, including credit cards.
+
+#### Non-performing loans
+
+A loan is non-performing when payments of interest or principal are past due by 90 days or more. However, the period by which institutions classify a loan as non performing may vary.
+
+#### Broad money supply (M1 M2 M3)
+
+The main categories of money are:
+
+a.     **M0** Currency outside the banking system excluding commemorative coins
+
+b.     **M1** M0 + demand deposits of banks (or depository corporations) plus other deposits at CBK
+
+c.      **Quasi Money** comprises of call plus 7 days deposits, savings and time deposits.
+
+d.     **Broad Money (M2)** M1 + Quasi (long term) money deposits (time and savings deposits of banks). This was previously M3. The previous M2 was this aggregate less both quasi-money deposits in non- bank financial institutions and their holding of cash in till and any deposits they hold in other banks.
+
+e.     **Extended Broad Money (M3)** M2 + resident foreign currency deposits.
+
+f.       **Overall Liquidity** M3 + non-bank holdings of Government securities
+
+#### Demand deposits
+
+Deposits which are subject to transfer by cashing out or cheques. Demand deposits consist of deposits (in local and foreign currency) which are immediately convertible into cash and which are transferable by cheque, banker's order, debit entry etc, without significant restriction or penalty.
+
+#### Time deposits
+
+Deposits which are usually not subject to transfer by cheque and are lodged for a definite period, subject to advance notice of withdrawal.
+
+#### Saving deposits
+
+Deposits lodged for no fixed period. Certain conditions are applicable to depositors who wish to avail cheque facilities.
+
+#### Deposit taking financial corporations
+
+Deposit taking financial corporations have financial intermediation as their principal activity. They obtain funds through the acceptance of deposits or other financial instruments such as short-term certificates of deposits
+
+#### Capital account
+
+The first of four accounts dealing with changes in the values of assets held by institutional units. It records the values of the non-financial assets that are acquired, or disposed of, by resident institutional units by engaging in transactions and to show the change in net worth due to saving and capital transfers.
+
+#### Real-time gross settlement
+
+A payment system where both processing and final settlement of funds transfer instructions take place continuously (i.e. in real time) from one bank to another.
+
+#### Central Bank Rate
+
+The rate of interest Central Bank charges on loans to banks.
+
+#### Repo rate
+
+The interest paid by the Central Bank to Commercial Banks for lending money in the repo market. Repurchase Agreements (Repo) are conducted whenever the Central Bank is mopping up excess liquidity from the domestic market. A Repo is a collateralized loan involving a contractual arrangement between two parties, whereby one party sells a security at a specified price with a commitment to buy back the same at a later date.
+
+#### Inter-bank rate
+
+The rate of interest charged on short-term loans between banks. Banks borrow and lend money in the interbank lending market in order to manage liquidity and satisfy regulations such as reserve requirements.
+
+#### Overdraft
+
+Overdraft is a financial instrument to provide an extension of credit when the current account balance reaches zero.
+
+#### Loans-deposit Spread
+
+This is the difference between the Loans and Advances interest rate and the Average Deposits rate.
+
+#### Real principal interest rate
+
+Lending interest rate adjusted for inflation
+
+#### Equities market
+
+This is a financial market for companies seeking to raise equity capital. It offers a liquid market for issuers enabling them to access a wide range of domestic and international retail and institutional investors.
+
+#### Long term insurance
+
+Long term insurance business comprises life assurance, annuities, deposit administration, group life, group credit, investments, personal pensions and permanent health.
+
+#### General insurance
+
+This is a short term or annual insurance arrangement and can be broadly categorized into two; Personal (for individuals) and commercial (for commercial entities). General insurance in Kenya is categorized into the following distinct classes: Aviation Insurance, Engineering, Home (Fire Domestic), Fire Industrial, Public Liability, Marine insurance, Motor Private/Commercial, Personal Accident, Theft, Work Injury Benefits (WIBA), Medical, Micro and Miscellaneous Insurance.
+
+#### Gross premium income
+
+The amount of money received by an insurance firm which is as a result of money paid by the policyholder to the insurance company for coverage.
+
+#### Claims/Benefit payments
+
+A formal request by the policyholder to the insurance company for payment or reimbursement for a covered loss or policy event.
+
+#### Reinsurance
+
+The process by which a direct-writing life insurance company transfers part of its risk under a contract to another life insurance company. This may be another direct-writing company or a professional reinsurance company.
+
+### System of Environmental-Economic Accounting
+
+The System of Environmental-Economic Accounting (SEEA) is a framework that integrates economic and environmental data to provide a more comprehensive and multipurpose view of the interrelationships between the economy and the environment and the stocks and changes in stocks of environmental assets, as they bring benefits to humanity. It contains the internationally agreed standard concepts, definitions, classifications, accounting rules and tables for producing internationally comparable statistics and accounts.
+
+####  Abstraction
+
+The amount of water that is removed from any source, either permanently or temporarily, in a given period of time.
+
+####  Adapted goods
+
+Goods that have been specifically modified to be more "environmentally friendly" or "cleaner" and whose use is therefore beneficial for environmental protection or resource management.
+
+####  Afforestation
+
+The increase in the stock of forest and other wooded land either due to the establishment of new forest on land that was previously not classified as forest land, or as a result of silvicultural measures such as planting and seeding.
+
+####  Aquaculture
+
+The farming of aquatic organisms, including fish, molluscs, crustaceans and aquatic plants. Farming implies some form of intervention in the rearing process to enhance production, such as regular stocking, feeding, protection from predators, etc. Farming also implies individual or corporate ownership of the stock being cultivated.
+
+####  Aquatic resources
+
+Comprise fish, crustaceans, molluscs, shellfish, aquatic mammals and other aquatic organisms that are considered to live within the boundaries of the exclusive economic zone of a country throughout their life cycles, including both coastal and inland fisheries. Migrating and straddling fish stocks are considered to belong to a given country during the period when those stocks inhabit its EEZ.
+
+####  Asset life
+
+The expected time over which an asset can be used in production or the expected time over which extraction from a natural resource can take place.
+
+####  Biological resources
+
+Resources that Include timber and aquatic resources and a range of other animal and plant resources, fungi and bacteria.
+
+####  Catastrophic losses
+
+These are reductions in assets due to catastrophic and exceptional events.
+
+####  Cultivated biological
+
+These resources cover animal resources yielding repeat products and tree, crop and plant resources yielding repeat products whose natural growth and regeneration are under the direct control, responsibility and management of an institutional unit.
+
+####  Deforestation
+
+The decrease in the stock of forest and other wooded land due to the complete loss of tree cover and transfer of forest land to other uses or to no identifiable use.
+
+####  Degradation
+
+Entails changes in the capacity of environmental assets to deliver a broad range of ecosystem services and the extent to which this capacity may be reduced through the action of economic units, including households.
+
+####  Depletion, in physical terms
+
+The decrease in the quantity of the stock of a natural resource over an accounting period that is due to the extraction of the natural resource by economic units occurring at a level greater than that of regeneration.
+
+####  Discoveries
+
+These are additions representing the arrival of new resources to a stock and commonly arise through exploration and evaluation.
+
+####  Dissipative losses
+
+Material residues that are an indirect result of production and consumption activity.
+
+####  Dissipative uses of products
+
+Covers products that are deliberately released to the environment as part of production processes.
+
+####  Ecosystems
+
+Areas containing a dynamic complex of biotic communities and their non-living environment interacting as a functional unit to provide environmental structures, processes and functions.
+
+####  Ecosystem services
+
+These are the benefits supplied by the functions of ecosystems and received by humanity.
+
+####  Emissions
+
+Substances released to the environment by establishments and households as a result of production, consumption and accumulation processes.
+
+a.     Emissions to air are gaseous and particulate substances released to the atmosphere by establishments and households as a result of production, consumption and accumulation processes.
+
+b.     Emissions to soil are substances released to the soil by establishments and households as a result of production, consumption and accumulation processes.
+
+c.      Emissions to water are substances released to water resources by establishments and households as a result of production, consumption and accumulation processes.
+
+####  End-of-pipe technologies
+
+These are mainly technical installations and equipment produced for measurement, control, treatment and restoration/correction of pollution, environ- mental degradation, and/or resource depletion.
+
+####  Energy from natural inputs
+
+Encompasses flows of energy generated from the environment by resident economic units.
+
+####  Energy losses
+
+Losses during the transmission, distribution and transport of fuels, heat and electricity. Losses also include venting and flaring of manufactured gases, losses of geothermal heat after production and pilferage of fuels or electricity.
+
+####  Energy products
+
+Products used to generate, store or deliver energy. They comprise (a) fuels that are produced/generated by an economic unit and are used as sources of energy by institutions and households; electricity that is generated by an economic unit; and heat that is generated and sold to third parties by an economic unit.
+
+Energy Products refer to products exclusively or mainly used as a source of energy. They include forms of energy suitable for direct use (e.g., electricity and heat) and energy products that release energy while undergoing some chemical or other process (including combustion).
+
+####  Energy residuals
+
+Comprise energy losses and other energy residuals.
+
+####  Environmental assets
+
+Naturally occurring living and non-living components of the Earth, together constituting the biophysical environment, which may provide benefits to humanity.
+
+####  Environmental goods and services sector
+
+Consists of producers of all environmental goods and services, including environmental-specific services, environmental sole-purpose products, adapted goods and environmental technologies.
+
+####  Environmental protection activities
+
+Activities whose primary purpose is the prevention, reduction and elimination of pollution and other forms of degradation of the environment.
+
+####  Environmental protection connected products
+
+Products whose use directly serves environ- mental protection purposes but which are not environmental protection-specific services or inputs into characteristic activities.
+
+####  Environmental protection specific services
+
+Environmental protection services produced by economic units for sale or own use.
+
+####  Environmental sole-purpose products
+
+Goods or services whose use directly serves an environmental protection or resource management purpose and that have no use except for environmental protection or resource management.
+
+####  Environmental specific services
+
+Environmental protection and resource management-specific services produced by economic units for sale or own use.
+
+####  Environmental subsidies and similar transfer
+
+Transfers intended to support activities that protect the environment or reduce the use and extraction of natural resources.
+
+####  Environmental taxes
+
+Taxes whose tax base is a physical unit of something that has a proven, specific negative impact on the environment.
+
+####  Environmental technologies
+
+Technical processes, installations and equipment, and methods or knowledge whose technical nature or purpose is environmental protection or resource management.
+
+####  Evaporation and actual evapotranspiration
+
+Constitute the volume of water that enters the atmo- sphere by vaporization of water into gas through evaporation from land and water surfaces, and transpiration from plants in the territory of reference during the accounting period excluding amounts already recorded as abstracted from soil water.
+
+####  Extractions
+
+Reductions in stock due to the physical removal or harvest of an environmental asset through a process of production.
+
+####  Final water use
+
+Equal to evaporation, transpiration and water incorporated into products.
+
+####  Gross energy input
+
+Reflects the total energy captured from the environment, energy products that are imported and any stored energy within the economy.
+
+####  Gross water input
+
+Reflects the total water that is abstracted from the environment or imported.
+
+####  Groundwater
+
+Water that collects in porous layers of underground formations known as aquifers.
+
+####  Individual environmental Assets
+
+Environmental assets that may provide resources for use in economic activity. They comprise mineral and energy resources, land, soil resources, timber resources, aquatic resources, other biological resources and water resources.
+
+####  Inland water system
+
+Comprises surface water, groundwater and soil water within the territory of reference.
+
+####  Inputs from air
+
+Comprise substances taken in by the economy from the air for purposes of production and consumption.
+
+#### Inputs from soil
+
+Comprise nutrients and other elements present in the soil that are absorbed by the economy during production processes.
+
+####  Inputs of energy
+
+Inputs from renewable sources are the non-fuel sources of energy provided by the environment.
+
+####  Integrated Technologies
+
+Technical processes, methods or knowledge used in production processes that are less polluting and less resource-intensive than the equivalent "normal" technology used by other national producers. Their use is less environmentally harmful than relevant alternatives.
+
+####  Land
+
+An environmental asset that delineates the space in which economic activities and environmental processes take place and within which environmental assets and economic assets are located.
+
+####  Land cover
+
+The observed physical and biological cover of the Earth's surface and includes natural vegetation and abiotic surfaces.
+
+####  Land use
+
+Both the activities undertaken and the institutional arrangements put in place for a given area for the purposes of economic production, or the maintenance and restoration of environmental functions.
+
+####  Losses during distribution
+
+Losses that occur between a point of abstraction, extraction or supply and a point of use.
+
+####  Losses during extraction
+
+Losses that occur during extraction of a natural resource before there is any further processing, treatment or transportation of the extracted resource.
+
+####  Losses during storage
+
+Losses of materials, water and energy products held in inventories.
+
+####  Losses during transformation
+
+The energy lost, for example, in the form of heat, during the transformation of one energy product into another energy product.
+
+####  Mineral and energy resources
+
+Comprise known deposits of oil resources, natural gas resources, coal and peat resources, non-metallic minerals and metallic minerals.
+
+####  National expenditure on environmental protection
+
+Final consumption, intermediate consumption, and gross fixed capital formation on all environmental protection goods and services plus Gross fixed capital formation for environmental protection-characteristic activities plus Environmental protection transfers by resident units not captured in the items above plus Environmental protection transfers paid to the rest of the world less Environmental protection transfers received from the rest of the world.
+
+####  Natural biological resources
+
+Consist of animals, birds, fish and plants that yield both once-only and repeat products for which natural growth and/or regeneration is not under the direct control, responsibility and management of institutional units.
+
+####  Natural expansion of forest and other wooded land
+
+An increase in area of forest and other wooded land resulting from natural seeding, sprouting, suckering or layering.
+
+####  Natural inputs
+
+Physical inputs that are moved from their location in the environment as a part of economic production processes or are directly used in production.
+
+####  Natural regression of forest and other wooded land
+
+A decrease in an area of forest and other wooded land that occurs for natural reasons.
+
+####  Natural resource inputs
+
+Comprise physical inputs to the economy from natural resources.
+
+####  Natural resource residuals
+
+Natural resource inputs that do not subsequently become incorporated into production processes and, instead, immediately return to the environment.
+
+Natural resources include all natural biological resources, mineral and energy resources, soil resources and water resources.
+
+####  Naturally regenerated forest
+
+Forest that is predominantly composed of trees established through natural regeneration. In this context, "predominantly" means that the trees established through natural regeneration are expected to constitute more than 50 per cent of the growing stock at maturity.
+
+####  Net domestic energy use
+
+The end use of energy products less exports of energy products plus all losses of energy.
+
+####  Net domestic water use
+
+The sum of all return flows of water to the environment plus evaporation, transpiration and water incorporated into products.
+
+####  Non-specialist producers
+
+Producers that produce environmental goods and services for sale but not as their primary activity.
+
+####  Other biological resources
+
+Comprise all biological resources, both cultivated and natural, other than timber resources and aquatic resources.
+
+####  Other naturally regenerated forest
+
+Naturally regenerated forest with clearly visible indications of human activities. These include selectively logged-over areas, areas regenerating following agricultural land use and areas recovering from human-induced fires, etc.; forests where it is not possible to distinguish whether they are planted or naturally regenerated; forests with a mix of naturally regenerated trees and planted/seeded trees and where the naturally regenerated trees are expected to constitute more than 50 per cent of the growing stock at stand maturity; coppice from trees established through natural regeneration; and naturally regenerated trees of introduced species.
+
+####  Physical flows
+
+Reflected in the movement and use of materials, water and energy.
+
+####  Planted forests
+
+Predominantly composed of trees established through planting and/or deliberate seeding. Planted/seeded trees are expected to constitute more than 50 per cent of the growing stock at maturity, including coppice from trees that were originally planted or seeded.
+
+####  Primary forest
+
+Naturally regenerated forest of native species, where there are no clearly visible indications of human activities and the ecological processes are not significantly disturbed. Key characteristics of primary forests are that: they show natural forest dynamics, such as natural tree species composition, occurrence of dead wood, natural age structure and natural regeneration processes; the area is large enough to maintain its natural characteristics; and there has been no known significant human intervention or the last significant human intervention occurred long enough in the past to have allowed the natural species composition and processes to have become re-established.
+
+####  Reappraisals
+
+Reflect changes in the measured stock of assets due to the use of updated information that permits a reassessment of the size of the stock.
+
+####  Reclassifications
+
+Changes in assets that result from situations in which an asset is used for a different purpose. A reclassification of an asset in one category should be offset by an equivalent reclassification in another category.
+
+####  Remedial costs
+
+These are costs incurred when production has already ceased with no provision having been made for the taking of remedial action while production was in progress.
+
+####  Rent
+
+The income receivable by the owner of natural resources or land for putting the natural resource or land at the disposal of another institutional unit for use of the natural resource or land in production**.**
+
+####  Residuals
+
+Flows of solid, liquid and gaseous materials, and energy, that are discarded, discharged or emitted by establishments and households through processes of production, consumption or accumulation.
+
+####  Resource management activities
+
+Activities whose primary purpose is preserving and maintaining the stock of natural resources and hence safeguarding against depletion.
+
+####  Resource management-specific services
+
+Resource management services produced by economic units for sale or own use.
+
+####  Resource rent
+
+The economic rent that accrues in relation to environmental assets, including natural resources.
+
+####  Return flows of water
+
+Comprise water that is returned to the environment.
+
+####  Return to environmental assets
+
+Income attributable to the use of environmental assets in a production process after deducting all costs of extraction including any costs of depletion of natural resources.
+
+####  Return to produced assets
+
+Income attributable to the use of produced assets in a production process after deducting any associated consumption of fixed capital.
+
+####  Reused water
+
+Wastewater supplied to a user for further use with or without prior treatment, excluding the reuse of water within economic units.
+
+####  Soil resources
+
+Comprise the top layers of soil that form a biological system.
+
+####  Soil water
+
+Consists of water suspended in the uppermost belt of soil, or in the zone of aeration near the ground surface.
+
+####  Solid waste
+
+Covers discarded materials that are no longer required by the owner or user.
+
+####  Specialist producers
+
+Producers whose primary activity is the production of environmental goods and services.
+
+####  Surface water
+
+Comprises all water that flows over or is stored on the ground surface regardless of its salinity levels. Surface water includes water in artificial reservoirs, lakes, rivers and streams, snow and ice and glaciers.
+
+####  Sustainable yield
+
+The surplus or excess of animals or plants that may be removed from a population without affecting the capacity of the population to regenerate itself.
+
+####  Timber resources
+
+All trees regardless of diameter, tops of stems, large branches and dead trees lying on the ground that can still be used for timber or fuel.
+
+####  Unit resource rent
+
+The resource rent per unit of resource extracted.
+
+####  Unused extraction
+
+Covers extracted natural resources in which the extractor has no ongoing interest
+
+####  Urban run-off
+
+That portion of precipitation in urban areas that does not naturally evaporate or percolate into the ground, but flows via overland flow, underflow, or channels, or is piped into a defined surface-water channel or a constructed infiltration facility.
+
+####  Wastewater
+
+Discarded water that is no longer required by the owner or user.
+
+####  Water resources
+
+Consists of fresh and brackish water in inland water bodies, including groundwater and soil water.
+
+## Sectoral statistics
+
+### Agriculture, forestry and fishing
+
+[Agricultural definitions would be included here as in the original - these were already included in the demographic-social-statistics chapter, so I won't repeat them to avoid duplication]
+
+### Energy
+
+#### Electricity
+
+Electricity is the transfer of energy through the physical phenomena involving electric charges and their effects when at rest and in motion. Electricity can be generated through different processes such as the conversion of energy contained in falling or streaming water, wind or waves; the direct conversion of solar radiation through photovoltaic processes in semiconductor devices (solar cells); or by the combustion of fuels.
+
+In Kenya, electric power is mainly generated from renewable sources like Geothermal, solar and wind and/or non-renewable sources including thermal sources.
+
+#### Main activity producers
+
+These are units that produce electricity or heat as their principal activity. Formerly known as public utilities, these enterprises may be privately or publicly owned companies.
+
+#### Autoproducers (electricity)
+
+These are units that produce electricity, but for which the production is not their principal activity.
+
+#### Autoproducers (heat)
+
+These are units that produce heat for sale, but for which the production is not their principal activity. Deliveries of fuels for heat generated by a unit for its own purposes are classified as final consumption, and not as transformation inputs.
+
+#### Electricity plants
+
+Plants producing only electricity. The electricity may be obtained directly from natural sources such as hydro, geothermal, wind, tidal, marine, solar energy or from fuel cells, or from the heat obtained from the combustion of fuels or nuclear reactions.
+
+#### CHP plants
+
+Plants that produce both heat and electricity from at least one generating unit in the plant. They are sometimes referred to as "co-generation" plants.
+
+#### Heat plants
+
+Plants (including heat pumps and electric boilers) designed to produce heat only for deliveries to third parties. Deliveries of fuels for heat generated by an autoproducer for its own purposes are classified as final consumption.
+
+#### Solar photovoltaics (PV) electricity
+
+Electricity produced from solar photovoltaics,i.e. by the direct conversion of solar radiation through photovoltaic processes in semiconductor devices (solar cells), including concentrating photovoltaic systems.
+
+#### Solar thermal electricity
+
+Electricity produced from solar heat (both concentrating and non-concentrating).
+
+#### Wind electricity
+
+Electricity produced from devices driven by wind.
+
+#### Hydroelectricity
+
+Electricity produced from devices driven by fresh, flowing or falling water.
+
+#### Wave electricity
+
+Electricity produced from devices driven by the motion of waves.
+
+#### Tidal electricity
+
+Electricity generated from devices driven by tidal currents or the differences of water level caused by tides.
+
+#### Other marine electricity
+
+Electricity generated from devices that exploit sources of marine energy not elsewhere specified. Examples of such sources are non-tidal currents, temperature differences and salinity gradients in seas or salinity differences between sea and fresh water.
+
+#### Geothermal electricity
+
+Electricity generated from the heat from geothermal sources.
+
+#### Nuclear electricity
+
+Electricity generated by nuclear heat.
+
+#### Electricity from chemical processes
+
+Electricity generated from heat recovered from a non-combusting chemical reaction.
+
+#### Electricity from other sources
+
+Electricity produced from sources not elsewhere specified (including fuel cells).
+
+#### Solar heat
+
+The generation of heat from solar thermal (concentrating and non-concentrating). Heat from concentrating solar thermal refers to high temperature heat produced from solar radiation captured by concentrating solar thermal systems.
+
+The high temperature heat can be transformed to generate electricity, drive chemical reactions, or be used directly in industrial processes. Heat from non-concentrating solar thermal refers to low temperature heat produced from solar radiation captured by non-concentrating solar thermal systems. The heat can be used for applications, such as space heating, cooling, water heating, district heating and industrial processes.
+
+#### Energy Consumers
+
+In energy statistics, energy consumers consist of economic units (enterprises and households) that act as final users of energy; they use energy products for energy purposes (heat raising, transportation and electrical services) and/or for non-energy purposes. It should be noted that the economic units belonging to the energy industries that use energy to produce other energy products are excluded from this group. Their energy use, by convention, is not part of the final consumption of energy and is considered separately as energy industries own use
+
+#### Transmission
+
+Energy transmission refers to the process of transporting electrical energy, typically at high voltages, from power generation sources to substations, and then onward to distribution networks. It's a crucial part of the electrical power grid, ensuring that electricity generated at power plants can be delivered to where it is needed.
+
+#### Distribution
+
+The process of delivering energy, primarily electricity, from generation sources to end-users
+
+[Note: The energy section continues with many more detailed definitions about energy production, transformation, trade, and consumption that would be included in the full chapter]
+
+### Mining, manufacturing and construction
+
+[Definitions for mining, manufacturing and construction sectors would be included here]
+
+### Transport
+
+#### Transport
+
+Movement of people, animals, and goods from one location to the other using modes of transport such as air, rail, road, water and pipeline.
+
+#### Passenger transport
+
+Movement of people from one location to the other using modes of transport such as air, rail, road, water and pipeline.
+
+#### Passenger
+
+Any person who makes a journey including infants in arms but excluding on-duty crew.
+
+#### Freight
+
+Any property carried in a transport mode other than passenger baggage.
+
+#### Baggage
+
+Personal property of passengers and crew loaded or carried on board an aircraft by agreement with the operator.
+
+#### Commuting
+
+Means travelling to and from one's daily work.
+
+#### Public transport
+
+The conveyance of people for reward (fare) by any travel mode e.g. by car, metered taxi, matatu, bus, rail, etc.
+
+#### Station
+
+An area of land (including any buildings, installations and equipment) for use either wholly or in part for the arrival and departure of vehicles, or trains.
+
+#### Traffic
+
+Movements by vehicles, aircraft, ships, passengers, freight or mail, departing or arriving at airports, stations, ports, and parks.
+
+#### Traffic Management
+
+The application of engineering measures such as traffic calming and/or road marking, road signs and traffic signals to regulate the use of road space and the speed and flow of traffic.
+
+[Note: The transport section continues with many more detailed definitions for air transport, railway transport, road transport, pipeline transport, sea transport, and inland waterway transport]
+
+### Tourism
+
+#### Tourism
+
+The activities of persons travelling to and staying in places outside their usual environment, for less than a year, for any main purpose, including business, leisure or other personal purpose, whose main purpose of trip is not the exercise of an activity remunerated from within the place visited.
+
+[Note: The tourism section continues with detailed definitions about visitors, tourists, accommodation, and tourism expenditure]
+
+## Banking, insurance and financial market statistics
+
+[This section would include definitions related to banking services, insurance products, and financial markets]
+
+## Wholesale and retail trade
+
+### Distributive trade
+
+This comprises all resident entities recognized as statistical units and classified in section G according to International Standard Industrial Classification of All Economic Activities (ISIC Rev 4) irrespective of their size, form of economic and legal organization and ownership. Distributive trade consists of:
+
+·       Provision of a service to various types of customers (retailers and other commercial users or the public) by storing and displaying a selection of goods and making them available for purchase.
+
+·       Provision of other services incidental to the sale of those goods or subordinated to the selling such as delivery, after-sale repair and installation services.
+
+[Note: Additional trade definitions continue here]
+
+## Sectoral statistics, n.e.c.
+
+### Real Estate statistics
+
+#### Residential Property Price Index (RPPI)
+
+This is an index which tracks the change in average prices of residential properties in specific area, like a country or region.
+
+[Note: Additional real estate and other sectoral definitions continue here]
+
+## ICT statistics
+
+### Mobile Cellular Telephone Subscriptions
+
+The number of subscriptions to a public mobile-telephone service that provide access to the Public Switched Telephone Network (PSTN) using cellular technology.
+
+[Note: Additional ICT definitions continue here]
+
+## International Trade
+
+### International Trade
+
+Also referred to as foreign trade, refers to the exchange of goods and services across international borders of countries.
+
+[Note: Additional international trade definitions continue here]
+
+## Prices
+
+### Annual Inflation Rate
+
+The annual inflation rate is the change in the overall index e.g. Consumer Price Index (CPI) for all items of the relevant month of the current year compared with the overall index for all items of the same month in the previous year expressed as a percentage.
+
+[Note: Additional price statistics definitions continue here]
+
+## Science, technology and innovation
+
+### Abandoned innovation activities
+
+Innovation activities of a firm that were abandoned before the implementation of an innovation.
+
+[Note: Additional science, technology and innovation definitions continue here]
+
+## Economic statistics, n.e.c.
+
+[Additional economic statistics definitions not elsewhere classified would be included here]

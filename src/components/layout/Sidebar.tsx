@@ -35,12 +35,12 @@ export function Sidebar({ expandedSections, onToggle }: SidebarProps) {
   };
 
   return (
-    <div className="col-span-3">
+    <div className="col-span-2">
       <div className="bg-white rounded-lg shadow-sm border overflow-hidden sticky top-4">
         <div className="bg-knbs-500 text-white px-4 py-3">
           <h3 className="font-medium text-sm">Contents</h3>
         </div>
-        <nav className="p-2">
+        <nav className="p-3">
           {NAV_ITEMS.map((item) => (
             <button
               key={item.id}

@@ -1,0 +1,101 @@
+/* KNBS Custom Styles */
+
+/* Center the content */
+.quarto-container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* KNBS Brand Colors */
+:root {
+  --knbs-primary: #B06443;
+  --knbs-light: #f5f2f0;
+  --knbs-lighter: #faf9f8;
+  --knbs-dark: #8b4f35;
+  --text-dark: #2d3748;
+  --text-light: #718096;
+  --border: #e2e8f0;
+}
+
+/* Style all headings with KNBS colors - removed underlines */
+h1, .chapter-title {
+  color: var(--knbs-primary) !important;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: var(--knbs-primary) !important;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: var(--knbs-dark) !important;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+h4 {
+  color: var(--text-dark) !important;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h5, h6 {
+  color: var(--text-light) !important;
+}
+
+/* Style the sidebar */
+.sidebar-navigation .sidebar-item a {
+  color: var(--knbs-primary);
+}
+
+.sidebar-navigation .sidebar-item a:hover {
+  color: var(--knbs-dark);
+  background-color: var(--knbs-light);
+}
+
+/* Active sidebar item */
+.sidebar-navigation .sidebar-item.active > .sidebar-item-toggle {
+  color: var(--knbs-dark) !important;
+}
+
+/* Table of contents on the right */
+.toc-actions a, .toc ul a {
+  color: var(--knbs-primary);
+}
+
+.toc ul a:hover {
+  color: var(--knbs-dark);
+}
+
+/* Center tables and improve styling */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: var(--knbs-primary);
+  color: white;
+  padding: 12px;
+}
+
+table td {
+  padding: 10px;
+  border: 1px solid var(--border);
+}
+
+/* Improve content spacing */
+.quarto-title-banner {
+  background: linear-gradient(135deg, var(--knbs-primary), var(--knbs-dark));
+  color: white;
+}
+
+/* Custom numbering for sections */
+.header-section-number {
+  color: var(--knbs-primary) !important;
+  font-weight: bold;
+}

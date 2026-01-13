@@ -11,7 +11,7 @@ export function Relevance({ isOpen, onToggle }: RelevanceProps) {
   return (
     <div
       id="section-relevance"
-      className="bg-white rounded-lg shadow-sm border mb-4 overflow-hidden scroll-mt-6"
+      className="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden scroll-mt-6"
     >
       <SectionHeader
         id="relevance"

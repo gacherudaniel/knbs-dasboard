@@ -1,0 +1,7 @@
+# Preface {.unnumbered}
+
+This Kenya Statistical Compendium serves as a comprehensive reference guide containing standardized definitions and concepts used in the production of official statistics in Kenya. It provides a unified framework for understanding statistical terminology across various domains including demographic, economic, environmental, governance, and cross-cutting statistics.
+
+The compendium supports the harmonization of statistical concepts and methodologies within Kenya's National Statistical System, ensuring consistency and quality in the production and dissemination of official statistics. It is designed to serve statisticians, researchers, policymakers, and other users of statistical information.
+
+This document is organized into thematic chapters covering the major domains of official statistics, statistical infrastructure and methodology, and strategic activities that support statistical production in Kenya.

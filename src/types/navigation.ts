@@ -18,6 +18,11 @@ export interface NavigationItem {
 
 export const NAVIGATION_STRUCTURE: NavigationItem[] = [
   {
+    id: 'home',
+    label: 'Home',
+    path: '/',
+  },
+  {
     id: 'quality',
     label: 'Quality',
     children: [

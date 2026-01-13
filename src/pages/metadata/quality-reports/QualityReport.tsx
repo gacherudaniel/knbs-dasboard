@@ -74,14 +74,14 @@ QualityReportProps) {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <div className="max-w-7xl mx-auto px-4 py-6">
-        <div className="grid grid-cols-12 gap-6">
+      <div className="max-w-full mx-auto px-6 py-8">
+        <div className="grid grid-cols-12 gap-8">
           <Sidebar
             expandedSections={expandedSections}
             onToggle={toggleSection}
           />
 
-          <div className="col-span-9">
+          <div className="col-span-10">
             {/* <ReportTitleCard
               onProductChange={handleProductChange}
               selectedProductId={selectedProduct}

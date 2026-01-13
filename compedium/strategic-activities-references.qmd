@@ -1,0 +1,659 @@
+# Strategic and Managerial Activities & References
+
+## Strategic and managerial activities
+
+## Institutional frameworks and principles; role and organization of official statistics
+
+### Kenya Statistics Code of Practice (KeSCoP)
+
+It is a technical and regulatory instrument that sets out the standards and practices for the production and dissemination of official statistics. It aims to contribute to the continuous improvement of statistical processes and outputs. It provides producers of official statistics with detailed practices they must commit to when producing and releasing Official Statistics.It is among the administrative tools for use by National Statistical System (NSS) members to comply with for statistics to be designated as official. KeSCoP also provides a framework for producers of non-official statistics to guide production of  credible statistics that can be used for official reporting where official statistics are not available.
+
+### Fundamental Principles of Official Statistics`
+
+A set of guidelines adopted by the United Nations Statistical Commission with an aim to ensure the production and dissemination of quality, impartial, and trustworthy official statistics.
+
+### National Statistical Office
+
+The main producer and custodian of official statistics in a country and/or the organization responsible for coordinating all activities related to the development, production, and dissemination of official statistics in the national statistical system. The Kenya National Bureau of Statistics (KNBS) is the National Statistical Office in Kenya.
+
+### Statistical System
+
+A statistical system is the organized network of institutions and processes responsible for producing, and disseminating official statistics.
+
+### National Statistical System
+
+The ensemble of the National Statistical Office and other Statistics units (Ministries, Departments, Agencies, Counties) in Kenya that produce, provide, supply, use and disseminate official statistics under the supervision and coordination of KNBS.
+
+### Statistical Coordination
+
+The process of harmonizing statistics activities among data producers, users, and suppliers of data to ensure consistency, efficiency, harmony and quality in official statistics. 
+
+### Statistical Coordination Mechanisms
+
+These are frameworks that ensure effective coordination of the statistical system. They Include Strategies, inter-agency sector committees, statistical technical committees, memoranda of understanding, and shared standards.
+
+### Non-State Actors
+
+These are entities that participate in public affairs or international relations but are not affiliated with or governed by any state institution.
+
+### Administrative Data Providers
+
+These are entities that generate and maintain data as part of their routine operations, which can be repurposed for statistical analysis.
+
+### Private Sector Entities
+
+This refers to organizations that are owned, operated, and managed by individuals or groups not affiliated with the government, typically with the aim of generating profit.
+
+### Development Partners
+
+Refers to a state, organization, or institution that is committed to an undertaking with another or others in the development process.
+
+### Statistics Unit
+
+An organizational entity within a government ministry, department, or agency, other than the KNBS, that produces and disseminates statistics. It is an entity for which information is sought and for which statistics are ultimately compiled.
+
+### National Data Ecosystem
+
+Refers to the integrated network of institutions, technologies, policies, and stakeholders that collectively produce, manage, share, and use data to support national development, governance, and public service delivery.
+
+### Statistical Law
+
+Refers to a legal framework that governs the collection, production, dissemination, and coordination of statistical information within a country. These laws ensure the integrity, confidentiality, and professional independence of statistical activities.
+
+### Data Provider
+
+Is any entity that collects, maintains, and supplies data either for operational purposes or for use in statistical production, research, or decision-making.
+
+### Official Statistics
+
+Are Statistics produced in accordance with the Fundamental Principles of Official Statistics by a national statistical office or by another producer of official statistics that has been mandated by the national government or certified by the national statistical office as mandated by the government.
+
+### Statistical Advocacy
+
+Taking proactive measures to, among other things, create greater awareness about the role and importance of statistics to society and promote wide use of statistics, especially for policy, planning and decision-making.
+
+### Transformation and modernization of data and statistics
+
+The process of adopting and updating systems, processes, technologies and organizations to keep pace with the changing demands of the modern world. It involves making significant changes and improvements to enhance efficiency, productivity, and competitiveness.
+
+### African Charter on Statistics (ACS)
+
+It is a legal framework adopted by the African Union to guide the development, coordination, and harmonization of statistical activities across the continent. It was adopted on 4 February 2009 and entered into force on 8 February 2015
+
+### Data Stewardship
+
+Represents the ethical and responsible creation, collection, management, use, and reuse of data. It is expressed through long-term, inter-generational curation of data assets such that they benefit the full community of data users and are used for public good.
+
+### Data Governance
+
+A system of decision rights and accountabilities for the management of the availability, usability, integrity and security of the data and information to enable coherent implementation and coordination of data stewardship activities as well as increase the capacity (technical or otherwise) to better control the data value chain, and the resulting regulations, policies and frameworks that provide enforcement.
+
+## National Statistical Coordination
+
+Refers to a structured process by which various producers and users of official statistics within a country's National Statistical System (NSS) collaborate to ensure consistency, efficiency, and quality in statistical activities.
+
+### Statistical Coordination
+
+It is a process to guide and steer cooperation between producers and users of statistics, create efficiency, maintain quality, and ensure professional independence and data confidentiality
+
+### Kenya Strategy for Development of Statistics (KSDS)
+
+An overarching National framework that guides the coordination of the National Statistical System (NSS). The KSDS provides strategic guidance on the development of capacity to produce, disseminate and mainstream the use of statistics in the country.
+
+### Statistical Programme
+
+It is a detailed plan that outlines statistical activities to be undertaken by a national statistical office or other statistical agencies within a specific period.
+
+### Statistical Committee
+
+Group of experts who provide guidance and oversight on various aspects of statistical activities.
+
+### Statistical Collaboration
+
+Joint effort of two or more individuals or organizations to achieve a common statistical goal.
+
+### User Engagement
+
+The degree to which users interact with a product, service, or dataset—measured through metrics such as frequency, duration, and depth of interaction. High user engagement typically indicates relevance, usability, and value to the audience.
+
+### User Persona
+
+A profile representing a segment of users, constructed from data and behavioral insights. It includes demographic details, goals, motivations, and usage patterns, and is used to guide user-centric design, analysis, and communication of data and statistics.
+
+### Data Use
+
+The application of data to inform decision-making, develop policies, conduct analysis, or enhance services. Data use reflects how information is leveraged across sectors to create actionable insights.
+
+### Data Uptake
+
+The extent to which data is accessed, adopted, and utilized by intended stakeholders. It is influenced by factors such as availability, accessibility, trustworthiness, and relevance of the data.
+
+### Data Value Chain
+
+The sequence of activities that adds value to data from its creation to its final use. This includes data collection, processing, analysis, interpretation, dissemination, and application, each step enhancing the utility and impact of the data.
+
+## Quality management
+
+### Quality
+
+Is the degree to which a set of inherent characteristics of an object fulfils requirements.
+
+### Quality Management
+
+Is a set of coordinated activities to direct and control an organization with regard to quality. Quality management includes establishing quality policies and objectives, and processes to achieve these objectives through quality planning, quality assurance, quality control, and quality improvement. It also refers to systems and frameworks in place within an organisation to manage the quality of statistical products and processes.
+
+### Quality Management Framework
+
+A set of interrelated or interacting elements of an organization to establish quality policies and quality objectives, and processes to achieve those objectives.
+
+### Quality Management System
+
+A quality management system is a set of policies, processes and procedures focused on meeting customers requirements and enhancing their satisfaction.
+
+### Quality Assurance
+
+All the planned and systematic activities implemented that can be demonstrated to provide confidence that the processes will fulfil the requirements for the statistical output. It is the part of quality management focused on providing confidence that needs or expectations regarding quality will be met. Quality assurance provides an organization's guarantee that the product and service it offers meet accepted quality standards.
+
+### Quality Assurance Framework
+
+The procedures and systems that support quality assurance within an organization: part of the quality management framework that provides confidence that the stated needs or expectations of users are being met. It is the structure for implementing quality assurance activities within an organisation.
+
+### Kenya Statistical Quality Assurance Framework (KeSQAF)
+
+A comprehensive framework that provides a coherent and holistic system for statistical quality management in Kenya.
+
+### Quality Assessment
+
+The part of quality assurance that focuses on assessing the extent to which quality requirements have been fulfilled. In this case, quality assessment, quality evaluation, and quality review are regarded as synonyms and for brevity are referred to simply as evaluation**,**
+
+### Data Quality Assessment Framework (DQAF)
+
+A tool developed by the International Monetary Fund (IMF) to evaluate specific types of a country's data for quality. It provides a structure for assessing data quality by comparing country statistical practices with best practices, including internationally accepted methodologies.
+
+### Quality report
+
+This is a report providing a factual account of the quality of a statistical process and its outputs, together with recommendations for quality improvements and justification for their implementation. Report conveying information about the quality of a statistical output and/or process.
+
+## Management of human resources
+
+Covers managing employee performance, recruitment, skills development, talent management and succession planning.
+
+Corresponds to GAMSO category 3.8 Manage human resources.
+
+### Competency Framework
+
+A tool that guides the formulation and implementation of human resources policies starting with the recruitment and aiming at building professional capability and staff well-being and ensuring that the organization stays on course in achieving the expected objectives.
+
+### Workforce planning (or Strategic personnel planning)
+
+A process of analysing the current workforce, determining future workforce needs, identifying the gap between the present and the future, and implementing solutions so that an organization can achieve its objectives.
+
+### Global Network of Institutions for Statistical Training (GIST)
+
+A network of international and regional training institutions that build sustainable statistical capacities through efficient, effective, and harmonized delivery of training established by the UN Statistical Commission.
+
+### Job Rotation
+
+A management approach where employees are shifted between two or more assignments or jobs ideally at regular pre-planned intervals of time to serve several objectives.
+
+### Career Progression Guidelines
+
+A human resource management instrument that is designed to provide career management in the Kenyan public service. The guideline fundamentally embodies the career and grading structure, duties and responsibilities, qualifications, and experience required for the various levels within the grading structure. It informs an employee what is expected of him/her by the employer and what he/she should expect from the employer in return for effective performance, efficiency and productivity.
+
+### Common Establishment Grades
+
+Refers to grades within a band in which the duties and responsibilities are similar. Officers in grades forming a common establishment advance to the next higher grade with their posts and without requirement for additional posts. Common establishments are only considered for the first two grades at entry level.
+
+### Job Bands
+
+Broad categories that group together similar jobs with comparable levels of responsibility and difficulty.
+
+### Job Group
+
+Specific groups within each job band that further define the roles and responsibilities of individual positions.
+
+### Statistical Training needs Assessment Tool (STAT)
+
+A tool developed for National Statistical Offices (NSOs) to assess and analyze skills gaps of staff and decide on how to prioritize and meet their training needs by using different types of informal and formal learning approaches.
+
+### Staff Performance Appraisal System (SPAS)
+
+A formal process used to evaluate the performance of public service employees in Kenya.
+
+## Management of IT, information and knowledge
+
+### Information
+
+Data that have been categorized, analyzed, summarized, and placed in context in a form that has structure and meaning.
+
+### Information Management
+
+The management of an organization's information resources to improve performance. Information management underpins knowledge management, as people derive knowledge from information.
+
+### Information Technology
+
+A term that encompasses the physical elements of computing including servers, networks, and desktop computing, that enable digital information to be identified, created, stored, shared, and used.
+
+### Firewall
+
+A hardware- and/or software-based system that is used as an interface between the internet and a computer system to monitor and filter incoming and outgoing communications.
+
+### Knowledge
+
+A combination of data and information, to which is added expert opinion, skills, and experience, resulting in a valuable asset that aids decision making. In organizational terms, knowledge is generally thought of as being know-how, applied information, information with judgment, or the capacity for effective action. Knowledge may be tacit, explicit, individual, and/or collective.
+
+### Explicit Knowledge
+
+Knowledge that can be codified in formal, systematic language, and shared in discussion or writing. Examples include data collection questionnaires, training instruction manuals, a report of research findings and statistical publications.
+
+### Tacit Knowledge
+
+The personalized knowledge that people carry in their heads. Tacit knowledge is more difficult to formalize and communicate than explicit knowledge.
+
+### Knowledge Base
+
+An organized structure that facilitates the storage of data, information, and knowledge to be retrieved in support of a knowledge management process.
+
+### Intellectual Capital
+
+The value, or potential value, of an organization's intellectual assets (or knowledge products and services). Attempts to place a financial value on knowledge often define intellectual capital as the combination of human, structural, and technological capital.
+
+### Know-How
+
+Skill or capability derived from knowledge and experience.
+
+### Knowledge Assets
+
+The parts of an organization's intangible assets relate specifically to knowledge such as know-how, good practices, and intellectual property. Knowledge assets (or products and services) are categorized as human (people, teams, networks, and communities), structural (the codified knowledge that can be found in business processes), and technological (the technologies that support knowledge sharing such as databases and intranets). By understanding the knowledge assets it possesses, an organization can use them to better effect and identify what gaps may exist.
+
+### Knowledge Audit
+
+Systematic identification and analysis of an organization's knowledge needs, resources, flows, gaps, uses, and users. A knowledge audit usually includes a review of people-based knowledge, capability, and skills as well as information. It also examines critically an organization's values, vision, culture, and skills from the perspective of its knowledge needs
+
+### Knowledge Economy
+
+An economy in which knowledge plays a dominant part in the creation of wealth.
+
+### Knowledge Flows
+
+Movement of knowledge around, into and out of, an organization.
+
+### Knowledge Harvesting
+
+A set of methods and techniques for making tacit knowledge more explicit so that it can be shared more easily.
+
+### Knowledge Management
+
+The explicit and systematic management of processes enabling vital individual and collective knowledge resources to be identified, created, stored, shared, and used for organizational benefit. It covers the management of data flow, the sharing of "know-how", knowledge retention, collective information, knowledge and expertise. Its practical expression is the fusion of information management and organizational learning.
+
+### Knowledge Management Tools
+
+The methods and techniques that are used to support or deliver practical knowledge management. These can be either information technology systems, e.g., databases, intranets, extranets, and portals; methodologies; or human networks, e.g., communities of practice.
+
+### Knowledge management system
+
+Any kind of IT system that stores and retrieves knowledge, improves collaboration, locates knowledge sources, mines repositories for hidden knowledge, captures and uses knowledge, or in some other way enhances the knowledge management process. This specialises in the way information is collected, stored and accessed, combined with an open and collaborative approach.
+
+### Knowledge Management Strategy
+
+A detailed plan that outlines how an organization intends to implement knowledge management principles and practices to achieve organizational objectives.
+
+### Knowledge Manager
+
+A role with operational and developmental responsibility for implementing and reinforcing knowledge management principles and practices. Works to promote access to information, intelligence support, expertise, and good practices.
+
+### Knowledge Worker
+
+A staff member whose role relies on his or her ability to find, synthesize, communicate, and apply knowledge.
+
+### Subject matter expert
+
+An individual with deep insights on a specific subject or field.
+
+### Core Knowledge activities
+
+Knowledge activities that have been identified as most critical and widely used by an organization. knowledge
+
+### Communities of Practice
+
+Networks of people who work on similar processes or in similar disciplines and who come together to develop and share their knowledge in that field for the benefit of both themselves and their organization to facilitate knowledge building, idea creation and information exchange.
+
+### Mentoring
+
+A one-to-one learning relationship in which a senior staff member of an organization is assigned to support the development of a newer or more junior staff member by sharing his or her knowledge and wisdom.
+
+### Mentoring and knowledge transfer
+
+Practice of retaining and transferring knowledge within an organization by mentoring and late-career knowledge transfer to develop talent, skills and careers.
+
+### Storytelling
+
+The use of stories as a way of sharing knowledge and helping to learn in an organization. Stories can describe complicated issues, explain events, communicate lessons, and/or bring about cultural change.
+
+### Learning Organization
+
+An organization skilled at identifying, creating, storing, sharing, and using knowledge; and then modifying its behavior to reflect new knowledge.
+
+### Lessons Learned
+
+Is knowledge or understanding gained by experience. The experience may be positive, as in a successful test or mission, or negative, as in a mishap or failure. A lesson must be significant, valid, and applicable identifying a specific design, process, or decision that reduces or eliminates the potential for failures or reinforces positive results and documentation to guide future decision-making and performance improvement.
+
+### Post-mortems, lessons learnt
+
+A systematic way of recording experiences lessons learnt that can be subsequently made findable throughout the organization with the use of taxonomies.
+
+### Transfer of best practices
+
+A systematic way of recording best practices that can be subsequently made findable throughout the organization with the use of taxonomies.
+
+### Organizational Culture
+
+The specific collection of values and norms that are shared by individuals and groups in an organization and control the way they interact with one another and with people outside the organization.
+
+### Content management system
+
+A system that manages the creation and modification of digital content. The main functions include web-based publishing, format management, history editing and version control, indexing, search, and retrieval.
+
+### Cloud technology
+
+Computing power made available as a utility that can be tapped on demand. It involves use of services such as servers, storage, and application Software that are delivered to a user via the internet enabling rapid access to shared networks of system resources.
+
+### Collaborative project
+
+Website or application that enables users to create and share content or to participate in social networking. It serves as an online database allowing users to pool knowledge and information on particular topics to be viewed by other interested parties.
+
+### Computer hardware platform
+
+Reference to the computer itself (central processing unit, CPU), as well as to all peripheral input and output devices, such as monitors, disks, tape consoles, printers, plotters, digitizers, scanners etc
+
+### Operating system
+
+Software that manages the resources and activities of the computer and act as an interface for the user.
+
+### Internet-related infrastructure
+
+Hardware, software and services to maintain corporate web sites, intranets, and extranets, as well as web-hosting services and web software application development tools.
+
+### Open-source software
+
+Software that has its source code made available by use of a license in which the copyright holder provides the rights to change and distribute the software freely to anyone and for any purpose.
+
+### Knowledge life cycle
+
+A process that helps organizations manage, organize, and share their knowledge effectively. It includes stages such as knowledge creation, sharing, and application, as well as ongoing maintenance and evaluation. The goal is to improve organizational performance and decision-making
+
+### knowledge value chain
+
+The flow of activities an organization pursues to increase its knowledge resources from both internal and external sources in order to address a market‐ or a technology‐driven performance gap.
+
+### Data retention policy/ Records retention policy,
+
+An organization's established protocol for retaining information for operational or regulatory compliance [needs.](http://needs.it) It outlines the business reasons for retaining specific data as well as what to do with it when targeted for disposal.
+
+### Knowledge Hub/Portal
+
+Web-based application that provides a single point of access to organizational knowledge, integrating knowledge repositories, expert directories, collaboration tools, and other knowledge-intensive applications.
+
+### Search engine
+
+Information retrieval tool that connects knowledge seekers with experts and answers.
+
+### Enterprise social media
+
+focuses on the use of online social networks or social relations among people who share business interests and/or activities.
+
+### IT Management Models
+
+Refers to the models for managing IT staff and resources in an NSO. These range from in-house development, out-sourcing and off-shoring IT work to external companies, a hybrid in-house/out-sourced approach, and more recently, a collaborative approach to development
+
+### Server
+
+A computer that has been set up to provide certain services to other computers (clients), for instance, a Web server is a central repository of data, software or client for the World Wide Web.
+
+### Software application
+
+These are IT tools used to manage production activities in an NSO from data collection to dissemination. A program or group of programs designed for end-users.
+
+### Privacy [Access](https://www.unescwa.org/sd-glossary/access)
+
+It is the status accorded to data which has been agreed upon between the person or organisation furnishing the data and the organisation receiving it and which describes the degree of protection which will be provided.
+
+### [Access Control](https://www.unescwa.org/sd-glossary/access-control)
+
+A security feature that ensures only those users with the correct rights can access a specific device, application, or data.
+
+### [Access Rights](https://www.unescwa.org/sd-glossary/access-rights)
+
+The permission or privileges granted to users, programs or workstations to create, change, delete or view data and files within a system, as defined by rules established by data owners and the information security policy.
+
+### [Application program interface](https://www.unescwa.org/sd-glossary/application-program-interface)
+
+Is a set of defined rules, protocols, and tools that allow different software applications to communicate and exchange data with each other.
+
+## Management of other resources
+
+Covers management of finances, buildings and physical space, and of any other resources not covered elsewhere in the classification. Managing finances covers the use of financial and accounting information to measure, operate and predict the efficiency and effectiveness of its activities, including procurement and contracts. Managing buildings and physical space covers maintenance of the building and allocation of physical space the organization occupies, including office space.
+
+### Asset
+
+Movable and immovable property, tangible and intangible, including immovable property, stores, equipment, land, buildings, animals, inventory, stock, natural resources like wildlife, intellectual rights vested in the state or proprietary rights.
+
+### Asset Management
+
+A systematic process of planning, acquisition, operating, maintaining and disposing of assets in the most cost-effective manner including all costs, risks and performance attributes.
+
+### Financial assets
+
+Refer to assets that arise from contractual agreements on future cash flows or from owning equity instruments of another entity. Examples of financial assets include cash, equity instruments of other entities held by the entity, a contractual right to receive cash or another financial asset from another entity.
+
+### Non-financial assets
+
+Means an item that has its value determined by physical and tangible characteristics for example stores, equipment, land, buildings, animals, inventory, stock, natural resources like wildlife, intellectual rights vested in the state or proprietary rights.
+
+### Resource Mobilization
+
+The process of identifying, acquiring, and effectively utilizing resources to achieve specific goals.
+
+### Results-Based Management (RBM)
+
+A management strategy that focuses on achieving desired results (outputs, outcomes, and higher-level goals or impact).
+
+### Budget
+
+A financial plan that outlines anticipated income and expenses over a specific period.
+
+### Chart of Accounts
+
+The uniform accounts codes used across the board as reflected in the budget, the vote book and the General Ledger, for maintaining all financial data in the Financial Management System.
+
+### International Public Sector Accounting Standards (IPSAS)
+
+Set of accounting standards issued by the IPSAS Board for use by public sector entities around the world in the preparation of financial statements.
+
+## International Statistical Coordination
+
+### International Statistical Coordination
+
+It refers to procedures and mechanisms that cover coordination of statistical activities across international and supranational statistical organizations, such as work of the UN Statistical Commission, Conference of European Statisticians and the Coordinating Committee of Statistical Activities.
+
+### International Statistical Conference
+
+Global collaboration through gathering for statisticians, data scientists, researchers, and other professionals from around the world to exchange ideas, discuss challenges, and develop common approaches, harmonize statistical definitions, classifications, and methodologies on statistical areas.
+
+### Expert Groups and Working Groups
+
+Expert groups are flexible, often ad hoc bodies composed of specialists nominated by member countries or organizations to support specific projects or guidelines while Working groups are subcommittees or bodies established to assist parent committees with their work, often composed of national delegates and experts.
+
+### The African Information Highway
+
+It is a mega transformative initiative network of live Open Data Platforms (ODPs) that electronically link All 54 African countries and 16 regional organizations launched by the African Development Bank (AfDB) in 2012 to revolutionize data access, management, and dissemination across the continent.
+
+### UN statistical commission
+
+It is the highest decision-making body for international statistical activities. Established in 1946 by the UN Economic and Social Council (ECOSOC), it plays a central role in shaping the global statistical system.
+
+### United Nations Statistics Division (UNSD)
+
+It is the central body within the UN Secretariat responsible for advancing the global statistical system. It plays a pivotal role in shaping how countries collect, analyze, and share data for development, policymaking, and international comparability.
+
+### United Nations Global Geospatial Information Management (UNGGIM)
+
+It is a Committee of Experts led by UN Member States. It serves as the apex intergovernmental mechanism for setting global policy directions on geospatial information and developing standards and frameworks for national and international use integrating geospatial and statistical data for evidence-based decision-making.
+
+### UN world data forum
+
+It is a premier global event that brings together data experts, policymakers, civil society, and international organizations to advance the data and statistics agenda for sustainable development**.**
+
+### United Nations Committee of Experts on International Statistical Classifications (UNCEISC)
+
+It is the central coordination body for developing, revising, and harmonizing international statistical classifications under the UN system.
+
+### Open Data Inventory
+
+It is a comprehensive global assessment tool developed to evaluate the coverage and openness of official statistics published by national statistical offices (NSOs) and related government agencies.
+
+## Capacity development
+
+This section covers the general bilateral and multilateral capacity development and technical cooperation activities, including the coordination of capacity development. It relates to category 2 of the General Activity Model for Statistical Organizations (GAMSO) on Capability Development but is wider. GAMSO is focused on a view within a statistical organization while this area covers mainly international capacity development assistance offered by different kinds of donors (funds, countries, international organizations, etc.). It excludes capacity development in specific subject areas (given under the relevant areas in other domains).
+
+### Capacity Development
+
+The process whereby people, organizations and society as a whole unleash, strengthen, create, adapt, and maintain capacity over time, in order to achieve development results.
+
+### Capacity development support
+
+Efforts by external individuals or organizations to reinforce, facilitate, and catalyze capacity development.
+
+### Capacity needs assessment
+
+The process of evaluating the existing skills, infrastructure, and systems to identify gaps and prioritize areas for capacity building.
+
+### Capacity Gaps
+
+The difference between the current capabilities of an organization, system, or individual and the capabilities required to effectively perform a function, meet goals, or deliver services.
+
+### Barriers to Capacity Building
+
+Factors that hinder the effective development of skills or systems.
+
+### Capacity Building Indicators
+
+Metrics used to assess the progress and impact of efforts to strengthen statistical systems, such as data quality improvements or increased data accessibility.
+
+### Statistical Development
+
+The activities to set up, strengthen and improve statistical methods, concepts, standards and procedures used for the production and dissemination of official statistics.
+
+### Statistical Cooperation
+
+Statistical cooperation refers to the exchange of information, expertise, and resources between different organizations to improve the quality, relevance, and efficiency of statistical systems.
+
+### Technical Assistance Program
+
+Program to provide support to developing countries in strengthening their statistical systems.
+
+### Statistical Literacy
+
+The ability to understand, interpret, and critically evaluate statistical information.
+
+### Statistical Training
+
+Formal or informal programs to build skills in data collection, analysis, interpretation, and dissemination among statisticians and data users.
+
+### Mentorship
+
+A supportive relationship where a more experienced individual guides another.
+
+### Individual Capacity
+
+Skills, knowledge, and abilities of individual people.
+
+### Organizational Capacity
+
+The resources, structures, systems, and culture of an organization.
+
+### Institutional Capacity
+
+The ability of institutions to function effectively and adapt to change.
+
+### Human Capital Development
+
+Enhancing people's education, skills, and health to improve productivity.
+
+### Technical Capacity
+
+The specific expertise required to perform specialized tasks.
+
+### Skills Development
+
+Efforts to improve the specific abilities of individuals or groups to enhance performance.
+
+### Competence
+
+The ability to apply knowledge, skills, and attitudes to perform a task effectively.
+
+### Needs Assessment
+
+A systematic evaluation of gaps between current and required capacities.
+
+### Stakeholder Engagement
+
+Involving individuals or groups with an interest or stake in the capacity-building initiative.
+
+### Peer Learning
+
+A collaborative learning process where individuals or organizations learn from each other's experiences.
+
+### Change Management
+
+The process of guiding individuals or organizations through transitions to adopt new methods or practices.
+
+### Facilitation
+
+Guiding groups or individuals through processes to achieve specific goals.
+
+### Empowerment
+
+Enabling individuals or groups to take control of their development and make decisions.
+
+### Inclusive Development
+
+Ensuring that all groups, including marginalized populations, are involved in and benefit from capacity-building efforts.
+
+### Systems Thinking
+
+An approach to understanding the interconnections within a system to address challenges effectively.
+
+### Behavioral Change
+
+The process of influencing individuals or groups to adopt new practices or attitudes.
+
+### Best Practices
+
+Proven methodologies or approaches that can be replicated for successful outcomes.
+
+### HR policies
+
+Formal rules and guidelines established by an organization to manage its human resources effectively, fairly, and consistently.
+
+### Learning and development
+
+A mix of structured and informal activities designed to enhance knowledge acquisition and competency development in NSOs.
+
+### Learning and Development (L&D) strategy
+
+An organizational guideline that articulates the workforce capabilities, skills or competencies required, and how these can be developed, to ensure a sustainable and successful organization.
+
+### Talent management
+
+The systematic attraction, identification, development, engagement, retention and deployment of individuals of particular value to an organization, either in view of their "high potential" for the future or because they are fulfilling business/operation-critical roles.
+
+### Succession planning
+
+The strategic process of identifying and developing internal personnel with the potential to fill key leadership or critical roles within an organization when they become vacant.
+
+## Strategic and managerial activities, n.e.c.
+
+A broad category of actions that involve both high-level planning (strategic) and the oversight and direction of an organization's operations (managerial), but which don't fit neatly into other specific categories.
+
+# References

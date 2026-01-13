@@ -10,7 +10,7 @@ export function MethodologicalSoundness({ isOpen, onToggle }: SectionProps) {
   return (
     <div
       id="section-methodology"
-      className="bg-white rounded-lg shadow-sm border mb-4 overflow-hidden scroll-mt-6"
+      className="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden scroll-mt-6"
     >
       <SectionHeader
         id="methodology"

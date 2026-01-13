@@ -1,0 +1,951 @@
+# Statistical Infrastructure and Methodology
+
+## Metadata
+
+Statistical metadata are data and other documentation that describe statistical data and statistical processes in a standardized way by providing information on data sources, methods, definitions, classifications and data quality.
+
+### Statistical Data and Metadata Exchange (SDMX )
+
+A Set of technical standards and content-oriented guidelines, together with an IT architecture and tools, to be used for the efficient exchange and sharing of statistical data and metadata.
+
+### SDMX Glossary
+
+An SDMX guideline containing concepts and related definitions that are useful for building and understanding data and metadata exchange arrangements based on SDMX.
+
+### Data Structure Definition (DSD)
+
+A Set of structural metadata associated to a Data Set, which includes information about how concepts are associated with the Measures, Dimensions, and Attributes of a data cube, along with information about the Representation of data and related descriptive metadata.
+
+### SDMX Global Registry
+
+Technical infrastructure containing publicly available metadata material, data structure definitions (DSD), and related artefacts (concept schemes, metadata structure definitions, code lists, etc.).
+
+### Data Documentation Initiative (DDI)
+
+An international standard for describing metadata from surveys, questionnaires, statistical data files, and social sciences study-level information. DDI focuses on microdata and tabulation of aggregates /indicators.
+
+### Generic Statistical Information Model (GSIM)
+
+A conceptual model that provides a set of standardized information objects, inputs and outputs in the design and production of statistics, regardless of the subject matter.
+
+### Generic Statistical Business Process Model (GSBPM)
+
+A standard that describes and defines the set of business processes needed to produce official statistics. The customized model used by the KNBS is known as Kenya Statistical Process Model (KSPM).
+
+### Paradata
+
+Data about the processes by which statistics are compiled**.**
+
+## Statistical Classifications
+
+A set of categories which may be assigned to one or more variables registered in statistical surveys or administrative files, and used in the production and dissemination of statistics. The categories are defined in terms of one or more characteristics of a particular population of units of observation. A statistical classification may have a flat, linear structure or may be hierarchically structured, such that all categories at lower levels are sub-categories of a category at the next level up. The categories at each level of the classification structure must be mutually exclusive and jointly exhaustive of all objects in the population of interest.
+
+### Broad Economic Category (BEC)
+
+ A classification, which groups commodities according to their main end use.
+
+### Central Product Classification (CPC)
+
+A classification based on the physical characteristics of goods or on the nature of the services rendered. Each type of good or service distinguished in the CPC is defined in such a way that it is normally produced by only one activity as defined in ISIC. The CPC covers products that are an output of economic activities, including transportable goods, non-transportable goods and services.
+
+### Classification of Functions of Government (COFOG)
+
+A classification used to identify the socio-economic objectives of current transactions, capital outlays and acquisition of financial assets by general government and its sub-sectors
+
+### Classification of Individual Consumption according to Purpose (COICOP)
+
+A classification used to classify individual consumption expenditures by households, non-profit institutions serving households (NPISHs), and general government according to their purpose.
+
+### Classification of Statistical Activities (CSA)
+
+An analytical classification that provides a hierarchical structure of categories about statistical activities. It is organized by statistical domains, which can be further broken down into sub-domains and specific activities.
+
+### Harmonised Commodity Description and Coding System (HS)
+
+The HS is an internationally adopted commodity classification system developed by the World Customs Organization (WCO). It provides a detailed nomenclature for classifying traded goods based on their **nature**, primarily to meet customs and statistical requirements.
+
+### Standard International Trade Classification (SITC)
+
+It is an international classification system for traded goods developed by the United Nations. It classifies commodities based on criteria such as materials used, processing stage, market practices, and economic significance, making it particularly suitable for economic analysis and international trade comparisons. Unlike the HS, which is focused on the nature of the commodity for customs purposes, the SITC groups products by their stage of production to support analytical applications.
+
+### International Classification of Disease (ICD)
+
+This is an international standard for recording, reporting, and monitoring diseases and health conditions. It provides a common language for health professionals worldwide and enables the systematic classification of diseases, disorders, injuries, and other health-related conditions.
+
+### International Standard Industrial Classification of All Economic Activities (ISIC)
+
+It is a coherent and consistent classification structure of economic activities based on a set of internationally agreed concepts, definitions, principles and classification rules. It provides a comprehensive framework within which economic data can be collected and reported in a format that is designed for purposes of economic analysis, decision-taking and policy-making.
+
+### Kenya Standard Industrial Classification (KeSIC) of All Economic Activities
+
+This is a domesticated version of the International Standard Industrial Classification (ISIC Rev. 4), modified to suit Kenya's specific economic context. Notable changes include the introduction of 52 new classes, 973 sub-class 1 codes, and 1,180 sub-class 2 codes, which allow for a deeper disaggregation of economic activities unique to Kenya. It also includes categories to capture the informal and subsistence activities.
+
+### International Classification of Activities for Time-Use Statistics (ICATUS)
+
+This is a classification of all the activities on which a person may spend time during the 24 hours that make up a day. Its purpose is to serve as a standard framework for time-use statistics based on activities grouped in a meaningful way.
+
+### International Standard Classification of Occupation (ISCO)
+
+A system for classifying and aggregating jobs and occupations into groups according to the tasks and duties undertaken in the job. The system classifies persons according to their actual and potential relation with jobs. Jobs are classified with respect to the type of work performed or to be performed. The basic criteria used to define the system of major, sub-major, minor and unit groups is the 'skill' level and 'skill specialisation' required to carry out the tasks and duties of the occupations
+
+### Kenya National Occupational Classifications (KNOCS)
+
+This is a system used to categorize and classify jobs within the Kenyan labor market. It's designed to standardize the way occupations are defined and organized, facilitating the collection and analysis of labor market information. KNOCS is modeled on the [International Standard Classification of Occupations (ISCO)](https://www.google.com/search?rlz=1C1GCEA_enKE1123KE1123&cs=1&sca_esv=1db88746b10c644a&sxsrf=AE3TifPOxISIqdyOgDz4Arc5iizMLOIAcQ%3A1752554347809&q=International+Standard+Classification+of+Occupations+%28ISCO%29&sa=X&ved=2ahUKEwjc1uPahb6OAxW9Z0EAHX8tF0MQxccNegQIBRAB&mstk=AUtExfA3p7a5i8jTKR2JW2_jLkkJdeRdiyX0hn1r5KSJUEsGzsEE6qXSnFjUzyED0lps2nWKNmS0TBU3qufH87ZnbPjqQuYIatRaxO1JlUVt4HWWAAwaMFodXRXo4IsIMyZiRFcGIggdmjGhvWJV2dTKw5SQrVnMLX7Dl2LpcIoc_GmqKNs&csui=3).
+
+### International Standard Classification of Education (ISCED)
+
+A comprehensive framework for organizing education programmes and qualifications by applying uniform and internationally agreed definitions to facilitate comparisons of education systems across countries
+
+### International Organization for Standardization (ISO) Standards
+
+It is a standard that provides the fundamentals and vocabulary for quality management systems (QMS). It establishes the essential principles and terminology to help organizations ensure their products and services consistently meet customer and regulatory requirements.
+
+### System of National Accounts (SNA)
+
+This is the internationally agreed standard set of recommendations on how to compile measures of economic activity in accordance with strict accounting conventions based on economic principles. The recommendations are expressed in terms of a set of concepts, definitions, classifications and accounting rules that comprise the internationally agreed standard for measuring such items as gross domestic product (GDP), the most frequently quoted indicator of economic performance. The accounting framework of the SNA allows economic data to be compiled and presented in a format that is designed for purposes of economic analysis, decision-taking and policymaking. The accounts themselves present in a condensed way a great mass of detailed information, organized according to economic principles and perceptions, about the working of an economy.
+
+### International Standard Book Number (ISBN)
+
+This is a unique identifier for books, eBooks, and other published materials. It serves as a standardized way to identify a particular edition of a book and is used by publishers, booksellers, libraries, and distributors to efficiently manage and locate specific titles in the global marketplace.
+
+### Digital Object Identifier (DOI)
+
+A unique, persistent identifying number for online information resources that provides its permanent, precise identifier regardless of its location on the Internet.
+
+## Statistical registers
+
+### Statistical Business Register
+
+#### A Statistical Business Register (SBR)
+
+A statistical business register (SBR) is a set of businesses, including all the characteristics of those businesses required to provide frames for business surveys. More broadly interpreted, an SBR is these data together with the procedures, systems and human resources that support their use. In operational terms, it is a regularly updated, structured database that contains organizational, administrative and statistical units describing businesses in a country or region, that is maintained by a dedicated staff, supported by a purpose-built software system and that is used by an NSO to create frames for business surveys and sometimes as a direct source of counts of businesses by type, size, geography, economic activity, etc.
+
+#### Institutional unit
+
+An entity that is capable, in its own right, of owning assets, incurring liabilities and engaging in economic activities and in transactions with other entities. There are two types of institutional units, namely legal entities and households.
+
+#### Institutional sector
+
+This is an aggregation of institutional units on the basis of the type of producer and depending on their principal activity and function, which are considered to be indicative of their economic behaviour. A sector is divided into sub-sectors according to the criteria relevant to that sector; this permits a more precise description of the economic behaviour of the unit.
+
+#### 60301.3.1 Non-financial corporations
+
+Are institutional units that are principally engaged in the production of market goods and non-financial services.
+
+#### Financial corporations
+
+Are institutional units that are principally engaged in the production of market financial services including financial intermediation. It also includes the central bank, even though the central bank mainly produces non-market output.
+
+#### General government sector
+
+It consists of the totality of institutional units which, in addition to fulfilling their political responsibilities and their role of economic regulation, produce principally non-market services (possible goods) for individual or collective consumption and redistribute income and wealth.
+
+#### Households
+
+Are institutional units consisting of one individual or a group of individuals. All physical persons in the economy must belong to one and only one household. The principal functions of households are to supply labour, to undertake final consumption and, as entrepreneurs, to produce market goods and non-financial (and possibly financial) services. The entrepreneurial activities of a household consist of unincorporated enterprises that remain within the household except under certain specific conditions.
+
+####  Non-profit institutions serving households (N-PISHs)
+
+Are legal entities that are principally engaged in the production of non-market services for households or the community at large and whose main resources are voluntary contributions.
+
+#### Legal unit
+
+This refers to any entity recognized by law as having rights and obligations. This includes *Legal persons* whose existence is recognised by law independently of the individuals or institutions which may own them or are members of them and *Natural persons* who are engaged in an economic activity in their own right.
+
+#### Economic unit
+
+An economic unit is an entity capable, in its own right, of owning goods or assets, incurring liabilities, and engaging in economic activities and transactions with other units.
+
+#### Administrative unit
+
+A geographic area that serves administrative and governmental functions. They are usually defined and established by legal action.
+
+#### Operational unit
+
+A unit defined by a legal unit for the purposes of organizing itself, for example a division, branch, workshop, warehouse, or outlet.
+
+#### Statistical unit (SU)
+
+An entity about which information is sought and for which statistics are ultimately compiled. It is the unit that provides the basis for statistical aggregates and to which tabulated data refer.
+
+#### Firm/Enterprise
+
+A legal unit(or the smallest set of legal units) that produces goods or services and that hasautonomy with respect to financial and investmentdecision-making. An enterprise may be acorporation (or quasi-corporation), a non-profitinstitution, or an unincorporated enterprise. Anunincorporated enterprise is a household orgovernment unit in its capacity as a producer ofgoods or services.
+
+#### Establishment
+
+An enterprise or part of an enterprisethat is situated in a single location and in which onlya single (non-ancillary) productive activity is carriedout or in which the principal productive activityaccounts for most of the value added. An establishment is sometimes referred to as a "*Local Kind-of-Activity Unit (LKAU)".* 
+
+#### Kind-of-Activity Unit (KAU)
+
+an enterprise or part of an enterprisethat engages in only one kind ofproductive activity or in which the principalproductive activity accounts for most of the valueadded.As compared to the establishment, in the case of such a unit, there is no restriction on the geographic area in which the activity is carried out.
+
+#### Local unit
+
+An enterprise or a part of an enterprise (for example, a workshop, factory, warehouse, office, mine or depot) that engages in productive activity at or from one location.
+
+####  Enterprise group
+
+An association of enterprises bound together by legal and/or financial links and controlled by the group head. A group of enterprises can have more than one decision-making centre, especially for policy decisions on production, sales and profits. It may centralize certain aspects of financial management and taxation. It constitutes an economic entity which is empowered to make choices, particularly concerning the units which it comprises
+
+#### Unincorporated enterprise
+
+A producer unit which is not incorporated as a legal entity separate from the owner (household, government or foreign resident); the fixed and other assets used in unincorporated enterprises do not belong to the enterprises but to their owners, the enterprises as such cannot engage in transactions with other economic units nor can they enter into contractual relationships with other units nor incur liabilities on their own behalf; in addition, their owners are personally liable, without limit, for any debts or obligations incurred in the course of production.
+
+#### Quasi-corporation
+
+Unincorporated enterprises that function as if they were corporations, and which have complete sets of accounts, including balance sheets.
+
+#### Enterprise Snapshot
+
+A flat file extracted from the SBR at a given point in time containing every *enterprise* in the SBR together with the *data items* needed for survey ample selection.
+
+#### A multinational enterprise group (MNE)
+
+ It is defined as a group of enterprises or legal units that are controlled by a common parent and have business establishments in at least two different countries.
+
+#### Truncated enterprise groups
+
+It consists of the enterprises and the legal units of a multinational enterprise group, which are resident in the same country. It may comprise only one unit, if the other units are non-resident. An enterprise may be the truncated group or part thereof. A truncated group may consist of several units and subgroups, which can appear seemingly unlinked if their parent is non-resident, but actually belong to the same multinational enterprise.
+
+#### All-resident groups
+
+It consists exclusively of enterprises or legal units that are resident in the same country, regardless of their organizational or ownership links.
+
+#### Legal status
+
+Refers to the legal form or classification of an entity recognized by law, indicating its existence as a legal unit that can own property, enter contracts, incur liabilities, and be held responsible legally. It defines whether the entity is, for example, a corporation, limited liability company, partnership, sole proprietorship, or a natural person engaged in economic activity.
+
+#### Sole Proprietorship
+
+An enterprise owned exclusively by one natural person, where there is no legal distinction between the owner and the business entity. The owner personally assumes all rights and obligations of the business, and the enterprise is not constituted as a separate legal person.
+
+#### Partnership
+
+An association of two or more persons (or entities) who agree to combine their resources, labor, or skills to carry on a business and share its profits. It represents a cooperative relationship where the partners jointly manage the business, share risks, and benefits according to their agreement.
+
+#### Local Private Company
+
+A privately owned enterprise legally registered and operating within a single country, typically characterized by identity as a legal unit or enterprise that is resident and active under local laws and regulations. It excludes entities publicly owned or controlled by multinational groups and focuses on private, often smaller-scale business units serving local or national markets.
+
+#### Nonprofit Organizations/Institutions 
+
+Are legal or social entities created for the purpose of producing goods and services but whose status does not permit them to be a source of income, profit or other financial gain for the units that establish, control or finance them.
+
+#### Faith Based Organization
+
+Are non-profit entities that are affiliated with religious institutions and provide various social services, often seeking to integrate their spiritual values into their community outreach efforts
+
+#### Community Based Organizations
+
+These are membership-based local groups formed by residents of a community to address issues of concern to that community.
+
+#### Formal sector
+
+The formal sector is composed of all enterprises which are incorporated or otherwise registered under national legislation, including factories, offices, shops, farms, and other units engaged in the production of goods or services for sale or barter.
+
+#### Informal sector
+
+The set of non-agricultural household enterprises that have market production but that are not registered with the administrative sources on which the SBR is based.
+
+#### Profiling
+
+The process of delineating the statistical units within an enterprise group.
+
+#### Profile Group
+
+Group of *enterprises* that need to be profiled as a group rather than individually because of ownership and control.
+
+#### Profiling Maintenance Group
+
+The set of enterprises that are designated for maintenance by profiling. Comprise large, complex enterprises and other enterprises linked to them through profile groups.
+
+#### Completeness
+
+The extent to which the SBR includes all institutional units within the 2008 SNA production boundary.
+
+#### Content
+
+The set of characteristics (e.g., institutional sector, size, location and registration status) of the units contained in the SBR.
+
+#### Coverage
+
+The type of statistical unit (for example enterprise) and the particular population of these units that constitute the survey frame (for example large and medium-size manufacturing enterprises).
+
+#### SBR Survey
+
+Survey conducted by SBR staff on a continuous basis to verify the values of *frame data* items and to obtain the values of missing items for specific *enterprises*. Sometimes called a *Nature of Business Survey, Proving Survey, Coverage Survey,* SBR Improvement Survey or SBR Quality Survey.
+
+#### Turnover
+
+The total receipts received from sales of goods and services in a given period of time
+
+#### Business
+
+An activity of making, buying, selling or supplying of goods or rendering services for money. A business may have more than one activity under one roof.
+
+#### Business Activity
+
+Specific thing or things done by the company; action or occupation. For example, a company that is manufacturing electrical bulbs, has bulbs manufacturing as its business activity.
+
+#### Business Names Registration
+
+An administrative process that records trading names used by enterprises or legal units, providing a source for identifying, profiling, and updating business units in official Statistical Business Registers.
+
+#### Company
+
+A company is body corporate with limited liability, registered in accordance with the laws of Kenya. A company has legal capacity similar to that of a natural person.
+
+#### Co-operative Enterprise
+
+limited liability partnerships and other financial and non-financial enterprises which by virtue of legislation, administrative regulations or registration, are recognised as business entities independent of their owners
+
+#### Large Enterprise
+
+An enterprise that employs 250 or more persons
+
+#### Medium Business
+
+A formally registered business establishment employing between 10 and 49 persons, formally registered. It normally has regular final accounts.
+
+#### Small Business
+
+A licensed or unlicensed business establishment employing between 5 and 20 persons.
+
+#### Micro-Business
+
+A licensed or unlicensed business establishment employing less than 10 persons, normally with no regular books of account.
+
+#### Misclassification
+
+Erroneous classification and categorization of items. This may result from misreporting by study subjects, using inadequate optimal measurement devices, or from random error.
+
+#### Non-Governmental Organisation (NGO)
+
+A non-profit organization, group or institution that operates independently from a Government and has humanitarian or development objectives.
+
+#### Parastatal
+
+A quasi-government organisation instituted by decree or by an Act of Parliament and designed to perform specific functions on behalf of Government.
+
+#### Private Limited Liability Company
+
+An organisation registered under the Companies Act and is comprised of shares of specified limited liability, the majority of which are owned by the government. It has a legal entity separate from its shareholders. The membership of a Private Company is restricted to a maximum of 50 members.
+
+#### Public Limited Company
+
+A corporation whose shares can be publicly traded on a stock exchange and whose shareholders have limited liability
+
+#### Registered Name of Business
+
+This refers to the name, description or style under which a business is carried as registered with the registrar of companies in terms of the Registration of Business Names Act.
+
+#### Shareholder
+
+Any person, company, or any other legal entity that owns at least one share in a company. A shareholder may also be referred to as a stockholder. Shareholders are the owners of the company. They have the potential to profit if the company does well, but that comes with the potential to lose if the company does poorly. A shareholder can also be someone who holds shares of stock in a corporation.
+
+#### Statutory Corporation
+
+An organisation established by an Act of Parliament, which is neither a Public Limited Company nor a Department of the Public Service under leadership of a Board or Trust that is responsible or answerable to a given Ministry of the State.
+
+#### Trading Name
+
+This is the name under which a business operates in the market and may differ from the legal name. Both company name and trading name are registered at Registrar of companies.
+
+#### Business population
+
+All firms in the business sector, which can be disaggregated by economic activity and size.
+
+#### Activity
+
+A process, or a combination of actions that result in a certain set of products. Activities are defined as the use of inputs (e.g. capital, labour, energy, and materials) to produce outputs. The outputs that result from undertaking activities can be transferred or sold to other units (in market or non-market transactions), placed in inventory or used by the producing units for own final use.
+
+#### Secondary activity
+
+Separate activity that produces products eventually for third parties and that is not the principal activity of the unit in question. The outputs of secondary activities are secondary products. Most economic entities produce at least some secondary products.
+
+#### Principal activity
+
+The activity which contributes most to the total value added of the unit under consideration. Ideally, the principal activity of the unit should be determined with reference to the value added to the goods and services produced, by applying the top-down method.
+
+#### Ancillary activity
+
+###### Activities are undertaken to support principal and secondary productive activities of a unit by providing goods or services entirely or primarily for the use of that entity, such as bookkeeping, transportation, storage, purchasing, sales promotion, cleaning, repair and maintenance, security etc. The output is always intended for intermediate consumption within the same unit and is therefore usually not recorded separately.
+
+#### Number of employees
+
+Those persons who work for an employer and who have a contract of employment and receive compensation in the form of wages, salaries, fees, gratuities, piecework pay or remuneration in kind. A worker from an employment agency is considered to be an employee of that employment agency and not of the units in which he or she works, including temporarily.
+
+#### Historical register
+
+###### A version of the register with the capacity to view the content of a live register at some time point in the past.
+
+#### Frozen frame
+
+A subset of the snapshot that comprises all statistical units that are active, or potentially active, or active within the previous reference year. It also includes administrative units that are linked to these statistical units. It contains all the active statistical units in a snapshot that have sufficient information associated with them for sample selection purposes.
+
+#### Domestically controlled enterprise group
+
+###### A multinational group where the global decision-centre is in the country compiling the business register.
+
+#### Death of an enterprise
+
+The dissolution of a combination of production factors with the restriction that no other enterprises are involved in the event. Deaths do not include exits from the population due to mergers, take-overs, break-ups or restructuring of a set of enterprises. It does not include exits from a sub-population resulting only from a change of activity.
+
+#### Death of an enterprise group
+
+The cessation of all control links, direct or indirect, between the legal units of which the enterprise group consists. The legal units become independent again or cease to exist. No other enterprise group is involved. Death applies only to all-resident and multinational groups, not to truncated groups, which cease to exist through other events.
+
+#### Control
+
+###### A single institutional unit owning more than a half of the shares, or equity, of a corporation is able to control its policy and operations by outvoting all other shareholders, if necessary. Similarly, a small, organized group of shareholders whose combined ownership of shares exceeds 50 per cent of the total is able to control the corporation by acting in concert.
+
+#### Characteristic/Variable
+
+###### A set of information that is stored in a business register to describe a statistical unit. Characteristics are provided for identification of a unit like name, address, and identification numbers, for economic description of a unit, like activity code, turnover or employment of a unit or for the structure of a unit, like the relationship to other statistical units.
+
+#### Birth (of enterprise group)
+
+###### The establishing of a link of control, direct or indirect, between two or more independent legal units, where no link of control existed before and no other enterprise group is involved.
+
+#### Birth (of enterprise)
+
+###### The creation of a combination of production factors with the restriction that no other enterprises are involved in the event. Births do not include creation of entries into the population due to mergers, break-ups, split-off or restructuring of a set of enterprises. It does not include entries into a sub-population resulting only from a change of activity. A birth means the enterprise starts from scratch and actually starts activity. An enterprise creation can be considered as an enterprise birth if new production factors, in particular new jobs, are created. If a dormant unit is reactivated within two years, this event is not considered a birth.
+
+####  Registers of population
+
+An individualized data system, that is, a mechanism of continuous recording, and/or of coordinated linkage, of selected information pertaining to each member of the resident population of a country in such a way to provide the possibility of determining up-to-date information concerning the size and characteristics of that population at selected time intervals.
+
+#### Registers of dwellings and buildings
+
+Referred to in some countries as real estate registers are registers usually held by land and property valuation agencies, land survey authorities or by local or municipal authorities responsible for the development of housing policies and urban planning. With respect to a register-based population census such registers are of fundamental importance in the harmonisation of the population register, in that every person that is allocated a dwelling number can be associated with a particular housing unit, and (in some cases) a distinct household. 
+
+####  Agricultural registers
+
+An up-to-date, continuously maintained list of agricultural holdings and their characteristics, including information on holders, land use, livestock, crops, machinery, labour force and other relevant variables, used to support the design of agricultural censuses, surveys and statistical programs.
+
+#### Agricultural holder
+
+A civil person, a group of civil persons or juridical persons who makes the major decisions regarding resource use and exercises management control over the agricultural holding operation.
+
+#### Agriculture holding
+
+An economic unit of agricultural production under single management comprising all livestock kept and all land used wholly or partly for agricultural production purposes, without regard to title, legal form or size.
+
+#### Parcel
+
+Any piece of land of one land tenure type, surrounded by other land, water, road, forest or other features not forming part of the holding or forming part of the holding under a different land tenure type
+
+#### Field
+
+A piece of land in a parcel separated from the rest of the parcel by easily recognizable demarcation lines, such as paths, cadastral boundaries, fences, waterways or hedges.
+
+#### Plot
+
+Part or whole of a field on which a specific crop or crop mixture is cultivated.
+
+#### Agricultural land
+
+Total of cropland and permanent meadows and pastures
+
+#### Farming household
+
+A household in which at least one member operates an agricultural holding or engages in significant agricultural production activities.
+
+#### Agricultural population
+
+All persons that depend on agriculture, forestry, fishing and hunting for their livelihood. It comprises all persons economically active in agriculture as well as their non-working dependents.
+
+#### Area frame
+
+A set of land elements, which may be either points or segments of land.
+
+#### Data sources
+
+A specific data set, metadata set, database or metadata repository from where data or metadata are available.
+
+### Population and housing censuses
+
+#### Population Census
+
+A population census is the total process of planning, collecting, compiling, evaluating, disseminating and analysing demographic, economic and social data at the smallest relevant geographical level pertaining, at a specified time, to all persons in a country or in a well-delimited part of a country.
+
+#### Housing censuses
+
+A housing census is (similarly) the total process of planning, collecting, compiling, evaluating, disseminating and analysing statistical data relating to the number and condition of housing units and facilities as available to the households pertaining, at a specified time, to all living quarters and its occupants in a country or in a well-delimited part of a country.
+
+#### Base register
+
+A register that holds the basic information relating to the stock of the entire set of 'population' units that are being counted in the census – typically persons, dwellings and buildings.
+
+#### A centralised population register
+
+A network of local registers that are linked in a coordinated way. Although the national population register may be a virtual entity based on the linkage of population registers established at the local level (decentralized system), the overall geographical coverage must be of the entire territory of the country.
+
+### Business and agricultural censuses
+
+#### Economic census
+
+A complete enumeration of all economic establishments engaged in production and/or distribution of goods and services within a country or territory, at a specified point or period in time.
+
+#### Agricultural Census/Census of Agriculture:
+
+A statistical operation for collecting, processing and disseminating data on the structure of agriculture, covering the whole or a significant part of the country.
+
+### Household and individual surveys
+
+#### Household survey
+
+A household survey is a method of data collection in which information is collected from a sample of households, usually using face-to-face interviews, postal questionnaires, or telephone interviews.
+
+#### Area sampling
+
+A probability sampling method in which geographical areas are used as the primary sampling units, and samples are selected by first dividing the population into geographic units (such as blocks, villages, or enumeration areas) and then sampling within these areas.
+
+#### List sampling
+
+List sampling is a probability sampling method in which the sampling frame is a complete, up-to-date list of all units in the target population, and units are selected directly from this list using random or systematic methods.
+
+#### Clustering
+
+Clustering means dividing the population into naturally occurring or practical groups (clusters) — like villages, city blocks, or schools.
+
+#### Cluster sampling
+
+A sampling method in which the population is divided into clusters and a sample of these clusters is selected. Either all units within each selected cluster are observed or a sample of units within each cluster is selected.
+
+#### Cluster size
+
+The number of sampling units included in a single cluster in a cluster sampling design.
+
+#### Compact cluster
+
+A small area such as an EA in which a fixed number of households is selected and enumerated. Compact clusters are used to ensure that households are near each other, making fieldwork practical and economical
+
+#### Non‑compact cluster
+
+A cluster in which the sampling units (e.g., households, dwellings, farms) are not physically concentrated in a small, contiguous area, but are instead spread out or dispersed over a wider geographical area.
+
+#### Complex sample design
+
+A survey sampling design that includes features such as stratification, clustering, multi-stage selection, or unequal selection probabilities to improve efficiency, precision, and feasibility compared to simple random sampling.
+
+#### Confidence level
+
+The degree of statistical confidence with which precision or margin of error around the survey estimate is obtained. The 95 per cent confidence level is generally regarded as the standard.
+
+#### Design effect (deff)
+
+A measure of efficiency of a complex sampling procedure compared to simple random sampling, defined as the ratio between the standard error using the given sample design and the standard error that would result if a simple random sample had been used.
+
+#### Survey domain
+
+A sub-population for which separate estimation of the main indicators is required/or is to be provided.
+
+#### Estimator
+
+A rule or method of estimating a parameter of a population.  It is usually expressed as a function of sample values and hence is a variable whose distribution is of great importance in assessing the reliability of the estimate to which it leads.
+
+#### Stratification
+
+The process by which the survey population is divided into subgroups or strata that are as homogeneous as possible based on certain criteria. The principal objective of stratification is to reduce sampling errors.
+
+#### Explicitstratification
+
+The actual process of dividing the sampling units into specified strata.
+
+#### Implicit stratification
+
+Stratifying of a sample frame through geographic sorting , coupled with systematic sampling to achieve the effect of stratification.
+
+#### Intra‑class correlation
+
+A statistical measure used in cluster sampling to show how strongly units within the same cluster resemble each other.
+
+#### Master sample
+
+A large sample drawn from a census frame and prepared for use in a number of surveys, from which sub-samples can be selected for specific surveys.
+
+#### Measure of size (MOS)
+
+The measure of size is an auxiliary variable, such as the number of households or population of an area, used to assign probabilities of selection for sampling units. For example, the number of households in an EA.
+
+#### Probability Sampling
+
+Sample selection method in which the units are selected randomly with known and nonzero probabilities. This is the only way to obtain unbiased estimates and to be able to measure the precision of the survey indicators by estimating the sampling errors.
+
+#### Non‑probability sampling
+
+Sampling method in which the units are selected subjectively (non-random). Examples of non-probability sampling methods include: quota, judgmental, purposive, convenience, random walk sampling.
+
+#### Non‑sampling error
+
+Errors in estimates which arise from sources other than sampling variation. Examples include coverage errors, response errors, non-response errors, and processing errors.
+
+#### Content errors
+
+Theseare errors in the characteristics of persons counted, resulting from incorrect reporting or recording or from failure to report.
+
+#### Coverage errors
+
+These are non-sampling errors that result from omitting a unit that should have been included, including a unit more than once, or including a unit that should not have been included.
+
+#### Sampled population (or survey population)
+
+The population that is actually covered by the sampling frame is called the survey population or sampled population.
+
+#### Sample
+
+Subset of units, selected from a frame for the purpose of collecting information from those units. The inference about the population as a whole is drawn from the findings based on that sample.
+
+#### Sampling unit
+
+The unit of selection at each stage of the sampling process, each unit being regarded as individual and indivisible when the selection is made.
+
+#### Primary sampling unit (PSU)
+
+The sampling unit for the first stage of selection in a multi-stage sampling procedure, typically a geographically defined unit such as an enumeration area (EA) or a segment of an EA.
+
+#### Secondary sampling unit (SSU)
+
+A unit selected in the second stage of a multi-stage sampling process. The SSU is chosen within each selected Primary Sampling Unit (PSU).
+
+#### Sample take
+
+The number of ultimate units to be selected within each selected PSU.
+
+#### Probability sample
+
+A sample in which the units are selected randomly with known and nonzero probabilities.
+
+#### Quick counting
+
+A rapid, short-duration exercise to collect preliminary, indicative, or basic data such as measure of size.
+
+#### Reliability (precision, margin of error)
+
+Closeness of the initial estimated value to the subsequent estimated value.
+
+#### Sampling frame
+
+A complete list of all sampling units that entirely covers the target population and is used as a basis for sampling.
+
+#### Frame data (items)
+
+The attributes of units of which the frame is composed, enabling the relevant population for the survey to be identified and stratified for sampling purposes, the sample to be selected, and the observation units to be identified and contacted for data.
+
+#### Sampling fraction
+
+The ratio of sample size to the total number of population size/units.
+
+#### Sample size
+
+The number of sampling units selected or surveyed from the population.
+
+#### Sampling error
+
+Random error in survey estimate due to the fact that a sample rather than the entire population is surveyed; square root of sampling variance.
+
+#### Standard error (SE)
+
+The standard deviation of the sampling distribution of a statistic, or representative error due to sampling.
+
+#### Relative standard error (RSE)
+
+The amount of sampling error relative to the indicator level, independent of the scale of the indicator, calculated by dividing the standard error by the estimated value of the indicator.
+
+#### Multi-stage sampling
+
+Process of selecting sampling units in stages with units at each stage being sub-sampled from the (larger) units chosen at the previous stage.
+
+#### Sampling in phases
+
+A sampling procedure in which the sample is selected in phases. In the first phase, a large sample is selected to obtain preliminary information, and in the second phase, a subsample of the initial sample is selected for more detailed information.
+
+#### Design weight
+
+The basic weight assigned to each unit in the sample, equal to the inverse of its probability of selection according to the survey design.
+
+#### Sampling weight
+
+The sampling weight (or survey weight) of a sampling unit is the design weight corrected for non-response or other calibrations like poststratification.
+
+#### Poststratification
+
+A statistical adjustment method applied to survey weights after data collection to align the survey estimates with known population totals for certain key variables (like age, sex, or region).
+
+#### Self-weighting sample
+
+A sample is self-weighting if every sampling unit has the same selection probability and hence the same sampling weight.
+
+#### Sampling variance
+
+The sampling variance of an estimate is the variance of the estimator over all possible samples that could be selected using the same sampling design.
+
+#### Sampling with probability proportionate to size (PPS)
+
+A sampling procedure in which the probability of selecting a sampling unit (such as an enumeration area, cluster, or establishment) is directly proportional to a known measure of its size (e.g., number of households, population, or employees), ensuring that each final element in the population has an equal chance of selection.
+
+#### Self‑weighting Sample design
+
+A sample design in which every unit in the target population has an equal probability of selection, resulting in identical design weights for all sampled units. This ensures that each unit represents the same number of units in the population, simplifying estimation and analysis by removing the need for unequal weighting adjustments.
+
+#### Simple random sample (SRS)
+
+A sample in which each unit of the population has the same probability of inclusion and each possible sample of a given size has the same probability of being selected.
+
+#### Stratified sampling
+
+A probability sampling method in which the population is divided into distinct subgroups, or strata, that are internally homogeneous with respect to certain characteristics but differ across strata. Independent samples are then drawn from each stratum according to specified allocation rules. This approach improves the precision of survey estimates and ensures adequate representation of key subpopulations.
+
+#### Segmentation
+
+A procedure used in multi-stage sampling designs where a selected primary sampling unit (such as an enumeration area or village) is subdivided into smaller, approximately equal parts called segments. One or more segments are then randomly selected for listing. Segmentation ensures manageable fieldwork and maintains equal selection probabilities within large sampling units.
+
+#### Systematic sampling
+
+A probability sampling method in which units are selected at regular intervals from an ordered sampling frame after the random selection of a starting point within the first interval.
+
+#### Target population
+
+The entire group of units about which survey information is required and to which the survey estimates are intended to apply. The target population should be clearly defined in terms of time, geography, and population characteristics to guide sampling design and ensure relevant, representative results.
+
+#### Unit non-response
+
+The situation in which a selected unit in the sample, such as a household, individual, or establishment, does not provide any usable information for the survey. Unit non-response can arise due to refusal, absence, or inability to contact the unit.
+
+#### Item non-response
+
+The type of nonresponse in which some questions, but not all, are answered for a particular sampling unit.
+
+#### Household listing
+
+A field-based activity in which all households and dwellings within a selected area, such as an enumeration area or segment, are systematically identified and recorded to create an up-to-date sampling frame for selecting the final sample units for a household survey.
+
+#### Gross response rate
+
+The number of respondents/units who complete a questionnaire divided the number of units in the sample, usually expressed as a percentage.
+
+#### Net response rate
+
+The number of respondents/units interviewed divided by the number eligible respondents/units for the survey.
+
+#### Variance
+
+A measure expressing the extent to which the values of a variable differ from the mean of the variable.
+
+#### Cross-Sectional Survey
+
+A type of survey that collects data on variables of interest at a single point in time, without following the same units over time. It provides a "snapshot" of the population's characteristics, behaviours, or conditions at that specific time.
+
+#### Longitudinal (Panel) Survey
+
+A survey in which data is collected on the variables of interest from the same sample repeatedly over a period of time in order to study the changes over time.
+
+#### Sample Design
+
+The plan for selecting a sample from a population, including the definition of the sampling frame, the sample size, the sampling method, and the procedures for selecting the sample units.
+
+#### Survey Design
+
+A structured plan outlining how a survey's target population will be sampled and how data will be collected and processed to produce accurate, reliable, and representative official statistics.  It includes sample design plus questionnaire design, data collection mode, fieldwork procedures and processing plan.
+
+#### Survey Methodology
+
+The set of methods and principles used to produce statistics, including the design, data collection, processing, estimation, validation, and dissemination phases.  It covers survey design plus all supporting methods like error measurement, editing, coding, imputation, weighting, estimation, variance estimation, quality assurance, and documentation.
+
+#### Out of scope units
+
+Units that do not fall within the defined population (target population) for which data are to be collected or estimates to be produced.
+
+#### Outlier
+
+An observation that differs significantly from other data points in a dataset and may unduly influence statistical estimates if not properly identified and treated.
+
+#### Respondent
+
+A person or people who provide responses/information to an interview either for themselves or on behalf of others. 
+
+#### Response bias
+
+A type of bias that occurs when respondents provide inaccurate answers, either intentionally or unintentionally, leading to systematic error in the survey results
+
+#### Statistic
+
+A numerical value calculated from data collected through censuses, surveys, or other sources, which describes, summarises, or estimates a specific characteristic of a population or sample.
+
+#### Confidentiality
+
+Refers to the legal and ethical obligations principles that ensure that information is not disclosed in a form that permits the identification of a statistical unit and is strictly used for statistical purposes.
+
+#### Statistical Data
+
+Statistical data refers to data from a survey or administrative source used to produce statistics
+
+### Business and agricultural surveys
+
+#### Arable land
+
+Land under temporary agricultural crops, temporary meadows for mowing or pasture, land under market and kitchen gardens and land temporarily fallow (less than five years).
+
+#### Area harvested
+
+The area from which a crop is gathered. Area harvested, therefore, excludes the area from which, although sown or planted, there was no harvest due to damage, failure, etc.
+
+#### Area measurement
+
+The operation of measuring the size of fields on the ground using methods such as pacing, measuring tapes and other instruments such as compass, clinometer, etc. or using remote sensing (aerial or satellite) images and recording it in standard units.
+
+#### Area Sown
+
+The area on which sowing or planting has been carried out, for the crop under consideration, on the soil prepared for that purpose.
+
+#### Agriculture, value added
+
+Net output of the agriculture sector (including forestry, hunting, and fishing) after adding up all outputs and subtracting intermediate inputs.
+
+### Administrative sources
+
+A data source containing information collected primarily for administrative (not statistical) purposes, such as registrations, transactions, and record keeping, usually by government departments or other organizations.
+
+#### Administrative Data
+
+Information collected by government or other organizations primarily for administrative (legal or operational) purposes, rather than for statistical use.
+
+#### Register
+
+A structured list or database containing units (such as individuals, households, businesses, or institutions) with specific characteristics, maintained and updated over time
+
+#### Single Business Permit register
+
+An official database maintained by county governments that lists all registered businesses operating within their jurisdiction, issued with Single Business Permits for legal operation. It contains the names, location, contacts, types of business activity, size/category of business etc.
+
+#### Administrative business register
+
+###### A database or list of businesses and other economic units created and maintained primarily for administrative purposes (such as taxation, licensing, or social security) by a government authority or agency. It may be used as a source for producing and maintaining a Statistical Business Register (SBR) and for supporting the production of official business statistics.
+
+#### Data sources, n.e.c.
+
+## Data exchange and data sharing
+
+### Data exchange
+
+The process of transferring data between systems or organizations in a structured, well-defined format to ensure interoperability, accuracy, and meaningful use of the data.
+
+### Data sharing
+
+The controlled process by which data is made available and accessible to other individuals, systems, or organizations, under agreed terms, policies, and standards, to enable collaboration, innovation, and informed decision-making while ensuring privacy, security, and compliance with applicable regulations.
+
+### Data Interoperability
+
+The ability of different systems, organizations, or applications to access, exchange, integrate, and cooperatively use data in a coordinated manner, within and across organizational, regional, or national boundaries.
+
+### Data Integration
+
+The process of combining data from different sources to provide a unified view
+
+### Data archiving
+
+The act of transferring data or records from operational systems to long-term storage, ensuring they are protected and remain retrievable and understandable.
+
+### Data ownership
+
+Refers to the assignment of responsibility and authority to individuals or roles within an organization for specific data sets, ensuring data is properly managed, protected, and used according to policy.
+
+### Data portability
+
+Refers to the ability to easily transfer data from one system, platform, or organization to another without losing its integrity or usability.
+
+### Data license
+
+A legal agreement that specifies how data can be used, shared, modified, and distributed.
+
+### Database
+
+Refers to organized collection of data stored electronically, designed for efficient retrieval, updating, and management.
+
+### Database Management System (DBMS)
+
+A collection of programs that manage the database structure and control access to data stored in a database.
+
+### Open Data
+
+Data and content that can be freely used, modified, and shared by anyone for any purpose.
+
+### Master Data Management
+
+The process of creating and maintaining a single, consistent, and accurate source of key business data—referred to as "master data"—across an organization. In the context of global organizations.
+
+### Data Sovereignty
+
+Refers to the principle that data is subject to the laws and governance structures of the country in which it is collected, processed or stored.
+
+### Data Consent Management
+
+Its obtaining, managing, and storing consent from individuals for the collection and use of their data, ensuring compliance with data privacy regulations.
+
+### Data warehouse
+
+Refers to a centralized repository designed to store structured data from multiple sources for reporting and analysis.
+
+### Data Lake
+
+It is a storage system designed to hold vast amounts of raw data in its original format until it's needed for analysis.
+
+### Data marketplace
+
+This is an online platform where datasets are bought, sold, or exchanged, fostering data sharing and monetization.
+
+### Data catalogue
+
+A structured inventory of data assets within an organization, providing metadata that enables users to discover, understand, access, and manage data resources efficiently and securely.
+
+### Data stewardship
+
+The responsibility and processes associated with managing the quality, lifecycle, and policies of data within an organization.
+
+### Data Stakeholders
+
+Those who use, affect, or are affected by data. Data Stakeholders may be upstream producers, gatherers, or acquirers of information; downstream consumers of information, those who manage, transform, or store data, or those who set policies, standards, architectures, or other requirements or constraints.
+
+### Data Governance
+
+The exercise of authority and control (planning, monitoring, and enforcement) over the management of data assets.
+
+### Data Dictionary
+
+It is a catalog of all data elements, containing their names, structures, and information about their usage, for the benefit of programmers and others interested in the data elements and their usage.
+
+### Data Access Management
+
+Data Access Management (DAM) is the practice of controlling and monitoring who can access and use an organization's data and systems. It involves defining, implementing, and enforcing policies, procedures, and technologies to ensure that only authorized users have the necessary access to sensitive information, while preventing unauthorized access and misuse.
+
+### Create, Read, Update, and Delete (CRUD)
+
+The four basic operations (create, read, update, and delete) of data storage, regarded [collectively](https://www.google.com/search?sca_esv=cc71cd32491ac98c&q=collectively&si=AMgyJEvfjzRzn-1LlmPs29qkb8mqYsfPe8Xgv_LsJNUq3fm_BmLpNwL4_EI84NdKVUExnx40BHdk9g5yL43RHMsNpv6pqOpw-Fii4aHG_at5sbnmnxV4Fmo%3D&expnd=1&sa=X&ved=2ahUKEwjf2uGYx8aOAxX99QIHHcarFgsQyecJegQIQBAS).
+
+### Application programming interface (API)
+
+An application programming interface (API) is a set of rules that enables a software program to transmit data to another software program.
+
+### Data provider
+
+An individual or organization providing data to a national statistical office or other producer of official statistics.
+
+### Statistical output
+
+Statistical output refers to the results generated from analyzing data using statistical methods.
+
+### Linked data
+
+Method of publishing structured data so that it can be interlinked through semantic queries, connecting related data that weren't formerly related.
+
+### Machine-to-machine access
+
+Machine-to-machine access (commonly abbreviated as M2M) refers to computers exchanging data via application programming interfaces (APIs) as a means of opening up data to a wider variety of uses. It can also refer to communication within a system of networks that transmit data to personal appliances.
+
+### Archived data
+
+Refers to older data that remains important to the organization and must be retained for future reference or regulatory compliance reasons.
+
+## Data processing and analysis

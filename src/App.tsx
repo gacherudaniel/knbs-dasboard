@@ -4,23 +4,17 @@
   Route,
   Navigate,
 } from "react-router-dom";
-import { Suspense, lazy } from "react";
+import { Suspense } from "react";
 import Dashboard from "./components/Dashboard";
 import LoadingFallback from "./components/LoadingFallback.tsx";
-
-// Lazy components
-const Home = lazy(() =>
-  import("./components/Home").then((module) => ({
-    default: module.Homepage,
-  }))
-);
 
 function App() {
   return (
     <Router>
       <Suspense fallback={<LoadingFallback />}>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/home" element={<Dashboard />} />
 
           {/* All dashboard routes - pages with full layout */}
           <Route path="/quality/*" element={<Dashboard />} />
