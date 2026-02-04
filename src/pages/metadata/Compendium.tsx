@@ -1,7 +1,7 @@
 import { ExternalLink, Book, Download } from "lucide-react";
 
 export function Compendium() {
-  const quartoBookUrl = "http://localhost:4062/";
+  const quartoBookUrl = "https://gacherudaniel.github.io/Compendium/";
   const pdfDownloadUrl =
     "https://www.knbs.or.ke/wp-content/uploads/2023/09/Kenya-Compendium-Concepts-Definitions.pdf"; // Path to your PDF document
 
