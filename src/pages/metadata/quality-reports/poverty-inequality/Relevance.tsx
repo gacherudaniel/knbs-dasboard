@@ -11,7 +11,7 @@ export function Relevance({ isOpen, onToggle }: RelevanceProps) {
   return (
     <div
       id="section-relevance"
-      className="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden scroll-mt-6"
+      className="bg-white rounded-lg lg:rounded-xl shadow-sm lg:shadow-lg border border-gray-200 mb-4 lg:mb-8 overflow-hidden scroll-mt-6 transition-all duration-200 hover:shadow-lg lg:hover:shadow-xl"
     >
       <SectionHeader
         id="relevance"
@@ -21,9 +21,9 @@ export function Relevance({ isOpen, onToggle }: RelevanceProps) {
         onToggle={onToggle}
       />
       {isOpen && (
-        <div className="p-6 space-y-6">
+        <div className="p-4 lg:p-6 space-y-4 lg:space-y-6">
           {/* Introduction */}
-          <p className="text-gray-700 italic">
+          <p className="text-gray-700 italic text-sm lg:text-base">
             Relevance is the degree to which statistical information meets the
             real or perceived needs of clients.
           </p>
@@ -155,16 +155,16 @@ export function Relevance({ isOpen, onToggle }: RelevanceProps) {
                       </td>
                     </tr>
                     <tr className="hover:bg-gray-50">
-                      <td className="border border-gray-300 px-4 py-2 text-gray-700">
-                        3
+                      <td className="border border-gray-300 px-3 lg:px-4 py-2 text-gray-700 text-xs lg:text-sm">
+                        1
                       </td>
-                      <td className="border border-gray-300 px-4 py-2 text-gray-700">
-                        Commission on Revenue Allocation
+                      <td className="border border-gray-300 px-3 lg:px-4 py-2 text-gray-700 text-xs lg:text-sm">
+                        Policy makers
                       </td>
-                      <td className="border border-gray-300 px-4 py-2 text-gray-700">
+                      <td className="border border-gray-300 px-3 lg:px-4 py-2 text-gray-700 text-xs lg:text-sm">
                         Headcount ratio
                       </td>
-                      <td className="border border-gray-300 px-4 py-2 text-gray-700">
+                      <td className="border border-gray-300 px-3 lg:px-4 py-2 text-gray-700 text-xs lg:text-sm">
                         To allocate national resources appropriately
                       </td>
                     </tr>

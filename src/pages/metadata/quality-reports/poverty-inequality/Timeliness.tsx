@@ -13,7 +13,7 @@ export function Timeliness({ isOpen, onToggle }: TimelinessProps) {
   return (
     <div
       id="section-timeliness"
-      className="bg-white rounded-lg shadow-sm border mb-8 overflow-hidden scroll-mt-6"
+      className="bg-white rounded-lg lg:rounded-xl shadow-sm lg:shadow-lg border border-gray-200 mb-4 lg:mb-8 overflow-hidden scroll-mt-6 transition-all duration-200 hover:shadow-lg lg:hover:shadow-xl"
     >
       <SectionHeader
         id="timeliness"

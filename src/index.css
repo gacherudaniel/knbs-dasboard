@@ -66,3 +66,91 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Mobile navigation animations */
+@layer utilities {
+  .mobile-menu-enter {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .mobile-menu-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .mobile-submenu {
+    transition: all 0.3s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+  }
+  
+  .mobile-submenu.open {
+    max-height: 200px;
+  }
+  
+  /* Better touch targets for mobile */
+  @media (max-width: 1024px) {
+    .nav-button {
+      min-height: 44px;
+      touch-action: manipulation;
+    }
+    
+    .nav-dropdown {
+      animation: slideDown 0.2s ease-out;
+      max-height: calc(100vh - 200px);
+      overflow-y: auto;
+    }
+    
+    /* Prevent body scroll when mobile menu is open */
+    body.mobile-menu-open {
+      overflow: hidden;
+    }
+    
+    /* Quality Reports mobile responsive styles */
+    .report-section {
+      margin-bottom: 1rem;
+      border-radius: 0.5rem;
+    }
+    
+    .report-content {
+      padding: 1rem;
+    }
+    
+    .report-table {
+      font-size: 0.875rem;
+    }
+    
+    .report-sidebar {
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Improve readability of long content on mobile */
+    .quality-report-content p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+    
+    .quality-report-content table {
+      font-size: 0.875rem;
+    }
+    
+    .quality-report-content .table-container {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      border-radius: 0.5rem;
+    }
+  }
+  
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

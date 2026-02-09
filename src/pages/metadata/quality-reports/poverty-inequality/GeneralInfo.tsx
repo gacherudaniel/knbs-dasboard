@@ -27,7 +27,7 @@ export function GeneralInfo({
   return (
     <div
       id="section-general"
-      className="bg-white rounded-xl shadow-lg border border-gray-200 mb-8 overflow-hidden scroll-mt-6 transition-all duration-200 hover:shadow-xl"
+      className="bg-white rounded-lg lg:rounded-xl shadow-sm lg:shadow-lg border border-gray-200 mb-4 lg:mb-8 overflow-hidden scroll-mt-6 transition-all duration-200 hover:shadow-lg lg:hover:shadow-xl"
     >
       <SectionHeader
         id="general"
@@ -47,7 +47,7 @@ export function GeneralInfo({
                 </p>
               </div>
 
-              <div className="overflow-hidden rounded-lg border border-gray-200 shadow-sm">
+              <div className="table-container overflow-hidden rounded-lg border border-gray-200 shadow-sm">
                 <table className="w-full">
                   <tbody className="divide-y divide-gray-100">
                     <TableRow
