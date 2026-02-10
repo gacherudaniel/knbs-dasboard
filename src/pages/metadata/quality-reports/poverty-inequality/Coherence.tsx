@@ -1,3 +1,4 @@
+import { AlertTriangle } from "lucide-react";
 import type { SectionKey } from "../QualityReport";
 import { SectionHeader } from "../common/SectionHeader";
 
@@ -71,7 +72,8 @@ export function Coherence({ isOpen, onToggle }: CoherenceProps) {
             {/* Comparability Warning */}
             <div className="bg-amber-50 border-l-4 border-amber-500 p-4 mt-4">
               <h5 className="font-semibold text-amber-900 mb-2 flex items-center gap-2">
-                <span>⚠️</span> Comparability Note
+                <AlertTriangle className="text-amber-700" size={18} />
+                Comparability Note
               </h5>
               <div className="space-y-3">
                 <div>

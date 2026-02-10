@@ -1,3 +1,4 @@
+import { AlertTriangle, Info, Calendar, BarChart, ClipboardList, Settings, GitBranch, Calculator } from "lucide-react";
 import type { SectionKey } from "../QualityReport";
 import { SectionHeader } from "../common/SectionHeader";
 import { SubSection } from "../common/SubSection";
@@ -107,7 +108,8 @@ export function Accuracy({ isOpen, onToggle }: AccuracyProps) {
 
               <div className="bg-amber-50 border-l-4 border-amber-500 p-4">
                 <h4 className="font-semibold text-amber-900 mb-2 flex items-center gap-2">
-                  <span>⚠️</span> Coverage Considerations
+                  <AlertTriangle className="text-amber-700" size={18} />
+                  Coverage Considerations
                 </h4>
                 <p className="text-sm text-amber-800 leading-relaxed mb-3">
                   Coverage issues in the frame may arise due to:
@@ -130,8 +132,9 @@ export function Accuracy({ isOpen, onToggle }: AccuracyProps) {
                     assist in identifying EA boundaries.
                   </p>
                 </div>
-                <p className="text-xs text-amber-700 mt-3 font-medium">
-                  📅 The frame should be updated 6 months after development.
+                <p className="text-xs text-amber-700 mt-3 font-medium flex items-center gap-2">
+                  <Calendar className="text-amber-600" size={14} />
+                  The frame should be updated 6 months after development.
                 </p>
               </div>
 
@@ -158,8 +161,9 @@ export function Accuracy({ isOpen, onToggle }: AccuracyProps) {
                     </div>
                   ))}
                 </div>
-                <p className="text-sm text-gray-600 italic">
-                  💡 Two or more sub-samples can be combined when a larger
+                <p className="text-sm text-gray-600 italic flex items-center gap-2">
+                  <Info className="text-knbs-500" size={16} />
+                  Two or more sub-samples can be combined when a larger
                   sample size is required.
                 </p>
               </div>
@@ -215,7 +219,8 @@ export function Accuracy({ isOpen, onToggle }: AccuracyProps) {
               {/* Measurement Error */}
               <div>
                 <h4 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
-                  <span className="text-knbs-500">📊</span> Measurement Error
+                  <BarChart className="text-knbs-500" size={20} />
+                  Measurement Error
                 </h4>
 
                 <div className="space-y-4">
@@ -290,7 +295,8 @@ export function Accuracy({ isOpen, onToggle }: AccuracyProps) {
               {/* Non-response */}
               <div>
                 <h4 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
-                  <span className="text-knbs-500">📋</span> Non-Response
+                  <ClipboardList className="text-knbs-500" size={20} />
+                  Non-Response
                 </h4>
 
                 <div className="grid grid-cols-2 gap-4 mb-4">
@@ -350,7 +356,8 @@ export function Accuracy({ isOpen, onToggle }: AccuracyProps) {
               {/* Data Processing */}
               <div>
                 <h4 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
-                  <span className="text-knbs-500">⚙️</span> Data Processing
+                  <Settings className="text-knbs-500" size={20} />
+                  Data Processing
                 </h4>
 
                 <div className="space-y-4">
@@ -418,7 +425,8 @@ export function Accuracy({ isOpen, onToggle }: AccuracyProps) {
 
                   <div className="bg-gray-800 text-white rounded-lg p-4">
                     <h5 className="font-medium mb-2 flex items-center gap-2">
-                      <span>🔀</span> Version Control with GitHub
+                      <GitBranch className="text-white" size={18} />
+                      Version Control with GitHub
                     </h5>
                     <p className="text-sm text-gray-300 leading-relaxed">
                       The data processing team uses <strong>GitHub</strong> for
@@ -439,7 +447,8 @@ export function Accuracy({ isOpen, onToggle }: AccuracyProps) {
               {/* Modelling Assumptions */}
               <div>
                 <h4 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
-                  <span className="text-knbs-500">📐</span> Modelling
+                  <Calculator className="text-knbs-500" size={20} />
+                  Modelling
                   Assumptions
                 </h4>
 

@@ -1,4 +1,5 @@
 // src/components/products/sections/CPICoherence.tsx
+import { AlertTriangle } from "lucide-react";
 import type { SectionKey } from "../QualityReport";
 import { SectionHeader } from "../common/SectionHeader";
 import { SubSection } from "../common/SubSection";
@@ -210,9 +211,10 @@ export function Coherence({ isOpen, onToggle }: CoherenceProps) {
 
               <div className="bg-amber-50 border-l-4 border-amber-500 p-4 mt-4">
                 <h5 className="font-semibold text-amber-900 mb-2 flex items-center gap-2">
-                  <span>⚠️</span> Comparability Note
+                  <AlertTriangle className="text-amber-700" size={18} />
+                  Comparability Note
                 </h5>
-                <p className="text-sm text-amber-800 leading-relaxed mb-2">
+                <p className="text-sm text-amber-800 leading-relaxed mb-2"> 
                   When comparing CPI data across different base years:
                 </p>
                 <ul className="text-sm text-amber-800 space-y-1 ml-4">
