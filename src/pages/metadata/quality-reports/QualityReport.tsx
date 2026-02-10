@@ -123,7 +123,7 @@ QualityReportProps) {
         {isMobile && (
           <div className="flex items-center justify-between mb-4 bg-white rounded-lg shadow-sm border p-4">
             <h2 className="text-lg font-semibold text-knbs-700">
-              {currentProduct?.title || 'Quality Report'}
+              {currentProduct?.name || 'Quality Report'}
             </h2>
             <button
               onClick={toggleSidebar}
